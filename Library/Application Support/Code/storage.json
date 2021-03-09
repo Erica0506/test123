@@ -782,8 +782,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1712,7 +1711,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/1615333022176",
+            "folder": "file:///Users/xuanzhou/angular/UserApp",
+            "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/09ba6b1060cd79711f216ab78cdba464",
             "uiState": {
                 "mode": 1,
                 "x": 462,
