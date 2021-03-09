@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '—g',
+1 verbose cli   'live-server'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose config Skipping project config: /Users/xuanzhou/.npmrc. (matches userconfig)
+5 verbose npm-session 357635f12a3be972
+6 error arg Argument starts with non-ascii dash, this is probably invalid: [ '—g', 'live-server' ]
+7 silly install loadCurrentTree
+8 silly install readLocalPackageData
+9 silly fetchPackageMetaData error for live-server@latest install —g live-server is not a legal HTTP header value
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 39ms
+12 verbose stack Error: Invalid tag name "—g": Tags may not have any characters that encodeURIComponent encodes.
+12 verbose stack     at invalidTagName (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:91:15)
+12 verbose stack     at fromRegistry (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:296:13)
+12 verbose stack     at resolve (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:81:12)
+12 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:52:10)
+12 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:231:14
+12 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+12 verbose stack     at Array.forEach (<anonymous>)
+12 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+12 verbose stack     at Array.forEach (<anonymous>)
+12 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+12 verbose stack     at exports.getAllMetadata (/usr/local/lib/node_modules/npm/lib/install/deps.js:228:3)
+12 verbose stack     at Installer.loadArgMetadata (/usr/local/lib/node_modules/npm/lib/install.js:366:3)
+12 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:704:16
+12 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/read-shrinkwrap.js:33:16
+12 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+12 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+13 verbose cwd /Users/xuanzhou
+14 verbose Darwin 19.6.0
+15 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "—g" "live-server"
+16 verbose node v14.15.4
+17 verbose npm  v6.14.10
+18 error code EINVALIDTAGNAME
+19 error Invalid tag name "—g": Tags may not have any characters that encodeURIComponent encodes.
+20 verbose exit [ 1, true ]
