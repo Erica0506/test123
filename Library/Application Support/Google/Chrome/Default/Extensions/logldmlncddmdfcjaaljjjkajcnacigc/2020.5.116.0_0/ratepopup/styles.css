@@ -1,0 +1,40 @@
+body {background:#CCCCCC; font-family:Verdana;margin: 0px;}
+input, textarea {font:14px Verdana;}
+
+.container {
+	margin:1px; border:2px solid #D5ECFB; width:566px; text-align:center; position:relative;
+	background:#E5F2FB;
+	background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#D3E9F9)); /* for webkit browsers */
+	background:-moz-linear-gradient(top, #FFFFFF, #D3E9F9); /* for firefox 3.6+ */
+}
+
+.no-button {background:#CFE7F8; display:inline-block; color:#67A2CA; border:1px solid #93C3F3; border-radius:1px; text-align:center; text-decoration:none; padding:11px 0; font-size:24px; width:160px; margin:0 3px 0 0;}
+.no-button:hover {background:#C4E1F4;}
+.yes-button {
+	background:#1D85E1;
+	background:-webkit-gradient(linear, left top, left bottom, from(#2094F0), to(#1977D3)); /* for webkit browsers */
+	background:-moz-linear-gradient(top, #2094F0, #1977D3); /* for firefox 3.6+ */
+	display:inline-block; color:#FFFFFF; border:1px solid #1F73C5; border-radius:1px; text-align:center; text-decoration:none; padding:11px 0; font-size:24px; width:190px; margin:0 10px; cursor:pointer;}
+.yes-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, from(#0075E8), to(#005FBC)); /* for webkit browsers */
+	background:-moz-linear-gradient(top, #0075E8, #005FBC); /* for firefox 3.6+ */			
+}
+.report-link {color:#1976D2; font-size:18px;}
+
+.close {position:absolute; top:2px; right:10px; font-size:18px;}
+.close a {color:#999999; text-decoration:none;}
+
+p.table {margin:0 0 10px 0; padding-right:10px; font:16px Verdana;}
+
+.logo-wrapper {padding:10px 0;}
+.report-a-problem {text-align:left; padding:20px 0 10px 15px;}
+
+#missingInfoBox  {
+    height: 572px
+  }
+
+@-moz-document url-prefix() {
+  #missingInfoBox  {
+    height:593px;
+  }
+}

@@ -1,0 +1,8 @@
+2021/03/04-20:41:18.360 c382f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/04-20:41:18.360 c382f Recovering log #101
+2021/03/04-20:41:18.360 c382f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb/000101.log 
+2021/03/04-20:41:49.350 c382f Level-0 table #106: started
+2021/03/04-20:41:49.355 c382f Level-0 table #106: 0 bytes OK
+2021/03/04-20:41:49.381 c382f Delete type=0 #101
+2021/03/04-20:41:49.385 c382f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/04-20:41:49.386 c382f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/02/19-13:58:54.181 7cc1b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_a.rfihub.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/19-13:59:05.109 7cc1b Level-0 table #5: started
+2021/02/19-13:59:05.120 7cc1b Level-0 table #5: 355 bytes OK
+2021/02/19-13:59:05.151 7cc1b Delete type=0 #3
+2021/02/19-13:59:05.154 7cc1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

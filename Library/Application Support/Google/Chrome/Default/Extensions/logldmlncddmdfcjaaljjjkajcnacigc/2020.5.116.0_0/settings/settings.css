@@ -1,0 +1,689 @@
+﻿/* CUSTOM FONTS */
+
+@font-face {
+	font-family: 'toolbar';
+	src: url('../fonts/toolbar.eot');
+	src: url('../fonts/toolbar.eot#iefix') format('embedded-opentype'), url('../fonts/toolbar.ttf') format('truetype'), url('../fonts/toolbar.woff') format('woff'), url('../fonts/toolbar.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'toolbar' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	width: 0;
+	margin: 0;
+	padding: 0 1em 0 0;
+	display: inline-block;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-document-edit-black:before {
+	content: "\a073";
+}
+
+.icon-document-add:before {
+	content: "\a072";
+}
+
+.icon-document-edit-white:before {
+	content: "\a071";
+}
+
+.icon-trash-white:before {
+	content: "\a070";
+}
+
+.icon-paperplane:before {
+	content: "\a069";
+}
+
+.icon-envelope-black-open:before {
+	content: "\a068";
+}
+
+.icon-envelope-black:before {
+	content: "\a067";
+}
+
+.icon-moneybag:before {
+	content: "\a066";
+}
+
+.icon-pig:before {
+	content: "\a065";
+}
+
+.icon-dollar:before {
+	content: "\a064";
+}
+
+.icon-tools:before {
+	content: "\a063";
+}
+
+.icon-circle-help:before {
+	content: "\a062";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-minus:before {
+	content: "\a061";
+}
+
+.icon-circle-plus:before {
+	content: "\a060";
+	font-size: 120%;
+	position: relative;
+	top: 1px;
+}
+
+.icon-envelope-white:before {
+	content: "\a059";
+}
+
+.icon-play:before {
+	content: "\a058";
+}
+
+.icon-chevron-left2:before {
+	content: "\a057";
+}
+
+.icon-chevron-right:before {
+	content: "\a056";
+}
+
+.icon-arrow-left:before {
+	content: "\a055";
+}
+
+.icon-arrow-right:before {
+	content: "\a054";
+}
+
+.icon-arrow-up:before {
+	content: "\a053";
+}
+
+.icon-arrow-down:before {
+	content: "\a052";
+}
+
+.icon-exclamation-circle:before {
+	content: "\a051";
+}
+
+.icon-exclamation-triangle:before {
+	content: "\a050";
+}
+
+.icon-warning2:before {
+	content: "\a050";
+	font-size: 18px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-chevron-up:before {
+	content: "\a049";
+}
+
+.icon-chevron-down:before {
+	content: "\a048";
+}
+
+.icon-bars:before {
+	content: "\a047";
+}
+
+.icon-navicon:before {
+	content: "\a047";
+}
+
+.icon-reorder:before {
+	content: "\a047";
+}
+
+.icon-caret-right:before {
+	content: "\a046";
+}
+
+.icon-comments-o:before {
+	content: "\a045";
+}
+
+.icon-cutlery:before {
+	content: "\a044";
+}
+
+.icon-angle-double-left:before {
+	content: "\a043";
+}
+
+.icon-angle-double-right:before {
+	content: "\a042";
+}
+
+.icon-wordpress:before {
+	content: "\a041";
+}
+
+.icon-trash:before {
+	content: "\a040";
+}
+
+.icon-pinterest:before {
+	content: "\a039";
+}
+
+.icon-bullhorn:before {
+	content: "\a038";
+}
+
+.icon-envelope-thick:before {
+	content: "\a037";
+}
+
+.icon-bubble:before {
+	content: "\a036";
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+}
+
+.icon-bubbles-full-behind:before {
+	content: "\a035";
+}
+
+.icon-bubbles-full-front:before {
+	content: "\a034";
+}
+
+.icon-bubbles-empty-front:before {
+	content: "\a033";
+}
+
+.icon-search:before {
+	content: "\a032";
+}
+
+.icon-gift:before {
+	content: "\a031";
+}
+
+.icon-star-empty:before {
+	content: "\a030";
+}
+
+.icon-star-half:before {
+	content: "\a029";
+}
+
+.icon-star-full:before {
+	content: "\a028";
+}
+
+.icon-heart:before {
+	content: "\a027";
+}
+
+.icon-circle-notification:before {
+	content: "\a026";
+}
+
+.icon-circle-question:before {
+	content: "\a025";
+}
+
+.icon-circle-info:before {
+	content: "\a024";
+}
+
+.icon-cross:before {
+	content: "\a023";
+}
+
+.icon-checkmark-full:before {
+	content: "\a022";
+}
+
+.icon-checkmark-empty:before {
+	content: "\a021";
+}
+
+.icon-share:before {
+	content: "\a020";
+}
+
+.icon-mail2:before {
+	content: "\a019";
+}
+
+.icon-google-plus:before {
+	content: "\a018";
+}
+
+.icon-facebook:before {
+	content: "\a017";
+}
+
+.icon-instagram:before {
+	content: "\a016";
+}
+
+.icon-twitter:before {
+	content: "\a015";
+}
+
+.icon-chrome:before {
+	content: "\a014";
+}
+
+.icon-firefox:before {
+	content: "\a013";
+}
+
+.icon-IE:before {
+	content: "\a012";
+}
+
+.icon-opera:before {
+	content: "\a011";
+}
+
+.icon-safari:before {
+	content: "\a010";
+}
+
+.icon-home:before {
+	content: "\a009";
+}
+
+.icon-bubble2:before {
+	content: "\a008";
+}
+
+.icon-user:before {
+	content: "\a007";
+}
+
+.icon-warning:before {
+	content: "\a006";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-cancel:before {
+	content: "\a005";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-play:before {
+	content: "\a004";
+}
+
+.icon-checkmark-full-small:before {
+	content: "\a003";
+}
+
+.icon-cog:before {
+	content: "\a002";
+}
+
+.icon-gear:before {
+	content: "\a002";
+}
+
+.icon-chevron-left:before {
+	content: "\a001";
+}
+
+
+/* HTMLs */
+
+* {
+	font-family: Roboto, Arial;
+}
+
+a:hover {
+	text-shadow: 0.5px 0px 0px #007FDD;
+	background-color: transparent;
+}
+
+a {
+	color: #007FDD;
+	text-decoration: none;
+}
+
+body {
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* IDs */
+
+#hideSitesContainer {
+	width: 500px;
+	height: 450px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -225px;
+	margin-left: -250px;
+	background-color: #fff;
+	box-shadow: -1px 1px 5px #888;
+}
+
+#bottomRow {
+	position: relative;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#bottomRowWrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#buttonContainer {
+	padding: 25px;
+}
+
+#closeButton {
+	float: right;
+	padding: 20px 25px;
+	cursor: pointer;
+	color: #a8a8a8;
+}
+
+#settingsLogo {
+	width: 64px;
+	padding: 10px;
+}
+
+#settingsTitle {
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 500;
+}
+
+#options {
+	width: 100%;
+	padding-top: 15px
+}
+
+#settingsHeader {
+	padding: 20px 0;
+}
+
+#bottomRowTable {
+	width: 100%;
+	padding: 25px;
+}
+
+#buttonApply {
+	color: #FFFFFF;
+	background-color: #fa5b2b;
+}
+
+#buttonApply:hover {
+	color: #FFFFFF;
+	background-color: #e45328;
+}
+
+#buttonRemoveAll {
+	font-size: 14px;
+	display: none;
+	text-decoration: none;
+}
+
+#buttonRemoveAll:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#closeSettingsButtonContainer {
+	position: absolute; 
+	right: 47px;
+	padding: 12px;
+}
+
+#searchSitesInputBox {
+	border-radius: 3px;
+	background: url(../magnifying-glass.png) no-repeat white;
+	background-position: calc(100% - 5px) center;
+	cursor: text;
+	width: calc(100% - (20% / 2));
+	margin: 10px auto 0 auto;
+	text-align: left;
+	height: 30px;
+}
+
+#searchSitesInputBox:disabled {
+	background-color: white;
+}
+
+#searchSitesInputBox::-webkit-textfield-decoration-container {
+	margin-left: 6px;
+}
+
+#searchSitesInputBox::-webkit-input-placeholder {
+	text-align: left;
+}
+
+#searchSitesInputBox::-moz-placeholder {
+	text-align: left;
+}
+
+#searchSuggestions {
+	background-color: white;
+	border-bottom: 1px solid #AAAAAA;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+	box-shadow: -3px 3px 3px #AAAAAA;
+	position: absolute;
+	left: 27px;
+	top: 104px;
+	min-width: 445px;
+	width: 445px;
+	z-index: 100;
+	text-align: left;
+}
+
+#suggestionsList {
+	padding: 0;
+	margin: 0px 0;
+}
+
+#searchSitesList {
+	margin: 10px 40px 0 25px;
+	height: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-size: 13px;
+}
+
+#whenEmpty {
+	font-style: italic;
+	line-height: 50px;
+	color: #757575;
+}
+
+/* Classes */
+
+.globalBoxShadow {
+	box-shadow: 1px 1px 1px #ccc;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignMiddle {
+	vertical-align: middle;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.button {
+	position: fixed; 
+	width: 32px;
+	height: 32px;
+	font-size: 20px; 
+	color: #a8a8a8;
+	padding: 0; 
+	margin: 0;
+	z-index: 2000;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.buttonText {
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	font-weight: 500;
+	font-family: Roboto, Arial;
+	font-size: 14px;
+}
+
+.content {
+	text-align: center;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.greydivSection {
+	height: 1px;
+}
+
+.hideNotifyHeader {
+	padding: 40px 30px 0px 25px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: left;
+	color: #fa5b2b;
+}
+
+.btnDone{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btnDone:hover{
+    text-decoration:underline;
+    color: #757575;
+}
+
+.horizontalRule {
+	height: 1px;
+	background-color: #ddd;
+	width: calc(100% * 0.875);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.tableRow {
+	text-align: left;
+	height: 35px;
+	line-height: 35px;
+}
+
+.optionsLabel {
+	font-family: Roboto, Arial;
+	font-size: 14px;
+	text-align: left;
+	padding: 0 0 0 24px;
+}
+
+.suggestionItem {
+	list-style-type: none;
+	min-width: 200px;
+	visibility: hidden;
+	line-height: 26px;
+	font-size: 11.2px;
+}
+
+.suggestionItem:hover {
+	background-color: #E6F2FB;
+	cursor: pointer;
+}
+
+.suggestionItemPadding {
+	padding: 0 6px;
+}
+
+.anchorLinkColor {
+	color: #007FDD;
+	text-decoration: underline;
+}
+
+.anchorLinkColor:hover {
+	color: #007FDD;
+}
+
+/* 
+	The "Clearfix: Force", to remove CSS float properties out from the parent, when child elements are using float properties. 
+	More information: https://css-tricks.com/snippets/css/clear-fix/
+*/
+.bfslider_clearFix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* 
+	Scrollbar stuffs (Classic)
+*/
+.ss-content {
+	/* Firefox */
+	scrollbar-width: none;
+	/* IE10 & Edge */
+	-ms-overflow-style: none;
+}
+
+.ss-content::-webkit-scrollbar {
+	/* Webkit */
+	width: 0;
+}

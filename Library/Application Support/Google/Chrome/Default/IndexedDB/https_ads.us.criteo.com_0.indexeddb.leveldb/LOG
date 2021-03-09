@@ -1,0 +1,8 @@
+2021/02/02-21:47:05.622 48503 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ads.us.criteo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/02-21:47:05.622 48503 Recovering log #61
+2021/02/02-21:47:05.622 48503 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ads.us.criteo.com_0.indexeddb.leveldb/000061.log 
+2021/02/02-21:47:28.866 eb6b Level-0 table #65: started
+2021/02/02-21:47:28.866 eb6b Level-0 table #65: 0 bytes OK
+2021/02/02-21:47:28.894 eb6b Delete type=0 #61
+2021/02/02-21:47:28.897 eb6b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/02-21:47:28.897 eb6b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

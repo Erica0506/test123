@@ -1,0 +1,133 @@
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+
+[Done] exited with code=0 in 0.06 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+
+[Done] exited with code=0 in 0.075 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+
+[Done] exited with code=0 in 0.079 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+
+[Done] exited with code=0 in 0.059 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+
+[Done] exited with code=0 in 0.059 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+2021-02-10T18:56:13.586Z
+
+[Done] exited with code=0 in 0.059 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+2021-02-10T19:00:48.064Z
+/Users/xuanzhou/Sita_practice/emty/JS/script.js:16
+var d2=new Date(year, month, day, hours, minutes, seconds, milliseconds);
+                ^
+
+ReferenceError: year is not defined
+    at Object.<anonymous> (/Users/xuanzhou/Sita_practice/emty/JS/script.js:16:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+[Done] exited with code=1 in 0.069 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+2021-02-10T19:01:26.420Z
+/Users/xuanzhou/Sita_practice/emty/JS/script.js:16
+var d2=new Date(year, month, day, hours, minutes, seconds, milliseconds);
+                ^
+
+ReferenceError: year is not defined
+    at Object.<anonymous> (/Users/xuanzhou/Sita_practice/emty/JS/script.js:16:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+[Done] exited with code=1 in 0.067 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+2021-02-10T19:01:32.115Z
+
+[Done] exited with code=0 in 0.063 seconds
+
+[Running] node "/Users/xuanzhou/Sita_practice/emty/JS/script.js"
+13
+1
+14
+2021-02-10T20:35:51.228Z
+
+[Done] exited with code=0 in 0.24 seconds
+
+[Running] node "/Users/xuanzhou/Desktop/day4_hw.js"
+{ ajax: 252, javascript: 63, jquery: 126 }
+[
+  { name: 'ajax', total: 252 },
+  { name: 'javascript', total: 63 },
+  { name: 'jquery', total: 126 }
+]
+
+[Done] exited with code=0 in 0.245 seconds
+
+[Running] node "/Users/xuanzhou/Desktop/day4_hw.js"
+{ ajax: 252, javascript: 63, jquery: 126 }
+[
+  { name: 'ajax', total: 252 },
+  { name: 'javascript', total: 63 },
+  { name: 'jquery', total: 126 }
+]
+
+[Done] exited with code=0 in 0.076 seconds
+
+[Running] node "/Users/xuanzhou/Desktop/day4_hw.js"
+{ ajax: 252, javascript: 63, jquery: 126 }
+[
+  { name: 'ajax', total: 252 },
+  { name: 'javascript', total: 63 },
+  { name: 'jquery', total: 126 }
+]
+/Users/xuanzhou/Desktop/day4_hw.js:33
+window.navigator.userAgent 
+^
+
+ReferenceError: window is not defined
+    at Object.<anonymous> (/Users/xuanzhou/Desktop/day4_hw.js:33:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+
+[Done] exited with code=1 in 0.28 seconds
+

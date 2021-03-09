@@ -1,0 +1,21 @@
+[2021-02-02 18:45:08.557] [sharedprocess] [info] main {"machineId":"26881768205986920a7130a252583af298064642d620627470c055a000789446","windowId":2}
+[2021-02-02 18:45:08.790] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-debug /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-debug-0.30.0
+[2021-02-02 18:45:48.572] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-02-03 10:02:14.629] [sharedprocess] [info] Installing extension: vscjava.vscode-java-test
+[2021-02-03 10:02:15.730] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-test undefined
+[2021-02-03 10:02:15.865] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-test-0.28.0: vscjava.vscode-java-test
+[2021-02-03 10:02:15.866] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-test-0.28.0
+[2021-02-03 10:02:15.866] [sharedprocess] [info] Installation completed. vscjava.vscode-java-test
+[2021-02-03 10:02:15.930] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-test
+[2021-02-09 15:28:05.449] [sharedprocess] [info] Installing extension: formulahendry.code-runner
+[2021-02-09 15:28:05.870] [sharedprocess] [info] Downloaded extension: formulahendry.code-runner undefined
+[2021-02-09 15:28:06.104] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.formulahendry.code-runner-0.11.2: formulahendry.code-runner
+[2021-02-09 15:28:06.105] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/formulahendry.code-runner-0.11.2
+[2021-02-09 15:28:06.106] [sharedprocess] [info] Installation completed. formulahendry.code-runner
+[2021-02-09 15:28:06.118] [sharedprocess] [info] Extensions installed successfully: formulahendry.code-runner
+[2021-02-09 15:29:38.860] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2021-02-09 15:29:39.535] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver undefined
+[2021-02-09 15:29:42.436] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.ritwickdey.liveserver-5.6.1: ritwickdey.liveserver
+[2021-02-09 15:29:42.436] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2021-02-09 15:29:42.439] [sharedprocess] [info] Installation completed. ritwickdey.liveserver
+[2021-02-09 15:29:42.455] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver

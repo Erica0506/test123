@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<!-- CSS styles -->
+	<link rel="stylesheet" href="/fonts/Roboto.css" />
+	<link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
+	<link rel="stylesheet" href="popup.css" type="text/css" />
+	<link rel="stylesheet" href="scrollbar.css" type="text/css" />
+	<!-- JavaScript files -->
+	<script src="scrollbar.js"></script>
+	<script src="js/rsvp.min.js"></script>
+	<script src="js/purify.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="newHeader_bf">
+			<div id="nonretailer" class="fade in" style="background-color: #bddffa;">
+				<div id="newHeaderMain">
+					<div id="newLogoContainer" class="clearFloat">
+						<img id="newPopupLogo_bf" class="textboxDisableDrag" src="ratepopup/befrugal-logo.png" style="cursor: pointer;" />
+						<div class="cv_hide" style="font-size: 9px; color: #777; width: 100px; cursor: pointer;">Powered by BeFrugal</div>
+					</div>
+					<div class="clearFloat" style="float: right; margin-right: 200px;">
+						<div style="position: relative; right: 18px;">
+							<div style="position: absolute; text-align: right; width: 200px;">
+								<div id="newMemberBalanceContainer_bf" class="globalTextBlue" style="background-color: #bddffa;">
+									<div id="newMemberNeedAccount" style="display:none">
+										<a id="newMemberJoin" href="#">Join for Free</a>
+										<span id="newMemberSpacer" style="color:#007bdc;margin: 0 4px;cursor: default;">|</span>
+										<a id="newMemberLogin" href="#">Login</a>
+									</div>
+									<a id="myBalance" class="textboxDisableDrag" href="#" style="display:none;">
+										<div id="newBalance">$10.00</div>
+										<div id="newUserStatusMessage">Member Balance</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="newSearchBarContainer">
+					<input type="text" spellcheck="false" id="newSearchBar" placeholder="Search Cash Back Stores and Restaurants" />
+					<div style="position: relative; display: inline-block;">
+						<div id="newSearchButton_bf" class="pointer"></div>
+					</div>
+					<div id="newSearchSuggestions" class="globalBoxShadow" style="display: none;">
+						<ul id="newSuggestionsList">
+							<li class="newSuggestionItem" id="newSearchSuggestion0">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText0"></span><span class="newSuggestionEndText" id="newEndText0"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion1">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText1"></span><span class="newSuggestionEndText" id="newEndText1"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion2">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText2"></span><span class="newSuggestionEndText" id="newEndText2"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion3">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText3"></span><span class="newSuggestionEndText" id="newEndText3"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion4">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText4"></span><span class="newSuggestionEndText" id="newEndText4"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion5">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText5"></span><span class="newSuggestionEndText" id="newEndText5"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion6">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText6"></span><span class="newSuggestionEndText" id="newEndText6"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion7">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText7"></span><span class="newSuggestionEndText" id="newEndText7"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion8">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText8"></span><span class="newSuggestionEndText" id="newEndText8"></span>
+								</div>
+							</li>
+							<li class="newSuggestionItem" id="newSearchSuggestion9">
+								<div class="newSuggestionItemPadding">
+									<span class="newSuggestionSpan" id="newSuggestionText9"></span><span class="newSuggestionEndText" id="newEndText9"></span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="retailerSpecific" class="fade in" style="background-color: rgb(255, 255, 255);display: block;position: relative;">
+				<div style="width: 100%; margin-bottom: 10px;">
+					<div style="height: 45px; border-bottom: 1px solid #ccc;">
+						<div id="headerRetailerTitle">
+							<span id="headerRetailerAddFavorites" class="icon-heart" style="margin-right: 4px; cursor: pointer;"></span>
+							<span id="headerRetailerName"></span>&nbsp;
+						</div>
+					</div>
+					<div id="retailerSpecificHeader" style="width: 100%;padding: 0 10px;position: absolute; background-color: #fff; box-shadow: 0 2px 2px #ccc; border-top: 1px solid #efefef;">
+						<div id="retailerSpecificLogo" class="clearFloat disableTextSelect" style="float: left;">
+							<img id="headerRetailerImage" src="#">
+						</div>
+						<div id="headerActionButtonsContainer" class="bfslider_clearFix disableTextSelect">
+							<div class="clearFloat actionButton disableTextSelect" id="headerRetailerActivateCB" style="display: none;"></div>
+							<div class="clearFloat actionButton disableTextSelect" id="headerRetailerApplyCoupons" style="font-size: 16px; display: none;"></div>
+							<div class="clearFloat disableTextSelect" id="headerRetailerCashbackRates" style="width: 100%; display: none;">
+								<div>
+									<div class="headerRetailerText disableTextSelect" id="headerRetailerCBRateText"></div>
+									<div class="headerRetailerSmallText disableTextSelect" style="white-space: nowrap;">
+										Cash Back Activated&nbsp;
+										<div class="clearFloat disableTextSelect" style="display: inline-block;position: relative; top: 2px; right: 4px;">
+											<svg class="checkmark_svg disableTextSelect" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+												<circle class="checkmark__circle disableTextSelect" cx="26" cy="26" r="25" fill="none"></circle>
+												<path class="checkmark__check disableTextSelect" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path>
+											</svg>
+										</div>
+									</div>
+									<div id="headerRetailerCBTerms" class="headerRetailerSmallText pointer">Cash Back Terms</div>
+								</div>
+							</div>
+							<div class="clearFloat disableTextSelect" id="headerRetailerNoCashbackRates" style="width: 100%; height: 72px; display: none;">
+								<div style="position: relative; top: 50%; transform: translateY(-50%);">
+									<div class="headerRetailerSmallText disableTextSelect globalTextLightGray" style="white-space: nowrap; text-align: center; font-weight: 100; font-size: 15px;font-style:italic">
+										No discounts at this time
+									</div>
+								</div>
+							</div>
+							<div class="clearFloat disableTextSelect" id="headerRetailerCouponsOnly" style="width: 100%; height: 72px; display: none;">
+								<div style="position: relative; top: 50%; transform: translateY(-50%);">
+									<div class="headerRetailerSmallText disableTextSelect globalTextLightGray" style="white-space: nowrap; text-align: center;font-style:italic; font-weight: 100; font-size: 15px;">
+                                        Cash Back is not <br/>available at this time
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="overflow: hidden"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="newContent">
+        <div id="retailerContent" class="tab-pane fade in custom-scrollable" style="height: 420px;background-color: #f1f9ff;">
+            <div id="dealsOrOffersDiv" class="newTabs pointer" style="display:none">
+                <ul id="dealsOrOffers" class="nav newNavigationTabClass_bf">
+                    <li id="offerCount" style="width:50% !important"><div class="newNavigationTabOption_bf" data-toggle="tab" href="#retailerOffersContainer">Coupons and Offers</div></li>
+                    <li id="dealCount" style="width:50% !important"><div class="newNavigationTabOption_bf" data-toggle="tab" href="#retailerDealsContainer">Deals</div></li>
+                </ul>
+            </div>
+            <div id="retailerOffersContainer" class="container tab-pane fade in active show">
+            </div>
+            <div id="retailerDealsContainer" class="fade in dealsGridWrapper">
+            </div>
+            <div id="retailerCBTerms" class="cbTerms_hide">
+                <div class="retailerCBTermsCloseButtonContainer">
+                    <div id="retailerCBTermsCloseButton">
+                        <span id="retailerCBTermsClose" style="font-family: 'Times New Roman';">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                                <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div id="retailerCBTermsContainer"></div>
+            </div>
+        </div>
+		<div id="homeContent" class="tab-pane fade in">
+			<div id="tabs" class="newTabs pointer" style="height: 40px;">
+				<ul class="nav newNavigationTabClass_bf" style="width: 100%;">
+                    <li id="catLI">
+                        <div id="myCategoriesLink" class="newNavigationTabOption_bf" data-toggle="tab" href="#categories">Categories</div>
+                    </li>
+					<li>
+						<div id="myStoresLink" class="newNavigationTabOption_bf" data-toggle="tab" href="#myStores">
+                            <span class="icon-heart"></span>
+                            <span style="font-size:14px;"> My Favorites</span>
+                        </div>
+					</li>
+					<li id="todaysDealsLI">
+						<div class="newNavigationTabOption_bf" data-toggle="tab" href="#todaysDeals">Today's Deals</div>
+					</li>
+					<!-- This RAF bonus amount can also change. Refer to the JSON fetched via web request from the site. -->
+					<li>
+						<!-- <a id="addRAFBonusLink" href="#"> -->
+						<div class="newNavigationTabOption_bf" data-toggle="tab" href="#rafAddTen" style="text-align: center;">
+							<div class="icon-circle-plus"></div>
+							&nbsp;<span id="spnAddTen" class="newNavigationTabOption_bf"></span>
+						</div>
+						<!-- </a> -->
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content" style="position: relative; max-height: 360px;">
+                <a href="#" id="backToCategoriesLink" style="display:none">
+                    <div class="backContent">
+                        <span class="icon-chevron-left"></span> Back
+                    </div>
+                </a>
+                <a href="#" id="seeAllLink" style="display:none; font-size:14px;">See All</a><a href="#" id="seeAllLink2" style="display:none; font-size:14px;">See All Stores</a>
+                <div id="categoryHeading" class="sectionHeader sectionStoreGrid" style="display:none;">
+                    <div class="sectionLine floatLeft" style="width:100%">&nbsp;</div>
+                    <div class="sectionTitle" style="top: -16px; background: white;padding: 10px;"></div>
+                </div>
+                <div id="categories" class="tab-pane fade in custom-scrollable" >
+                    <div id="categoriesHome">
+						<ul class="categoryList categoryGridWrapper">
+							<li class="catagoryFont categoryGrid globalBoxShadow"><a id="atodaysDeals" href="#"><img src="saleTag.png" /><br />Today's<br />Deals</a></li>
+							<li class="catagoryFont categoryGrid globalBoxShadow"><a id="restaurantCoupons" href="#"><img src="knifePlateFork.png" /><br /><span id="catRestaurantCount"></span>Restaurant<br />Coupons</a></li>
+							<li class="catagoryFont categoryGrid globalBoxShadow"><a id="groceryCoupons" href="#"><img src="shoppingBasket.png" /><br /><span id="catGroceryCount"></span>Grocery<br />Coupons</a></li>
+							<li class="catagoryFont categoryGrid globalBoxShadow"><a id="adCirculars" href="#"><img src="newspaper.png" /><br /><span id="catWeeklyAdCount"></span>Weekly<br />Ad Circulars</a></li>
+							<li class="catagoryFont categoryGrid globalBoxShadow"><a id="onlineCoupons" href="#"><img src="cutOut.png" /><br />Top Online<br />Coupons</a></li>
+							<li class="catagoryFont categoryGrid globalBoxShadow" id="cvEarnCashBack" style="display:none;"><a id="earnCashBack" href="#"><img src="money_icon.png" /><br />Earn<br />Cash Back</a></li>
+						</ul>
+						<div id="installButtonDialog" style="text-align: center; margin: 10px;border:1px solid #ddd;position: fixed;top: 120px;background: white;display:none;" class="globalBoxShadow">
+							<span id="installButtonDialogClose" style="font-family: 'Times New Roman';float: right; margin: 10px; cursor: pointer;">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+									<path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+								</svg>
+							</span>
+							<div style="font-size: 20px; margin: 20px 30px;font-weight: bold">
+								Earn Cash Back + Apply Coupons with just one click
+							</div>
+							<img src="button-banner-image.png" style="margin: 5px;" />
+							<div style="margin: 20px 30px;font-size: 14px;">
+								Get our BeFrugal Cash Back Button. It finds you Cash Back, coupons, deals at thousands of stores!
+							</div>
+							<button class="bfrl_boldface textCenter bfrl_bigButton orange_bg" id="addButtonButton" style="border-radius: 7px;height:50px;width:300px;margin:10px;box-shadow: -1px 1px 5px #888" type="button">
+                                <span style="color:white">Add to Chrome - It's Free</span>
+							</button>
+							<div style="color:grey;font-size:12px;margin: 20px;">BeFrugal <span id="spanAddButtonTerms" style="cursor:pointer;text-decoration:underline">Terms</span> and <span id="spanAddButtonPrivacyPolicy" style="cursor:pointer;text-decoration:underline">Privacy Policy</span></div>
+						</div>
+                    </div>
+                    <div id="todaysDealsSection" class="categorySection" style="display:none"></div>
+                    <div id="restaurantsSection" class="categorySection" style="display:none">
+                        <div id="restaurantsBrowse">
+                            <div id="popularRestaurants"></div>
+                            <div>
+                                <div id="restaurantLetterHeading" class="sectionHeader sectionStoreGrid">
+                                    <div class="sectionLine floatLeft" style="width:100%">&nbsp;</div>
+                                    <div class="sectionTitle" style="top: -16px; background: white;padding: 10px;">BROWSE BY LETTER</div>
+                                </div>
+                                <div id="browseByLetter" style="text-align: center;"></div>
+                            </div>
+                        </div>
+                        <div id="restaurantsByLetter" style="display:none">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div id="groceryCouponsSection" class="categorySection" style="display:none">
+                        <div id="gcsHome" class="sectionHeader"style="text-align:center;padding: 15px 0;">
+                            <div class="groceryTitleText" style="margin-bottom:18px;text-align:center;"><span id="gccCount" style="font-size:30px;font-weight:500"></span><br/>Printable Grocery Coupons Available Now!</div>
+                            <img src="toolbar-grocery-coupons.png" />
+                            <div id="grocerySearch" style="border-top: 1px solid #efefef;background-color:#F1F9FF; padding:15px; text-align:left; margin-top:25px;position: absolute;width:100%;bottom: 0;">
+                                <div class="groceryTitleText">Search for Grocery Coupons:</div>
+                                <div style="padding-bottom:25px;"><input type="text" id="gcSearchText" style="width:340px; height:40px; font-size:14px;padding:5px" placeholder="Ex:coffee, Huggies, frozen pizza, Tide" /><button id="gcSearchButton"></button></div>
+                                <div class="groceryTitleText">Or browse by: <a href="#" class="groceryTitleText" id="groceryCategoriesLink">Categories</a> <a href="#" class="groceryTitleText" id="groceryBrandsLink">Brands</a></div>
+                            </div>
+                        </div>
+                        <div id="gcsCategories" class="sectionHeader" style="display:none">
+                            <div id="gcsCatBody" class="gcsGridWrapper"></div>
+                        </div>
+                        <div id="gcsBrands"class="sectionHeader" style="display:none; text-align: center;width:400px">
+                            <div id="gcsBrandLetters"></div>
+                            <table id="gcsBrandBody"style="width:100%"></table>
+                        </div>
+                        <div id="gcsCoupon" class="sectionHeader" style="display:none"></div>
+                        <div id="gcsSingleCoupon" class="sectionHeader" style="display:none"></div>
+                    </div>
+                    <div id="adCircularSection" class="categorySection" style="display:none;"></div>
+                    <div id="onlineCouponSection" class="categorySection" style="display:none;">  </div>
+                </div>
+				<div id="myStores" class="tab-pane fade in myStoresWrapper custom-scrollable">
+					<div id="placementBanner" class="sections" style="overflow: hidden;">
+						<div class="sectionHeader sectionStoreGrid" style="font-weight: 600; padding-bottom: 11px; padding-top: 8px; max-height: 2.5em; height: 2.5em; line-height: 20px; min-height: 2.5em; display: inline-block;">
+							<div class="sectionLine floatLeft bannerLine">&nbsp;</div>
+							<div id="bannerTitle" class="sectionTitle" style="color: #444; font-size: 12px; line-height: 1em; display: inline-block;"></div>
+							<div class="sectionLine floatRight bannerLine">&nbsp;</div>
+						</div>
+						<div class="bannerContainer">
+							<img id="imagePrev" src="" style="width: 100%; display: inline-block; cursor: pointer;" />
+							<img id="imageNow" src="" style="width: 100%; display: inline-block; cursor: pointer;" />
+							<img id="imageNext" src="" style="width: 100%; display: inline-block; cursor: pointer;" />
+							<div id="bannerButtons" style="position: absolute; width: 100%; top: calc(100% / 4); left: calc(100%);">
+								<img src="banner_prev.png" id="previousBanner" class="bannerArrows" style="float: left;" />
+								<img src="banner_next.png" id="nextBanner" class="bannerArrows" style="float: right;" />
+							</div>
+						</div>
+					</div>
+					<div id="favoriteStoresSection" class="sections">
+						<div class="sectionHeader sectionStoreGrid">
+							<div class="sectionLine floatLeft" style="width: calc(100%/3);">&nbsp;</div>
+							<div class="sectionTitle">FAVORITE STORES</div>
+							<div class="sectionLine floatRight" style="width: calc(100%/3);">&nbsp;</div>
+						</div>
+						<div id="favoriteStores" class="storeGridWrapper"></div>
+					</div>
+					<div id="recommendedStoresSection" class="sections">
+						<div class="sectionHeader sectionStoreGrid">
+							<div class="sectionLine floatLeft">&nbsp;</div>
+							<div class="sectionTitle">RECOMMENDED STORES</div>
+							<div class="sectionLine floatRight">&nbsp;</div>
+						</div>
+						<div id="recommendedStores" class="storeGridWrapper"></div>
+					</div>
+				</div>
+				<div id="todaysDeals" class="tab-pane fade in">
+					<div class="custom-scrollable" style="position: relative; height: 380px; margin: 0;">
+						<div class="dealsGridWrapper">
+						</div>
+						<div style="width: 100%; text-align: center; margin: 0 auto 16px auto;">
+							<a>
+								<div id="viewAllDealsButton_bf">
+									<div style="padding: 5px 15px; color: #fff; text-align: center; font-size: 13px;">View All Deals</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="rafAddTen" class="tab-pane fade in">
+					<div style="overflow-x: hidden; overflow-y: auto; height: 380px; margin: 0;">
+						<div>
+							<div class="textboxDisableFocus" style="position: relative;">
+								<img src="https://d2z2x9m6jf98op.cloudfront.net/befrugalbutton/button-refer-a-friend-background.png" style="width: 100%; height: 150px;">
+								<div id="rafBannerText">
+									<div id="rafBannerTextTitle">Invite Your Friend &amp; Get <span id="spnRAFBonus" style="font-size: inherit;font-weight: inherit;">$$$</span>!</div>
+									<div id="rafBannerTextSubtitle">Your friend also gets <span id="spnSignupBonus" style="font-size: inherit;font-weight: inherit;">$$$</span></div>
+								</div>
+							</div>
+							<div style="height: 50px;line-height: 30px;text-align: center;padding: 15px 0;">
+								<span class="textboxDisableSelect" style="font-weight: 600;font-size: 16px;display: block;padding-top: 15px;padding-bottom: 8px;color: #424242;text-align:center;">Send your unique link to your friends:</span>
+								<div style="text-align: center;margin: 0 auto;display: inline-block;line-height: 40px;">
+									<div style="width: 326px;display: inline-block;border: 1px solid #ccc;padding: 1px;">
+										<input type="text" tabindex="-1" spellcheck="false" id="txtCopyRAF" class="textboxDisableDrag" readonly>
+										<span class="textboxDisableSelect" id="copyRAFLink">Copy</span>
+									</div>
+								</div>
+								<div style="margin: 22px 36px 12px 36px;display: grid;grid-template-columns: repeat(2, 1fr);grid-column-gap: 12px;">
+									<span id="facebookLink" class="shareButton facebookButton textboxDisableSelect">
+										Share on
+										<span class="icon-facebook" style="font-size: 25px;position: relative;top: 2px;"></span>
+									</span>
+									<span id="twitterLink" class="shareButton twitterButton textboxDisableSelect">
+										Share on
+										<span class="icon-twitter" style="position: relative;left: 4px;font-size: 24px;top: 5px;"></span>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="settingsContent" class="tab-pane fade in">
+			<div style="position: relative; max-height: 420px;" class="custom-scrollable">
+                <div id="innerGrayout"></div>
+				<div style="position: absolute; top: 0; height: 4px; width: 100%; background: linear-gradient(#ccc, white);"></div>
+                
+                <div id="fixedConflictAlert" class="globalBoxShadowDeep" style="display:none; position:fixed; top:200px;margin:20px; padding:10px; background:white;opacity:1;width:90%;">
+                    <div class="conflictAlertCloseButtonContainer">
+                        <div id="conflictAlertCloseButton">
+                            <span id="conflictAlertClose" style="font-family: 'Times New Roman';">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div style="margin-top:14px">
+                        <a id="directDisableLink" href="#" style="color:#E65049;"><img src="warning_icon.png" /> <span style="font-size:20px;font-weight:800;text-decoration:underline;">Disable Conflicting Add-ons</span></a>
+                    </div>
+                    <div id="disableDisclaimerInfo">
+                        <span class="pointer">More...</span>
+                    </div>
+                    <div id="disableDisclaimerInfoText" style="display:none">
+                        <div id="disableDisclaimerCloseButtonContainer" style="margin-right:10px">
+                            <div id="disableDisclaimerCloseButton">
+                                <span class="disableDisclaimerBtnclose">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                                        <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="disableDisclamerInfoTextWrapper">
+                            AdBlock and similar extensions will block Cash Back tracking, whereas Coupons &amp; Cash Back extensions will redirect your Cash Back to themselves.<br />
+                            <br />
+                            Both types of extensions have to be disabled or removed to guarantee your Coupons and Cash Back earnings.
+                        </div>
+                    </div>
+                </div>
+                    
+				<div id="newEmailSection" class="settingsSections">
+					<div class="settingsRow" style="padding: 20px 10px;">
+						<div class="settingsRowEntry">
+							BeFrugal Member:&nbsp;
+							<span id="newEmailAddress"></span>
+							<a id="wrongUserCreate" href="#" style="display: inline-block;"></a>
+							<span id="wrongUserOr" style="display:none;">or</span>
+							<a id="wrongUserLogin" href="#"></a>
+						</div>
+					</div>
+				</div>
+				<div id="newOptionsSection" class="settingsSections">
+					<div class="settingsRow hideForEdge" style="border-top: 1px solid #efefef;">
+						<div class="settingsRowEntry hideForEdge">
+							<a href="#" id="aIncompatibleAddons" class="hideForEdge">
+								<span class="icon-warning2" style="text-decoration: none;"></span><span style="margin-left: 7px;">Disable Conflicting Add-Ons</span>
+							</a>
+						</div>
+					</div>
+					<div class="settingsRow">
+						<div class="settingsRowEntry">
+							<span>
+								Turn Off Cash Back Alerts&nbsp;
+								<a href="#" id="aTurnOffNotifications">on these sites</a>
+							</span>
+						</div>
+					</div>
+					<div id="rwAutoRedirection" class="settingsRow">
+						<div class="settingsRowEntry">
+							<input type="checkbox" id="flagAutoActivateCB" class="flagCheckmark" /><span style="vertical-align: text-top;">
+								Activate Cash Back Automatically&nbsp;
+								<span id="tooltip_autoCB" class="icon-circle-help"></span>
+							</span>
+						</div>
+					</div>
+					<div class="settingsRow">
+						<div class="settingsRowEntry">
+							<input type="checkbox" id="flagCBInjection" class="flagCheckmark" /><span style="vertical-align: text-top;">
+								Display Cash Back in Search Results
+							</span>
+						</div>
+					</div>
+				</div>
+				<div id="newActionsSection" class="settingsSections">
+					<div class="settingsRow" style="border-top: 1px solid #efefef;">
+						<div class="settingsRowEntry"><a href="#" id="rafLink"></a></div>
+					</div>
+					<div class="settingsRow" id="rateUsAction">
+						<div class="settingsRowEntry">
+							<a href="#" id="bfrl_rateUsLink" style="position: relative;">
+								<span>Rate us to keep BeFrugal going</span>
+								<span id="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+							</a>
+						</div>
+					</div>
+				</div>
+                <div id="submitCoupons" class="settingsSections">
+                    <div class="settingsRow" style="border-top: 1px solid #efefef;">
+                        <div class="settingsRowEntry">
+                            <input type="checkbox" id="flagSharing" class="flagCheckmark" />
+                            <span style="vertical-align: text-top;">Help others by sharing my shopping experience</span>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div id="helpContent" class="tab-pane fade in" style="position: relative;">
+			<div style="position: relative; min-height: 420px;">
+				<div style="position: absolute; top: 0; height: 4px; width: 100%; background: linear-gradient(#ccc, white);"></div>
+				<div class="newSpAboutContent">
+					<div style="padding: 0 12px; margin: 0;">
+						<div id="newSpAboutTitle">
+							Saving with <span style="font-size:16px;" class="replaceInPS">BeFrugal</span> is easy!
+						</div>
+						<div>
+							<div class="newListItemNumber" style="position: relative; top: 12px;">
+								<svg height="26" width="26" style="position: absolute">
+									<circle cx="13" cy="13" r="12" stroke="black" stroke-width="0" fill="#bddffa" />
+									<text x="50%" y="50%" text-anchor="middle" stroke="#1b97f3" stroke-width="1px" dy=".3em">1</text>
+								</svg>
+							</div>
+							<p class="newListItem">
+                                Search above and click on your favorite store. It will open the store's website and activate Cash Back for it.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="helpHorizontalRule"></div>
+				<div class="newSpAboutContent">
+					<div style="padding: 0 12px; margin: 0;">
+						<div class="newListItemNumber" style="position: relative; top: 12px;">
+							<svg height="26" width="26" style="position: absolute">
+								<circle cx="13" cy="13" r="12" stroke="black" stroke-width="0" fill="#bddffa" />
+								<text x="50%" y="50%" text-anchor="middle" stroke="#1b97f3" stroke-width="1px" dy=".3em">2</text>
+							</svg>
+						</div>
+						<p class="newListItem">
+                            Shop as you normally would. At the checkout, <span class="replaceInPS">BeFrugal</span> will automatically apply the best combination of coupons plus will pay you the highest Cash Back!
+						</p>
+					</div>
+				</div>
+				<div class="helpHorizontalRule"></div>
+				<div class="newSpAboutContent">
+					<div style="padding: 0 12px; margin: 0;">
+						<div class="newListItemNumber" style="position: relative; top: 12px;">
+							<svg height="26" width="26" style="position: absolute">
+								<circle cx="13" cy="13" r="12" stroke="black" stroke-width="0" fill="#bddffa" />
+								<text x="50%" y="50%" text-anchor="middle" stroke="#1b97f3" stroke-width="1px" dy=".3em">3</text>
+							</svg>
+						</div>
+						<p class="newListItem">
+                            Withdraw your cash from your BeFrugal<span class="doNotReplaceInPS"></span>.com account via Check, PayPal, Direct Deposit, Venmo, Zelle, or eGift Cards.
+						</p>
+					</div>
+				</div>
+				<div style="background-color: #f1f9ff; height: 20px; width: 100%; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef;"></div>
+				<div>
+					<p id="newLinkParagraphSection">
+						<a id="aQuickGuide" class="spLink" href="#">
+							<span id="newPlayCircleIcon" class="icon-circle-play"></span>How does <span style="font-size:16px;" class="replaceInPS">BeFrugal</span> work?
+						</a>
+					</p>
+				</div>
+			</div>
+			<div id="newSpAboutFooter">
+				Copyright&nbsp;&#169;&nbsp;2011&nbsp;-
+				<span id="currentYear"></span>. BeFrugal and Capital Intellect Inc. Patents Pending. All Rights Reserved.
+				<a id="aLoadLicense" class="spLink" href="#">License&nbsp;Agreement</a><br />
+			</div>
+		</div>
+	</div>
+	<div id="newFooter" style="position: relative;z-index:3;display:inline;">
+		<div class="newTabs pointer">
+			<ul class="nav newSectionTabClass_bf">
+				<li>
+					<div id="footerHomeNav" class="newSectionTabOption active show" data-toggle="tab" href="#homeContent">
+						<div class="icon-home"></div>&nbsp;Home
+					</div>
+				</li>
+				<li>
+					<a id="myAccount" href="#" tabIndex="-1">
+						<div class="newSectionTabOption">
+							<div class="icon-user"></div>&nbsp;Account
+						</div>
+					</a>
+				</li>
+				<!-- Attempting to narrow the empty gap between Settings and Help navigation buttons. -->
+				<li>
+					<div id="settingsTab" class="newSectionTabOption" data-toggle="tab" href="#settingsContent" style="position: relative; left: 5px;">
+						<div class="icon-gear"></div>&nbsp;Settings
+					</div>
+				</li>
+				<li>
+					<div class="newSectionTabOption" data-toggle="tab" href="#helpContent" style="position: relative; right: 3px;">
+						<div class="icon-circle-help"></div>&nbsp; Help
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Intentionally placed here, so every HTML element is accessible by the popup.js script. -->
+	<script src="js/popup.js"></script>
+</body>
+
+</html>

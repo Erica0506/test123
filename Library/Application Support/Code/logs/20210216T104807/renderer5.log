@@ -1,0 +1,2 @@
+[2021-02-22 09:48:55.829] [renderer5] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Sita_practice/W3-assignment/.vscode'
+[2021-02-22 10:13:12.944] [renderer5] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Sita_practice/w3d4/.vscode'

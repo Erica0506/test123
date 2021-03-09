@@ -1,0 +1,31 @@
+{
+   "api_console_project_id": "554084336035",
+   "app": {
+      "launch": {
+         "web_url": "http://www.pdffiller.com"
+      }
+   },
+   "container": [ "GOOGLE_DRIVE", "DOMAIN_INSTALLABLE" ],
+   "description": "Easily edit, annotate, eSign and transform any PDF from Google Drive into a fillable PDF form.",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "http://www.pdffiller/en/gDrive/import",
+         "title": "Open",
+         "type": [ "application/pdf", "application/vnd.google.drive.ext-type.pdf" ]
+      } ]
+   },
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "256": "img/256.png",
+      "32": "img/32.png",
+      "64": "img/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvYGrkrHmeBXhFkXeXVh4GPIDM+nDXAdbuaes9xvhNLqGp3D6NbRL/ea2I3vqye3/DHT4+uIt6vWfBCkXS5gQ83+AjKag8fLwHq7N8HWt/O2/t4fLrMdPkubl2GIcQyKj54dSZB+FbQeuZttQa+t4A6bUnX8ZVVvhoWulnG+7ThdGs42AqpD1Px3pBxMQFBkfhyGk03IjOe0umHhfpu0vNOR8wMp0K+GyBTILJFXYgL7zJxvhHoEWQNwJt5dD/uCBJ+U/dsnxxiW7MuOUUH+rXCSnkm7aNQz24iqs9yVximRA3HECLG1daYGh7D8Vfs594u2NqsjuaKZJjNsxcW5MPQIDAQAB",
+   "manifest_version": 2,
+   "name": "PDF Editor for Docs:Edit, Fill, Sign, Print",
+   "short_name": "PDFfiller",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
+}

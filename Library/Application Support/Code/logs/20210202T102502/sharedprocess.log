@@ -1,0 +1,8 @@
+[2021-02-02 10:25:05.792] [sharedprocess] [info] main {"machineId":"26881768205986920a7130a252583af298064642d620627470c055a000789446","windowId":2}
+[2021-02-02 10:25:07.742] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2021-02-02 10:25:08.420] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug undefined
+[2021-02-02 10:25:08.519] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-debug-0.31.0: vscjava.vscode-java-debug
+[2021-02-02 10:25:08.519] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-debug-0.31.0
+[2021-02-02 10:25:08.521] [sharedprocess] [info] Installation completed. vscjava.vscode-java-debug
+[2021-02-02 10:25:08.547] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-debug
+[2021-02-02 10:25:45.811] [sharedprocess] [info] Starting to clean up unused language packs.

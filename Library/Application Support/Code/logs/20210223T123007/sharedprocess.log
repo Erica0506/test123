@@ -1,0 +1,7 @@
+[2021-02-23 12:30:12.644] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2021-02-23 12:30:13.147] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github undefined
+[2021-02-23 12:30:13.267] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.github.vscode-pull-request-github-0.23.1: github.vscode-pull-request-github
+[2021-02-23 12:30:13.267] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/github.vscode-pull-request-github-0.23.1
+[2021-02-23 12:30:13.269] [sharedprocess] [info] Installation completed. github.vscode-pull-request-github
+[2021-02-23 12:30:13.295] [sharedprocess] [info] Extensions installed successfully: github.vscode-pull-request-github
+[2021-02-23 12:30:50.913] [sharedprocess] [info] Starting to clean up unused language packs.

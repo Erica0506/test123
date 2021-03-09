@@ -1,0 +1,15 @@
+2021/03/03-23:45:29.917 ec527 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_d18115aee5394b298da45e8abdfc1772.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-23:45:29.918 ec527 Recovering log #43
+2021/03/03-23:45:29.918 ec527 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_d18115aee5394b298da45e8abdfc1772.safeframe.googlesyndication.com_0.indexeddb.leveldb/000043.log 
+2021/03/03-23:46:00.715 ec527 Level-0 table #47: started
+2021/03/03-23:46:00.729 ec527 Level-0 table #47: 190 bytes OK
+2021/03/03-23:46:00.762 ec527 Delete type=0 #43
+2021/03/03-23:46:00.766 ec527 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-23:46:00.766 ec527 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 10 : 1
+2021/03/03-23:46:00.766 ec527 Compacting 1@1 + 1@2 files
+2021/03/03-23:46:00.776 ec527 Generated table #48@1: 8 keys, 447 bytes
+2021/03/03-23:46:00.776 ec527 Compacted 1@1 + 1@2 files => 447 bytes
+2021/03/03-23:46:00.808 ec527 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/03-23:46:00.809 ec527 Delete type=2 #5
+2021/03/03-23:46:00.809 ec527 Delete type=2 #47
+2021/03/03-23:46:00.815 ec527 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 10 : 1 .. (end); will stop at (end)

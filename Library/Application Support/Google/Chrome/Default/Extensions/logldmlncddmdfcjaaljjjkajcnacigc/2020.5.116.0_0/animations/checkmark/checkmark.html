@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<!--CSS START-->
+	<style>
+		#toast_div {
+			position: fixed;
+			top: 10px;
+			right: 15px;
+			font-family: Roboto, Arial;
+			font-weight: 600;
+			line-height: 20px;
+			display: block;
+			padding: 20px 5px 5px 5px;
+			z-index: 9999999999;
+			visibility: unset;
+			background-color: #fff;
+			border: none;
+			box-shadow: 1px 1px 2px #555;
+			opacity: 0.0;
+			text-align: center;
+			width: 320px;
+			min-width: unset;
+			min-height: unset;
+			max-width: unset;
+			max-height: unset;
+			-webkit-box-sizing: unset;
+			box-sizing: unset;
+			direction: ltr;
+		}
+
+		#toast_logo {
+			width: 32px !important;
+			min-width: unset;
+			max-width: unset;
+			padding-right: 10px;
+			position: relative;
+			top: -2px;
+			vertical-align: middle;
+			-webkit-box-sizing: unset !important;
+			box-sizing: unset !important;
+			display: inline-block !important;
+			margin: unset !important;
+		}
+
+		#toast_cbText {
+			font-family: Roboto, Arial;
+			letter-spacing: 0;
+			text-transform: capitalize;
+			font-size: 16px;
+			font-weight: 600;
+			vertical-align: middle;
+			color: #199402;
+		}
+
+		#toast_activatedText {
+			font-family: Roboto, Arial;
+			letter-spacing: 0;
+			text-transform: capitalize;
+			font-size: 16px;
+			font-weight: 600;
+			vertical-align: middle;
+			color: #424242;
+		}
+
+		#toast_svg_check {
+			margin: 0;
+			display: inline;
+			vertical-align: middle;
+		}
+
+		#toast_svg_close {
+			position: fixed;
+			top: 11px;
+			right: 21px;
+			width: 16px;
+			cursor: pointer;
+		}
+
+		#toast_terms {
+			text-align: center;
+			vertical-align: middle;
+			color: #777;
+			font-size: 10px;
+			font-family: Roboto, Arial;
+			letter-spacing: 0;
+			padding: 0;
+			margin: 0;
+			font-weight: normal;
+			position: relative;
+			top: 2px;
+		}
+	</style>
+	<!--CSS END-->
+</head>
+<body>
+	<!--TOAST START-->
+	<div style="width: 100%;">
+		<img id="toast_logo" src="" />
+		<span id="toast_cbText"></span><span id="toast_activatedText">&nbsp;Activated</span>
+		<svg id="toast_svg_check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+			<path id="toast_svg_check_path" stroke="#199402" stroke-width="5" stroke-linecap="round" fill="transparent" d="m14.1,27.2 l7.1,7.2 l16.7,-16.8" />
+		</svg>
+		<svg id="toast_svg_close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+			<path id="toast_svg_close_path1" stroke="#555" stroke-width="2" stroke-linecap="round" fill="transparent" d="m14,14 l14,14" />
+			<path id="toast_svg_close_path2" stroke="#555" stroke-width="2" stroke-linecap="round" fill="transparent" d="m28,14 l-14,14" />
+		</svg>
+	</div>
+	<div id="toast_terms" style="width: 100%;">
+		Visit BeFrugal.com for Terms&nbsp;&amp;&nbsp;Exclusions
+	</div>
+	<!--TOAST END-->
+</body>
+</html>

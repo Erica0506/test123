@@ -1,0 +1,28 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04

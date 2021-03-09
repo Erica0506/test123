@@ -1,0 +1,1080 @@
+﻿/* ASCII art using patorjk.com, set to "Univers" styling. */
+
+/* 
+	The big commented ASCII art texts are for navigation using the minimap scrollbar.
+	It is enabled for Visual Studio 2017, Visual Studio Code, Atom, and other text editing software that supports this feature.
+*/
+
+/*
+
+
+													  
+	 88888888888                                           
+	 88                                  ,d                
+	 88                                  88                
+	 88aaaaa   ,adPPYba,   8b,dPPYba,  MM88MMM  ,adPPYba,  
+	 88"""""  a8"     "8a  88P'   `"8a   88     I8[    ""  
+	 88       8b       d8  88       88   88      `"Y8ba,   
+	 88       "8a,   ,a8"  88       88   88,    aa    ]8I  
+	 88        `"YbbdP"'   88       88   "Y888  `"YbbdP"'  
+													  
+													  
+
+*/
+
+@font-face {
+	font-family: 'toolbar';
+	src: url('../../fonts/toolbar.eot');
+	src: url('../../fonts/toolbar.eot#iefix') format('embedded-opentype'), url('../../fonts/toolbar.ttf') format('truetype'), url('../../fonts/toolbar.woff') format('woff'), url('../../fonts/toolbar.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'toolbar' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	width: 0;
+	margin: 0;
+	padding: 0 1em 0 0;
+	display: inline-block;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-document-edit-black:before {
+	content: "\a073";
+}
+
+.icon-document-add:before {
+	content: "\a072";
+}
+
+.icon-document-edit-white:before {
+	content: "\a071";
+}
+
+.icon-trash-white:before {
+	content: "\a070";
+}
+
+.icon-paperplane:before {
+	content: "\a069";
+}
+
+.icon-envelope-black-open:before {
+	content: "\a068";
+}
+
+.icon-envelope-black:before {
+	content: "\a067";
+}
+
+.icon-moneybag:before {
+	content: "\a066";
+}
+
+.icon-pig:before {
+	content: "\a065";
+}
+
+.icon-dollar:before {
+	content: "\a064";
+}
+
+.icon-tools:before {
+	content: "\a063";
+}
+
+.icon-circle-help:before {
+	content: "\a062";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-minus:before {
+	content: "\a061";
+}
+
+.icon-circle-plus:before {
+	content: "\a060";
+	font-size: 120%;
+	position: relative;
+	top: 1px;
+}
+
+.icon-envelope-white:before {
+	content: "\a059";
+}
+
+.icon-play:before {
+	content: "\a058";
+}
+
+.icon-chevron-left2:before {
+	content: "\a057";
+}
+
+.icon-chevron-right:before {
+	content: "\a056";
+}
+
+.icon-arrow-left:before {
+	content: "\a055";
+}
+
+.icon-arrow-right:before {
+	content: "\a054";
+}
+
+.icon-arrow-up:before {
+	content: "\a053";
+}
+
+.icon-arrow-down:before {
+	content: "\a052";
+}
+
+.icon-exclamation-circle:before {
+	content: "\a051";
+}
+
+.icon-exclamation-triangle:before {
+	content: "\a050";
+}
+
+.icon-warning2:before {
+	content: "\a050";
+}
+
+.icon-chevron-up:before {
+	content: "\a049";
+}
+
+.icon-chevron-down:before {
+	content: "\a048";
+}
+
+.icon-bars:before {
+	content: "\a047";
+}
+
+.icon-navicon:before {
+	content: "\a047";
+}
+
+.icon-reorder:before {
+	content: "\a047";
+}
+
+.icon-caret-right:before {
+	content: "\a046";
+}
+
+.icon-comments-o:before {
+	content: "\a045";
+}
+
+.icon-cutlery:before {
+	content: "\a044";
+}
+
+.icon-angle-double-left:before {
+	content: "\a043";
+}
+
+.icon-angle-double-right:before {
+	content: "\a042";
+}
+
+.icon-wordpress:before {
+	content: "\a041";
+}
+
+.icon-trash:before {
+	content: "\a040";
+}
+
+.icon-pinterest:before {
+	content: "\a039";
+}
+
+.icon-bullhorn:before {
+	content: "\a038";
+}
+
+.icon-envelope-thick:before {
+	content: "\a037";
+}
+
+.icon-bubble:before {
+	content: "\a036";
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+}
+
+.icon-bubbles-full-behind:before {
+	content: "\a035";
+}
+
+.icon-bubbles-full-front:before {
+	content: "\a034";
+}
+
+.icon-bubbles-empty-front:before {
+	content: "\a033";
+}
+
+.icon-search:before {
+	content: "\a032";
+}
+
+.icon-gift:before {
+	content: "\a031";
+}
+
+.icon-star-empty:before {
+	content: "\a030";
+}
+
+.icon-star-half:before {
+	content: "\a029";
+}
+
+.icon-star-full:before {
+	content: "\a028";
+}
+
+.icon-heart:before {
+	content: "\a027";
+}
+
+.icon-circle-notification:before {
+	content: "\a026";
+}
+
+.icon-circle-question:before {
+	content: "\a025";
+}
+
+.icon-circle-info:before {
+	content: "\a024";
+}
+
+.icon-cross:before {
+	content: "\a023";
+}
+
+.icon-checkmark-full:before {
+	content: "\a022";
+}
+
+.icon-checkmark-empty:before {
+	content: "\a021";
+}
+
+.icon-share:before {
+	content: "\a020";
+}
+
+.icon-mail2:before {
+	content: "\a019";
+}
+
+.icon-google-plus:before {
+	content: "\a018";
+}
+
+.icon-facebook:before {
+	content: "\a017";
+}
+
+.icon-instagram:before {
+	content: "\a016";
+}
+
+.icon-twitter:before {
+	content: "\a015";
+}
+
+.icon-chrome:before {
+	content: "\a014";
+}
+
+.icon-firefox:before {
+	content: "\a013";
+}
+
+.icon-IE:before {
+	content: "\a012";
+}
+
+.icon-opera:before {
+	content: "\a011";
+}
+
+.icon-safari:before {
+	content: "\a010";
+}
+
+.icon-home:before {
+	content: "\a009";
+}
+
+.icon-bubble2:before {
+	content: "\a008";
+}
+
+.icon-user:before {
+	content: "\a007";
+}
+
+.icon-warning:before {
+	content: "\a006";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-cancel:before {
+	content: "\a005";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-play:before {
+	content: "\a004";
+}
+
+.icon-checkmark-full-small:before {
+	content: "\a003";
+}
+
+.icon-cog:before {
+	content: "\a002";
+}
+
+.icon-gear:before {
+	content: "\a002";
+}
+
+.icon-chevron-left:before {
+	content: "\a001";
+}
+
+
+/* 
+ 
+ 
+ 
+
+                                                                            
+  ,ad8888ba,   88                                                           
+ d8"'    `"8b  88                                                           
+d8'            88                                                           
+88             88  ,adPPYYba,  ,adPPYba,  ,adPPYba,   ,adPPYba,  ,adPPYba,  
+88             88  ""     `Y8  I8[    ""  I8[    ""  a8P_____88  I8[    ""  
+Y8,            88  ,adPPPPP88   `"Y8ba,    `"Y8ba,   8PP"""""""   `"Y8ba,   
+ Y8a.    .a8P  88  88,    ,88  aa    ]8I  aa    ]8I  "8b,   ,aa  aa    ]8I  
+  `"Y8888Y"'   88  `"8bbdP"Y8  `"YbbdP"'  `"YbbdP"'   `"Ybbd8"'  `"YbbdP"'  
+                                                                            
+                                                                            
+
+
+
+ 
+ */
+
+* {
+	/* border: 1px solid #000; */
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	color: #424242;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+a {
+	color: #1b97f3;
+	font-weight: 600;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a span {
+	color: #1b97f3;
+}
+
+a:hover span {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+button {
+	padding: 8px 15px;
+	border-radius: 4px;
+	border-style: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button span {
+	color: #fff;
+	font-weight: 400;
+}
+
+.verticalCenter {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.bfrl_bigButton {
+	padding: 14px 24px;
+	width: 300px;
+	border-bottom: 3px solid #e45328;
+}
+
+.bfrl_bigButton:focus {
+	outline: none;
+}
+
+.bfrl_bigButton:hover {
+	border-bottom: 3px solid #d25224;
+}
+
+.bfrl_bigButton span {
+	font-size: 24px !important;
+	font-weight: 600 !important;
+}
+
+.bfrl_showCouponsButton {
+	padding: 14px 24px;
+	width: 300px;
+}
+
+.bfrl_showCouponsButton:focus {
+	outline: none;
+}
+
+.bfrl_showCouponsButton span {
+	font-size: 20px !important;
+	font-weight: 400 !important;
+}
+
+.bfrl_lightGray {
+	color: #757575;
+}
+
+.bfrl_lightestGray {
+	color: #bbbbbb;
+}
+
+.bfrl_green {
+	color: #199402;
+}
+
+.bfrl_copyGreen_bg {
+	background-color: #82c676;
+}
+
+.bfrl_copyGreen_bg:hover {
+	background-color: #75b911;
+}
+
+.bfrl_copied span {
+	display: none !important;
+}
+
+.bfrl_copied::after {
+	display: block;
+	content: "Copied";
+	font-weight: 400;
+	font-size: 12px;
+	background-color: #FFE5C5;
+}
+
+.blue {
+	color: #1b97f3;
+}
+
+.bfrl_blueGray {
+	color: #517393;
+}
+
+.bfrl_blueGray_bg {
+	background-color: #dbedfd;
+}
+
+.lightBlueGray_bg {
+	background-color: #eff7ff;
+}
+
+.bfrl_orange {
+	color: #fa5b27;
+}
+
+.bfrl_orange_bg {
+	background-color: #fa5b27;
+}
+
+.bfrl_orange_bg:hover {
+	background-color: #e45328;
+}
+
+.bfrl_orange_border {
+	border: 1px solid #fa5b27;
+}
+
+.bfrl_orange_text {
+	color: #fa5b27 !important;
+}
+
+.bfrl_orange_bg:hover {
+	background-color: #e45328;
+}
+
+.bfrl_facebookBlue_bg {
+	background-color: #6383c3;
+}
+
+.bfrl_facebookBlue_bg:hover {
+	background-color: #385999;
+}
+
+.bfrl_twitterBlue_bg {
+	background-color: #7bceef;
+}
+
+.bfrl_twitterBlue_bg:hover {
+	background-color: #33bef5;
+}
+
+.bfrl_yellowOrange_bg {
+	background-color: #FFE5C5;
+}
+
+.bfrl_yellowOrange_bg:hover {
+	background-color: #FFD7A6;
+}
+
+.bfrl_boldface {
+	font-weight: 600;
+	font-size: 100%;
+}
+
+.bfrl_smallText {
+	font-size: 80%;
+}
+
+.bfrl_normalTextWeight {
+	font-weight: 400;
+}
+
+.bfrl_group {
+	margin: 0;
+	padding: 0;
+	float: none;
+	clear: both;
+	content: "";
+}
+
+.bfrl_hide {
+	display: none !important;
+}
+
+.bfrl_clearFix::before {
+	float: none;
+	clear: both;
+	content: "";
+}
+
+.bfrl_textCenter {
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.bfrl_headerPigLogo {
+	width: 100%;
+	position: relative;
+	padding: 20px 0;
+}
+
+.bfrl_headerPigLogo img {
+	width: 105px;
+}
+
+.bfrl_headerNoPigLogo {
+	width: 100%;
+	position: relative;
+	padding: 32px 0 0 0;
+}
+
+.bfrl_headerNoPigLogo img {
+	position: relative;
+	top: 13px;
+}
+
+.bfrl_headerNoPigLogo p {
+	font-size: 18px;
+	font-weight: 600;
+	display: table-cell;
+	vertical-align: middle;
+	height: 56px;
+	line-height: 56px;
+}
+
+.subtitle {
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.bfrl_closeButtonContainer {
+	position: absolute;
+	top: 12px;
+	right: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	z-index: 2000;
+}
+
+.bfrl_messageTitle {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.bfrl_messageContent {
+	margin: 20px;
+}
+
+.bfrl_messageContent img.bfrl_results {
+	width: 45px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.bfrl_messageContent img.bfrl_bestPrice {
+	width: 70px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.paddedMessage {
+	padding: 0 60px;
+	display: inline-block;
+}
+
+.bfrl_footer {
+	padding: 21px 0;
+}
+
+.bfrl_footnote {
+	position: relative;
+}
+.bfrl_ref{
+    color: #517393;
+}
+
+.bfrl_footerBlock {
+	display: flex;
+	text-align: center;
+	margin: 0 25px;
+	width: fit-content;
+	padding-top: 10px;
+}
+
+.bfrl_footerBlock p {
+	margin: 0;
+	text-align: left;
+}
+
+.bfrl_footerBlock img {
+	height: 90px;
+	margin-right: 10px;
+	display: block;
+	position: relative;
+	top: -12px;
+}
+
+.bfrl_footerBlock .bfrl_text {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.bfrl_buttonContainer {
+	text-align: center;
+	margin: 50px auto 50px auto;
+}
+
+.bfrl_buttonContainer span {
+	color: #fff;
+	font-weight: 200;
+	font-size: 14px;
+}
+
+.bfrl_discountAmount {
+	color: #fa5b27;
+	font-size: 72px;
+	font-weight: 600;
+}
+
+.bfrl_couponCode {
+	background-color: #f3f3f3;
+	padding: 2px 8px;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #818181;
+	margin-left: 7px;
+}
+
+.bfrl_couponCode_small {
+	background-color: #f3f3f3;
+	padding: 2px 2px;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #818181;
+}
+#detailsTable{
+border:1px solid lightgrey;
+width: 75%;
+margin: auto;
+}
+
+#detailsTable tr{
+border:1px solid lightgrey;
+line-height: 30px;
+}
+#detailsTable td{
+padding:5px 0px 5px 15px;
+}
+.nowrap {
+	white-space: nowrap;
+}
+
+.bfrl_cashbackContent {
+	text-align: center;
+	margin: 25px auto 25px auto;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.bfrl_linkPadding {
+	padding-top: 5px;
+}
+
+.bfrl_leftSection {
+	box-shadow: 8px 0 8px #ebf2fa;
+	z-index: 1000;
+}
+
+.bfrl_rightSection {
+	display: inline-block;
+	z-index: 500;
+}
+
+.outer {
+	position: relative;
+	width: 270px;
+	height: 510px;
+}
+
+.inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 230px;
+	height: 300px;
+	text-align: center;
+}
+
+.bfrl_rowLayout {
+	display: inline-block;
+	height: 55px;
+}
+
+.bfrl_columnLayout {
+	margin: 0 3px;
+	padding: 4px 18px;
+}
+
+.bfrl_inputBoxField {
+	width: 140px !important;
+	height: 24px;
+	border: none;
+	border-bottom: 1px solid #ced4da;
+	font-weight: 200;
+}
+
+.bfrl_inputBoxField:focus {
+	outline: none;
+}
+
+.bfrl_btnclose {
+    padding: 10px 12px;
+}
+
+#couponsList td[class*="col"],
+#publicCouponsList td[class*="col"] {
+	background-color: #F3F3F3;
+	cursor: pointer;
+	padding: 0;
+}
+
+#couponsList td[class*="col"]:hover,
+#publicCouponsList td[class*="col"]:hover {
+	background-color: #FFE5C5;
+}
+
+#couponsList td[class*="col"] span,
+#publicCouponsList td[class*="col"] span {
+	display: inline-block;
+	width: 100%;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+#couponsList td[class*="col"] span[title],
+#publicCouponsList td[class*="col"] span[title] {
+	position: relative;
+	top: 1px;
+}
+
+
+/* 
+
+
+
+                              
+88  88888888ba,               
+88  88      `"8b              
+88  88        `8b             
+88  88         88  ,adPPYba,  
+88  88         88  I8[    ""  
+88  88         8P   `"Y8ba,   
+88  88      .a8P   aa    ]8I  
+88  88888888Y"'    `"YbbdP"'  
+                              
+                              
+
+
+
+*/
+#cashbackAmount, #discountAmount{
+    font-size:15px;
+}
+
+#bfrl_cashbackRate {
+	font-size: 72px;
+	font-weight: 500;
+	color: #199402;
+	display: inline-block;
+}
+
+#bfrl_cashbackRateSmall {
+	font-size: 42px;
+	font-weight: 500;
+	color: #199402;
+	display: inline-block;
+}
+
+#bfrl_codesList {
+	display: inline;
+}
+
+#bfrl_reportProblem {
+	font-size: 12px;
+	font-weight: 200;
+}
+
+#bfrl_reportProblem:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#bfrl_terms {
+	cursor: pointer;
+	font-size: 18px;
+	color: #818181;
+}
+.cbTerms_show {
+    display: inline-block;
+}
+.cbTerms_hide {
+    display: none;
+}
+.retailerCBTermsCloseButtonContainer {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 3000000;
+}
+#retailerCBTermsContainer {
+    z-index: 2000000;
+    width: 480px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px 0 0 0;
+    display: inline-block;
+}
+
+.bfrl_ref{
+    color:#517393;
+    font-size:16px;
+}
+
+#couponsList,
+#publicCouponsList {
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	table-layout: fixed;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+
+#couponsList tr[id*="row"],
+#publicCouponsList tr[id*="row"] {
+	line-height: 1.5em;
+	max-height: 1.5em;
+}
+
+#couponsListTooltip {
+	text-align: center;
+	margin: 20px auto 10px auto;
+}
+
+#publicCouponsListTooltip {
+	text-align: center;
+	margin: 30px auto 0px auto;
+	cursor: pointer;
+}
+
+#couponsListContainer,
+#publicCouponsListContainer {
+	max-height: 165px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: center;
+	margin: 0 auto;
+	width: 310px;
+}
+
+
+/* 
+
+
+
+                                                                                                                  
+88      a8P                              ad88                                                                     
+88    ,88'                              d8"                                                                       
+88  ,88"                                88                                                                        
+88,d88'       ,adPPYba,  8b       d8  MM88MMM  8b,dPPYba,  ,adPPYYba,  88,dPYba,,adPYba,    ,adPPYba,  ,adPPYba,  
+8888"88,     a8P_____88  `8b     d8'    88     88P'   "Y8  ""     `Y8  88P'   "88"    "8a  a8P_____88  I8[    ""  
+88P   Y8b    8PP"""""""   `8b   d8'     88     88          ,adPPPPP88  88      88      88  8PP"""""""   `"Y8ba,   
+88     "88,  "8b,   ,aa    `8b,d8'      88     88          88,    ,88  88      88      88  "8b,   ,aa  aa    ]8I  
+88       Y8b  `"Ybbd8"'      Y88'       88     88          `"8bbdP"Y8  88      88      88   `"Ybbd8"'  `"YbbdP"'  
+                             d8'                                                                                  
+                            d8'                                                                                   
+
+
+*/
+
+@keyframes loaderBar {
+	0% {
+		left: -100%;
+	}
+	100% {
+		left: 0;
+	}
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+	}
+	60% {
+		transform: translateY(0);
+	}
+	80% {
+		transform: translateY(-3px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+/* 
+	Webkit-related scrollbar styling 
+	Firefox doesn't have one.
+	1. https://bugzilla.mozilla.org/show_bug.cgi?id=77790 (bug reported 17 years ago, as of writing)
+	2. https://github.com/devtools-html/rfcs/issues/27#issuecomment-381271944 (an update)
+
+	
+
+	 																								
+	  ad88888ba                                        88  88  88                                   
+	 d8"     "8b                                       88  88  88                                   
+	 Y8,                                               88  88  88                                   
+	 `Y8aaaaa,     ,adPPYba,  8b,dPPYba,   ,adPPYba,   88  88  88,dPPYba,   ,adPPYYba,  8b,dPPYba,  
+	   `"""""8b,  a8"     ""  88P'   "Y8  a8"     "8a  88  88  88P'    "8a  ""     `Y8  88P'   "Y8  
+	         `8b  8b          88          8b       d8  88  88  88       d8  ,adPPPPP88  88          
+	 Y8a     a8P  "8a,   ,aa  88          "8a,   ,a8"  88  88  88b,   ,a8"  88,    ,88  88          
+	  "Y88888P"    `"Ybbd8"'  88           `"YbbdP"'   88  88  8Y"Ybbd8"'   `"8bbdP"Y8  88          
+																									
+
+*/
+::-webkit-scrollbar {
+	width: 4px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #e3e3e3;
+}
+
+.merchant-terms-active {
+	scrollbar-width: thin;
+	scrollbar-color: grey;
+}
+.merchant-terms-active:-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.merchant-terms-active::-webkit-scrollbar,
+.merchant-terms-active::-webkit-scrollbar-thumb {
+	background-clip: padding-box;
+}
+
+.merchant-terms-active::-webkit-scrollbar-thumb {
+	color: grey;
+}

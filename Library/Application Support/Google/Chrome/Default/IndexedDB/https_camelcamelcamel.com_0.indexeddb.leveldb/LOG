@@ -1,0 +1,5 @@
+2021/02/23-22:23:08.104 8be3b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_camelcamelcamel.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/23-22:23:12.676 a86d3 Level-0 table #5: started
+2021/02/23-22:23:12.701 a86d3 Level-0 table #5: 315 bytes OK
+2021/02/23-22:23:12.725 a86d3 Delete type=0 #3
+2021/02/23-22:23:12.725 a86d3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

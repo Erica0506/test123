@@ -1,0 +1,5 @@
+2021/02/25-15:42:38.225 92153 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_assets.vlitag.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/25-15:43:05.945 ca26f Level-0 table #5: started
+2021/02/25-15:43:05.954 ca26f Level-0 table #5: 344 bytes OK
+2021/02/25-15:43:05.996 ca26f Delete type=0 #3
+2021/02/25-15:43:06.003 ca26f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

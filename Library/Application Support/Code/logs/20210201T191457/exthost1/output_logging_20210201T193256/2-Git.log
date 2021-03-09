@@ -1,0 +1,24 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :README.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git cat-file -s 48baeb0d030f949441966cd817dac002655fc4c8
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n26 -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git show --textconv :README.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git cat-file -s 48baeb0d030f949441966cd817dac002655fc4c8

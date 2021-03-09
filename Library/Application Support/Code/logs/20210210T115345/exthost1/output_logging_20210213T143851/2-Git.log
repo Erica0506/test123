@@ -1,0 +1,37 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git init
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/Sita_practice/Erica(Xuan)_Zhou_Assignment_1_Appple
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+> git config --local branch.master.github-pr-owner-number
+> git config --local branch.master.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+> git config --get-all user.name
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Erica(Xuan)_Zhou_Assignment_1_Appple/index.html
+> git cat-file -s a11ab17cbc383d93c763a990851368205b5b36a6
+> git check-ignore -v -z --stdin
+> git status -z -u

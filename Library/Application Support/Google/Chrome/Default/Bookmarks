@@ -1,0 +1,155 @@
+{
+   "checksum": "9ebd256d44f0625a342ec3a74aab43c6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13193120323453590",
+            "guid": "ddf3a336-bd57-4c85-bb40-f904add99797",
+            "id": "11",
+            "name": "iSQL*Plus Release 9.2.0.6.0 Production: Work Screen",
+            "type": "url",
+            "url": "http://oracle92.is.umbc.edu:7778/isqlplus"
+         }, {
+            "date_added": "13193120323453668",
+            "guid": "07ba8ca9-f9b4-427d-ae50-5c0cc03e928a",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13195683691482561"
+            },
+            "name": "Start · myUMBC",
+            "type": "url",
+            "url": "https://my.umbc.edu/"
+         }, {
+            "date_added": "13193120323453709",
+            "guid": "91d1d76f-4558-48b3-9246-901a61ab5d66",
+            "id": "13",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         }, {
+            "date_added": "13193120323453753",
+            "guid": "eb0c35aa-c4e6-4621-9626-24cda67252d9",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13193517114533120"
+            },
+            "name": "ericazhou900506@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?tab=wm#inbox"
+         }, {
+            "date_added": "13193120323453757",
+            "guid": "635cb525-abdd-4e46-a300-8b34d72816a5",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13195683691482561"
+            },
+            "name": "myUMBC",
+            "type": "url",
+            "url": "https://my.umbc.edu/"
+         }, {
+            "date_added": "13225523831554937",
+            "guid": "6e85a655-e274-4137-a992-c2c6864632d0",
+            "id": "16",
+            "name": "Data Scientist - GEICO Careers",
+            "type": "url",
+            "url": "https://geico.referrals.selectminds.com/jobs/data-scientist-11199"
+         }, {
+            "date_added": "13242149666122706",
+            "guid": "f651e1d1-fa81-4487-9d30-c6e603cedf6e",
+            "id": "17",
+            "name": "Erica Zhou_ Resume (轩轩) - ericazhou900506@gmail.com - Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/tiffany%40itlize.com/FFNDWMkvFQbRXhkCkxllJBjwxCFZjHQc"
+         }, {
+            "date_added": "13243453908195105",
+            "guid": "90183182-3cba-4cde-b022-5c72374728e9",
+            "id": "18",
+            "name": "Top 50 JavaScript Interview Questions and Answers for 2020 | Edureka",
+            "type": "url",
+            "url": "https://www.edureka.co/blog/interview-questions/javascript-interview-questions/"
+         }, {
+            "date_added": "13244005972200502",
+            "guid": "983d3c67-0d09-48f5-83cb-f67d75537c7d",
+            "id": "19",
+            "name": "Options",
+            "type": "url",
+            "url": "https://github.com/Erica0506/module4-solution/settings"
+         }, {
+            "date_added": "13248547103864840",
+            "guid": "d07a728c-82f9-4798-9171-e55f3abe16e3",
+            "id": "20",
+            "name": "y,.t",
+            "type": "url",
+            "url": "https://campus.datacamp.com/courses/introduction-to-tableau/presenting-your-data?ex=20"
+         }, {
+            "date_added": "13255629485189804",
+            "guid": "07620ab2-13e9-4ccb-80ec-e7bc8e1aab03",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13255629485191496",
+            "guid": "f4fa7d63-db22-46d5-92f1-23897c3e6386",
+            "id": "6",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13255629485192285",
+            "guid": "88272596-e581-4bcc-911e-bf5f5cc22042",
+            "id": "7",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13255629495393546",
+            "guid": "d00bb7a5-2d4d-4b98-8e60-ba68e164aac4",
+            "id": "8",
+            "name": "News",
+            "type": "url",
+            "url": "https://news.google.com/"
+         }, {
+            "date_added": "13255629497313395",
+            "guid": "529f1216-252d-40e5-85be-fea2b0298dd8",
+            "id": "9",
+            "name": "Translate",
+            "type": "url",
+            "url": "https://translate.google.com/"
+         } ],
+         "date_added": "13255629475502784",
+         "date_modified": "13255629497313395",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13255629475502840",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13194144240983154",
+            "guid": "620b8a6d-8bfe-45de-b37c-afd0c5a7bc98",
+            "id": "10",
+            "name": "IS 733 Data Mining",
+            "type": "url",
+            "url": "https://swe.umbc.edu/~jfoulds/IS733/"
+         } ],
+         "date_added": "13255629475502843",
+         "date_modified": "13194144240983154",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CrABCo8BCIiBAhKIARJ2CAISOAoGCgJibRABEDMaEgkAIt5VBrwFACEAIt5VBrwFADIYChYIAhG5goNlBrwFABgAIQAAAAAAAAAAEjgKBgoCYmQQABAzGhIJACLeVQa8BQAhACLeVQa8BQAyGAoWCAIRuYKDZQa8BQAYACEAAAAAAAAAACAASOqU8YP9LnDqlPGD/S4SACABKhhsWnBSREhKbFRMcmZ4UDlNNUkyT21nPT0SwwEIAxK+AQoceTVXRTI3dUk2dlgvRGVJU0hKem5qTXF1V1dzPRJmWjpBRHF0QVp6SXlqVGl0VzR3K3lTb25rd0NjcURxRU9PZUpEbCtIV1lIeU1aZ1ZGUFJJS3l2ZVVNclAwdEFGcldmbEdwZkNKYjhRb251NDlaWGg2VmVCaUZpVmhnd3pTenN3dz09GAAgACgAMPaMoN/nqu4COABAAEocNzlsK0xSRVVwaWFFdkREK0c0M2NwWFN0d0JjPVoAZQAAAAASrAIIChKnAgocMjl0SlFjM1dnaUNKU25lZzd6eHdqS3JmeVp3PRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYWxIcjgvK2IyYU9tZ2JGOTVIVHk3OW5NaG9HNVJzT3ZqeWI4K2tDVGpaUFBzSTdHekFJbER0TGRuVDNXdTVuN2lJTlJDYmJVQ3NaeHJxMFNmeWdDRDhBVXM2YjZPbXpUYnk2cUJ2UndNVVJUSFJNdnZCbGgyQW9lUTNadmFNdWVOVDkyNW9RPT0YACAAKAAwl7HO3Ou37QI43NrF/IwtQNzaxfyMLUocSndKUWtCVzAxYjZBczRVcWE2OVhvVElQZ2UwPVoeIhxjY2ZEWWVvalJTSC9WRFE5cWtZcjZTeWNmVlk9ZQAAAAASrAIIDRKnAgocTXllTWJFK0R4emlPWTJqWmM1K29FOXFpaUlnPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV0gwQkVub0tyZncrOVMzV1dCL1BaS1VBaUhnWHRmUkc0TnNmTEVwWStBN3d5OFVzYk5ZRFgzQVB2VlR4eGlxTklldGppaFIzeUxBR3JpbVIxSWZHMWdqQjVZMDJLb2g2bFBlcTBTSVBzdDd5dERBTHBBPT0YACABKAEwxK2K4OGA7wI4rNTH0P4tQL3vpYP9LkocOHE1QitDNkthYnVVZEJWTzgvc2FZbFVKcS9FPVoeIhxoazlQLzVQNEFHdHFQQ1pkMjEwNWszcTgzQ2M9ZVb9xUMSrAIICxKnAgocREFjWk0reHlzOUNqRFM4d3dabUJ1cjllNzV3PRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV0tXZWhFVm9vbDlmRHVCL3BwaEM5RzU5cThiNmwxU0dTWWNoSEF0bHBMV2IrKysvb1I1SVZ5a3U3ekcrYzNqbHN6RGlpaFNFRkswUzFVNzY0bGxLMmh2WkYrdEZPNVV0Z2dvZjBxN0ZoS3Q0QmxsQm9RPT0YACAAKAAwl7HO3Ou37QI4rNTH0P4tQKzUx9D+LUocNWYyNTdKTHgwZENoZGQvVGliaXNEM0hnT1RJPVoeIhw4L0tYaUJoeDMrdElMRi9OYVF5OXR4K1RtV2c9ZQAAAAASqwEIARKmAQocL0VLTGFVVXlNZGJLRWsxQmEyVWlueURuZjdJPRJOWjpBRHF0QVp3OWZoajlsb0o3UitWUTZwbmllcXAvZmZDd3VOYmF4TW1VQVVtbnltcVppSjlFbEpCN1Fka3lKSFVrY25OMnhzYnM4TW1jGAAgACgAMPaMoN/nqu4COABAAEocVStHR0l0WkVEcFpzSVNsT1VhSVR1SUxkTW5JPVoAZQAAAAASrAIIDBKnAgoca2JmRWxZMWxzMmVuMUxGWUxwR2tBeElTWG1zPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV0xZZjRnbGxqRUFQNXZWaXhWM2RLUDBqdE5FVUhMVVJCb2xxQXBpV2t5eTMxOEE1R0xyREdvdXg5Wk5tTy80bTdCTndpRGFoSWxOVW1MRkdjQ0RLc3RxVkU1aG1XRlYvS0FuaXR0a0V2MG45SUFoWUFRPT0YACADKAMwiuX3gvSt7gI4rNTH0P4tQNm+4bXyLkocdEVCV2d3aWIvV0dxTnpzZDdZOWZOalFZc0E4PVoeIhxBdC9qTkpzQXp6OFJQZkkwZ2NoNm5iQXNTekU9ZfXIivoSrQIIDhKoAgocYmFxd2lJMVJESU5HMC80QkxJVzMwZ0xJUm1RPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV044YlFYNW5OMU10M1VtVjhCTlpxbWp4ajRYUXlpb2ZLRnA2ejEzM0NWaWV4L3dCdnVicXo2aHJMSjVvSlVnU1IxUmxJN1QxYzFLak5ESW9ZRGxkL3YyZzlFelZaaStkc2c5bWs2aEVWdzhwcWY0a09nPT0YACACKAIwjYPH4Oeq7gI4rNTH0P4tQLCPhYPyLkocc3JtbHR0WFFjbk9NWTc1N0w1VGIzMTNHREFZPVofIh20R1d1UFliNFdaVmlPTWVUVTBrcWcvOGhaN3FrPWWLoIzREq0CCBASqAIKHGVXdHlKS2dObDFocDk0eHZNSFkwTDZnU1VjWT0SpgFaOkFEcXRBWnpwS2VVS3pLK2YyaDdBNVN0Q2p1TmFPWEVQKzQxU0dIUk9LVjdNd0szcFdCdngxQ3N4RnpwWjFNNW9EMFQ4WFlDR3NHQUM4cG1vQTNjdlJ6WVhUOHZLVnc1WTN0eHY3VnQ5OU5JWHJvTDBmQ0ZGTWk2YzZkaHcydkdIM0l0ZmRac2ZCZzUzNUpXdU5waGM5bm9qaU83R0pJUDNhQT09GAAgAigCMI2Dx+Dnqu4COIP2v++BLkCwj4WD8i5KHGpyVUViMXNFZWQySTA5UXZ6U01LTmNWSkVyUT1aHyId+1VFcGYvbnU1cGFXTzE2UTZDRm16am1oQzh5UT1lmctTOhKuAggHEqkCChwxaHhMVWFJc3E3SFFjV1ZOakJmRnkxS2U3Ujg9EqYBWjpBRHF0QVp6cEtlVUt6SytmMmg3QTVTdENqdU5hWEhHY25MU205d0hacWlFTUtYU1JtOXlTU1Z3LzlveG5YTmVONWJieTZzUUhDTEM4R2kxUVI4cDFvL2I0RDJMZEt6alp3NWVwSzFCT05vY3dNVjVnQmQ0cnoxM1lEMXo4UXZBaWJYNEpOSnZkbXZCZ0NlYk5VdTlEOWNtU3A1Q0NZVDBZR3c9PRgAIAEoATCNg8fg56ruAjiPj4WD8i5Aj4+Fg/IuShw5emkrQitqcTdUUWg2REo1MFVUR2UxRDZaY0k9WiAiHv/9b1hPMzVFZ1RtdXdYZ3ZhRm5QcithZTZUclZnPWWk++iYEq4CCAgSqQIKHGlQRDlUbHdGU0o0a2s1OFRDS1lUMzBlV0t0MD0SpgFaOkFEcXRBWnpwS2VVS3pLK2YyaDdBNVN0Q2p1TmFYSEdjbkxTbTl3SFpxaUVNS1hTUm04Z2d3M28wTlBsWnBkVjgzc3A5enlwcUtNYjdVLy94UnU4VHo5ejcxbitDTEpKUDJmMzh2TlRaVXAxZ1M2c3NjUU5ncDNLeVdJNk1pRlllMDZ1SVpLdWlIeHRQM09HdCtHb0JsWlIxYVZlb09nSktYQT09GAAgASgBMI2Dx+Dnqu4COI+PhYPyLkCPj4WD8i5KHHMwUUc1b000T1FnSS9ZVlBmekdTOHJ3U2NiQT1aICIe//5UaklqR1BxeVBGcFFUem1ZdW1OSmF6aGFvMEE9Zc/OrWoSrQIIDxKoAgocaFJVSzNHNG9OakhEWUIyNGRybXIrc2NubmZJPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV0tXdXdRSGhXaER0alp2Ni9jRWYwY3VreXpsbnExY0tSN1hNWE1BZnZOSVQ3S2FIMGlVOFJ0Zjh4N0R0VFVORHpIMTBtZ2hWemVnY2NqMk5kRGM2dFFvbkNVYVpjUFFtT1dOVXdqVEh5cm9yMzFBTHZ3PT0YACABKAEwiuX3gvSt7gI4rNTH0P4tQNm+4bXyLkocR24wdnd4Sm9Od0VFdDBvcFd3SlpnYSttbWFNPVofIh3adGhlRFk4Nms3STZocTZYNXB0ZWhKbXVBd21nPWX1yIr6Eq4CCBQSqQIKHGkvSjJtSXlMZnFiK3dmaHBhTllMOWNhdDg2MD0SpgFaOkFEcXRBWnpwS2VVS3pLK2YyaDdBNVN0Q2p1TmFPWEVQKzQxU0dIUk9LVjdNd0szcFdIM0lrV21UYjE5WEd3Y250OVkzdTFWS2kxRGRIYlE1ai9ZUFpxZENKRTg4QmR2YS9GaGlrc1JFVVFqZk5LcUxoNzNZb3I0dThjSHpwamRsalVxV0llNi9Dbk05blN6bGQrY2taV3dONUx0TXJQOG5Sdz09GAAgAigCMI2Dx+Dnqu4COPr47NHXLkC0j4WD8i5KHFNQblF0V2p0ZXU5dm5wMkZxb3U4SzB5cDd1OD1aICIe/+k4RkxGeHc0RlhFMkZxQkUyU0NycnhFWG1hNk09ZVtOz0QSrgIIEhKpAgocdmJTYm5UeCtySTgrM1FtakhYZGVNUTJLRXlzPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYU9YRVArNDFTR0hST0tWN013SzNwV0ZFcXVqL1hSVDBWNU03UjZwemdkUTVsWk9xVGV2aGRWbmVJZVFjeHpRNVNBYk9sOHpvZTJ3eDNkdThDZDh3TEt5VDJjWUFRL1JiY0dFUjNSNkh4TVBwU3doNEkzNGtZYjNlQk8vdmN2cU1ZVVMwdnpBPT0YACACKAIwjYPH4Oeq7gI45fmc1cQuQLGPhYPyLkocMW1xTVA2QlRpbWJsL0VFeXYvOHRPNk9KK1RRPVogIh7/pSt3Q2JXL1R2VkdjektxQUpiZlVHQ2VnSG5jRT1lM1LvQBKuAggTEqkCChxaT3VyWGlTVHZPZXhwMHRFYXNqWGVwbzJzcm89EqYBWjpBRHF0QVp6cEtlVUt6SytmMmg3QTVTdENqdU5hT1hFUCs0MVNHSFJPS1Y3TXdLM3BXRVNPeDlOQ2duRkh1WERDcUtqcmlJQmx0L2FOd3kwNXFCTEZjSDhlTkFRRlBscVN5RE9PK0x3K0s5bmV0NmV0SE5jdkYrdjVJb1ZmUmtzaDA0bGErZ1FCS1FHMVpZV0VNM2Y5MHpuV29KYjdDN1J0VEE9PRgAIAIoAjCNg8fg56ruAjjoobzcxi5AsY+Fg/IuShxhUklJVUw3cDZIekVWM1ZMTmIxREY1UHIrY0U9WiAiHv/SeU83VGpmaldPYnczZzFKcGcwSTYxOTFCSDkwPWUo0OGpEq4CCAUSqQIKHEZ1UWRQTzhSMDlHVkdDUStkLzVwVlEvN0Q1ND0SpgFaOkFEcXRBWnpwS2VVS3pLK2YyaDdBNVN0Q2p1TmFYSEdjbkxTbTl3SFpxaUVNS1hTUm00ZHkvYm1RTUtOK0sxVitLa0dwcVc4czJya3Jmck01L1U3S3M2WEk5ckxRODNBSWdwRE16VzZISHhnWWp0K3E0eVg5SkdVemkrb3FDRFNvTHN3SmFyQ3IxTVU3cFUzTE4wR1I4cHVIanFiUm44aEFldz09GAAgAigCMNiK5ZXmxu4COI6PhYPyLkDWrsvN9S5KHFphSUZiQzU5RU5XdmJYcjhVZ1FvRjljdWhQYz1aICIe//RUOUlLRVNzSTgySER1cDJMdDZSdzJFdUVRM2M9ZYugjNESrgIICRKpAgocUVNidFNjbmg0b1lld2RHWHJKenhiVlRHNTZnPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYVhIR2NuTFNtOXdIWnFpRU1LWFNSbTFQOThqb09GMmY2K05mNldBM05mc3grVXI4bEpjalF4dmtUSHJXVUZ6UktQVFNQeEJCRlowbjZnS1dseEU3QndNRGdvRGZ3YzZPdWVNZ0tEVzR5OUVpZEpWSzlwM2xCSW81VDZ4eTd1alV6aUhZNmFnPT0YACABKAEwjYPH4Oeq7gI4j4+Fg/IuQI+PhYPyLkocZWNoT0dpNFJ1Q3V0S1RoTytMaTJMRFdlcHNVPVogIh7//3NtcW1kc1RPZTU5Y0xCa0VpeUJqWEp6eHlPVT1lXCr5KhLDAQgCEr4BChx6RFZHcnJ0WkxkTSs0QlR5YmcrSENPcldneW89EmZaOkFEcXRBWndUQitWNThsSXpYRUhYajJTeWZ5YmFPNnZvckx0ZmtIN1VHbGZ3aXA3eWdiTVM2VmNhVmwrLzI3TlBjbTFDRHhHc3ZBWklXcytCSEIvZk5vWjJ4SEsvM0pFTjFnPT0YACAAKAAw9oyg3+eq7gI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WgBlAAAAABKtAggREqgCChxaOTVCL3o0KzI3MW8wSEpnczZsVHFrU2pYa1E9EqYBWjpBRHF0QVp6cEtlVUt6SytmMmg3QTVTdENqdU5hT1hFUCs0MVNHSFJPS1Y3TXdLM3BXRjVhY2RBaGpCQkhrSWQzZHdRRXRyVE83Y2sxYm9IYVJ3dG5pS2g2cXFDNHZOaDVtOUtidTJwMFpRSzR0NTRyVVVPcjFhUWdtbmhzMDdYb3F2RVc0NUh2R2dsQmFPZEJYWG5EL2lLaXhaejh0Nk1nTFE9PRgAIAMoAzDIsIvCsuruAjjQqqjnvy5AnsXmlPouShx0OUJPWk9Qb2N3bVRrUHNzM2VFYjF1OGhQWDA9Wh8iHf5lajNlUldGTGlsUG9uNFRRUHBnOVdmTnVwcU09ZYugjNESrgIIBhKpAgocQlExbTc3M0tPektkQ3I0dk5Lc2Vzb3BmQjdFPRKmAVo6QURxdEFaenBLZVVLeksrZjJoN0E1U3RDanVOYVhIR2NuTFNtOXdIWnFpRU1LWFNSbStQc1BnUzcvQWhOTmw3VTdOSmRhY3gxeE0vVHIxaUQ3aTM0eU9iTkVJRlVaSG5oTDJFUEZYNTRUTS9QUkk3TmRyRm5FZnZqZGQ2UVlybE5CekpSdjhYa3E4UnM4YXVMSmRKZTBnMENBaHhVcGtMWEpBPT0YACACKAIw7pW0qrbO7gI4j4+Fg/IuQMTkxMr2LkoccHF2K09NWWg3NXdUeDlTZkJYVEhuK1paVCtBPVogIh7/+ldUWUtRa1NyNWFLK29VdGdJRnhGQWJQcUpxTT1lOP122xgBIPOV8YP9Lg==",
+   "version": 1
+}

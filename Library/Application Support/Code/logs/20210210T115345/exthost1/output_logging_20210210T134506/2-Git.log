@@ -1,0 +1,21 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/Itlize-orientation
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/gh-pages refs/remotes/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/Itlize-orientation/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --local branch.gh-pages.github-pr-owner-number
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git show --textconv :JS assignment-Erica(Xuan) Zhou/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/JS assignment-Erica(Xuan) Zhou/index.html
+> git cat-file -s dc04f6e13bcd51cba283edc9ced226a8329f3307
+> git check-ignore -v -z --stdin
+> git show --textconv :JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git cat-file -s 672660afc4b165f6cebb25733d74d18f560bce9c

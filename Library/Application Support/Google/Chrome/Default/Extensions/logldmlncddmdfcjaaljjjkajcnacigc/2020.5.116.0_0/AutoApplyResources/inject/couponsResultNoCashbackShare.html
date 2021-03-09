@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/fonts/Roboto.css" />
+	<link rel="stylesheet" href="inject.css" />
+</head>
+<body style="display: inline-flex; overflow: hidden;">
+	<div id="leftSection" class="bfrl_leftSection" style="width: 476px;">
+		<div id="bfrl_header" class="bfrl_headerNoPigLogo bfrl_textCenter">
+			<div class="bfrl_group bfrl_textCenter">
+				<div style="display: table; width: 100%;">
+					<p>
+						<img src="img/logoText.png" />&nbsp;saved you:
+					</p>
+				</div>
+			</div>
+			<div class="bfrl_closeButtonContainer sidePanel_close">
+				<div id="bfrl_closeButton">
+					<span class="bfrl_btnclose">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                            <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                        </svg>
+                    </span>
+				</div>
+			</div>
+		</div>
+		<div class="bfrl_messageContent" style="margin: 0; position: relative; top: -3px;">
+			<div class="bfrl_group bfrl_textCenter">
+				<div style="width: 100%; height: 86px; line-height: 86px;">
+					<div style="display: inline; vertical-align: middle;">
+						<div id="bfrl_totalSaved" class="bfrl_discountAmount"></div>
+					</div>
+				</div>
+				<div style="margin: 10px;">
+					<span class="bfrl_lightGray" style="display: inline; font-size: 12px; font-weight: 400;">with&nbsp;</span><span id="bfrl_codesText" class="bfrl_lightGray" style="display: inline; font-size: 12px; font-weight: 400;"></span>
+					<div id="bfrl_codesList">
+						<span class="bfrl_couponCode bfrl_lightGray"></span>
+						<span class="bfrl_couponCode bfrl_lightGray"></span>
+						<span class="bfrl_couponCode bfrl_lightGray"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bfrl_buttonContainer" style="margin: 50px auto 60px auto;">
+			<button id="bfrl_continueToCheckoutButton" class="bfrl_boldface bfrl_orange_bg" type="button">
+				<span>Continue to Checkout</span>
+			</button>
+		</div>
+		<div class="bfrl_footnote">
+			<div style="position: absolute; bottom: 8px; right: 20px;">
+				<span id="bfrl_reportProblem" class="bfrl_lightestGray">Report a problem</span>
+			</div>
+		</div>
+		<div class="bfrl_footer bfrl_blueGray_bg" style="padding-bottom: 14px;">
+			<div class="bfrl_group bfrl_footerBlock">
+				<span class="icon-comments-o bfrl_blueGray" style="font-size: 70px; position: relative; top: -20px; left: -12px;"></span>
+				<p class="bfrl_clearFix">
+					<span class="bfrl_text bfrl_blueGray">Share BeFrugal with a friend
+						<span class="bfrl_ref"> and
+							<span class="bfrl_boldface bfrl_blueGray"> Earn 
+								<span class="bfrl_bonusCashback bfrl_boldface bfrl_blueGray">$10</span>!
+							</span>
+						</span>
+					</span>
+					<br />
+					<span class="bfrl_text bfrl_blueGray bfrl_ref">
+						Your friend will also get <span class="bfrl_text bfrl_blueGray bfrl_bonusFriendGets">$10</span>
+					</span>
+					<a id="bfrl_shareUsLink" class="bfrl_linkPadding text">
+						Learn More&nbsp;<span class="icon-chevron-right" style="font-size: 10px;"></span>
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="bfrl_rightSection" class="bfrl_rightSection outer lightBlueGray_bg" style="height: 448px;">
+		<div class="bfrl_closeButtonContainer sidePanel_open">
+			<div id="bfrl_closeButton">
+				<span class="bfrl_btnclose">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                        <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                    </svg>
+                </span>
+			</div>
+		</div>
+		<div class="bfrl_group inner">
+			<div style="text-align: center;">
+				<span class="icon-dollar" style="font-size: 96px; position: relative; left: -6px; color: #6dbaf3;"></span>
+			</div>
+			<div style="margin: 10px 0;">
+				<span class="bfrl_blueGray" style="font-size: 18px; font-weight: 400; line-height: 1.5em;">Share BeFrugal with a Friend
+					<span class="bfrl_ref"> and
+						<span class="bfrl_boldface bfrl_blueGray"> Earn 
+							<span class="bfrl_bonusCashback bfrl_boldface bfrl_blueGray">$10</span>
+						</span>
+						per friend!
+					</span>
+				</span>
+			</div>
+            <div class="bfrl_ref">
+                <span class="bfrl_blueGray">Your friend will also get <span class="bfrl_blueGray bfrl_bonusFriendGets">$10</span></span>
+            </div>
+			<div class="bfrl_group" style="margin-top: 36px;">
+				<div class="bfrl_rowLayout">
+					<input id="bfrl_rafLinkInputBox" spellcheck="false" class="bfrl_inputBoxField lightBlueGray_bg" type="text" style="width: 140px !important;" readonly />
+					<button id="bfrl_copyTextButton" class="bfrl_copyGreen_bg" type="button">
+						<span>Copy</span>
+					</button>
+				</div>
+				<div class="bfrl_rowLayout">
+					<button id="bfrl_facebookButton" class="bfrl_facebookBlue_bg bfrl_columnLayout" type="button">
+						<span class="icon-facebook" style="font-size: 24px; vertical-align: middle;"></span><span>&nbsp;Share</span>
+					</button>
+					<button id="bfrl_twitterButton" class="bfrl_twitterBlue_bg bfrl_columnLayout" type="button">
+						<span class="icon-twitter" style="font-size: 24px; vertical-align: middle;"></span><span>&nbsp;Tweet</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="couponsResultNoCashbackShare.js"></script>
+</body>
+</html>

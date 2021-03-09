@@ -1,0 +1,35 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/Sita_practice/Assignment_1_Appple
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --local branch.master.github-pr-owner-number
+> git config --get commit.template
+> git show --textconv :index.html
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/index.html
+> git config --local branch.master.github-pr-owner-number
+> git cat-file -s a11ab17cbc383d93c763a990851368205b5b36a6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/index.html
+> git show --textconv :CSS/styles.css
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/CSS/styles.css
+> git cat-file -s ffb431c568f010e107d6a3464d4635717745f3dd
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/CSS/styles.css
+> git show --textconv :JS/script.js
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/JS/script.js
+> git cat-file -s 503035ca402434ad2b65cd13fd433e23c6d55793
+> git show --textconv :index.html
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/index.html
+> git cat-file -s a11ab17cbc383d93c763a990851368205b5b36a6
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/index.html
+> git show --textconv :CSS/styles.css
+> git ls-files --stage -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/CSS/styles.css
+> git cat-file -s ffb431c568f010e107d6a3464d4635717745f3dd
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/Sita_practice/Assignment_1_Appple/CSS/styles.css

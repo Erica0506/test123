@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<!-- Size: 600x491 -->
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="feedback.css" />
+	<title></title>
+</head>
+<body>
+	<div id="bfrl_dialogButtonContainer">
+		<div id="bfrl_backButton">
+			<span class="bfrl_btnback">&#10140;</span>
+		</div>
+		<div id="bfrl_closeButton">
+			<span id="bfrl_closeButton" class="bfrl_btnclose">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                </svg>
+            </span>
+		</div>
+	</div>
+	<div class="bfrl_center bfrl_background">
+		<div id="bfrl_title" class="bfrl_header bfrl_primaryFontColor">We're All Ears!</div>
+		<div id="bfrl_messageBody" class="bfrl_thickBoldface bfrl_primaryFontColor">
+			<p class="bfrl_left">
+				Please tell us what went wrong. Your feedback will help us to keep bringing you the best coupons, deals, and Cash Back offers!
+			<p>
+		</div>
+		<form>
+			<div class="bfrl_fullWidth">
+				<table class="bfrl_fullWidth">
+					<tbody>
+						<tr>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Took too long to apply coupons" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Took too long to apply coupons</span>
+								</div>
+							</td>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Popping up too often" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Popping up too often</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Amount saved is wrong" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Amount saved is wrong</span>
+								</div>
+							</td>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Need more info on Cash Back" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Need more info on Cash Back</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Didn't find any savings" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Didn't find any savings</span>
+								</div>
+							</td>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Missing working coupon code(s)" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Missing working coupon code(s)</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="bfrl_left">
+									<input id="" type="radio" name="categories" value="Other" />
+									<span class="bfrl_primaryFontColor bfrl_thinBoldface bfrl_radioButtonOption">Other</span>
+								</div>
+							</td>
+							<td>
+								<!-- Intentionally left blank. -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div>
+				<div class="fieldSpacing">
+					<textarea id="bfrl_commentField" class="bfrl_boxsizingBorder bfrl_inactive" placeholder="Your comments or suggestions"></textarea>
+				</div>
+				<div class="fieldSpacing">
+					<input id="bfrl_emailField" class="bfrl_boxsizingBorder bfrl_inactive" spellcheck="false" placeholder="Your email address if you're requesting help (optional)" type="text" />
+				</div>
+			</div>
+            <div id="bfrl_additionalHelp" class="bfrl_left" style="padding-top:10px">
+                <span class="bfrl_primaryFontColor"><a href="https://www.befrugal.com/help/" class="bfrl_primaryFontColor" target="_blank">Visit our Help Center</a> for FAQs, email support, and live chat.</span>
+            </div>
+			<div id="bfrl_submitContainer">
+				<div id="bfrl_submitButton" class="btnsubmit-disabled" style="height: 2.5em; line-height: 2.5em;">
+					<span style="font-size: 19px;vertical-align: middle;text-align: center;">Submit</span>
+				</div>
+				<div id="bfrl_errorMessageContainer">
+					<span id="bfrl_errorMessage"></span>
+				</div>
+			</div>
+		</form>
+		<div>
+			<div id="bfrl_dialogPig">
+				<img src="img/dialogPig.png" />
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="reportProblem.js"></script>
+</body>
+</html>

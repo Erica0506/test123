@@ -1,0 +1,8 @@
+2021/02/02-21:50:22.713 3387b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ccm.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/02-21:50:22.714 3387b Recovering log #34
+2021/02/02-21:50:22.714 3387b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ccm.net_0.indexeddb.leveldb/000034.log 
+2021/02/02-21:50:30.631 34927 Level-0 table #38: started
+2021/02/02-21:50:30.631 34927 Level-0 table #38: 0 bytes OK
+2021/02/02-21:50:30.658 34927 Delete type=0 #34
+2021/02/02-21:50:30.660 34927 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/02-21:50:30.661 34927 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

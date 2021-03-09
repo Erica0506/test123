@@ -1,0 +1,9 @@
+[2021-02-01 19:39:24.135] [renderer3] [error] Failed to execute git
+[2021-02-01 19:40:39.624] [renderer3] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/githubs/Itlize-orientation/.vscode'
+[2021-02-01 19:42:21.943] [renderer3] [error] Failed to execute git
+[2021-02-01 19:42:56.211] [renderer3] [error] Failed to execute git
+[2021-02-01 19:46:40.508] [renderer3] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/githubs/Itlize-orientation-1/.vscode'
+[2021-02-01 19:47:11.840] [renderer3] [error] spawn /usr/bin/git ENOENT: Error: spawn /usr/bin/git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+	at onErrorNT (internal/child_process.js:456:16)
+	at processTicksAndRejections (internal/process/task_queues.js:81:21)

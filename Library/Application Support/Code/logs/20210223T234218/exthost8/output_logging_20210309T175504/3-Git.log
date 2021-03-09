@@ -1,0 +1,7 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git remote add test123 https://github.com/Erica0506/test123.git

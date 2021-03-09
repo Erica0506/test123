@@ -1,0 +1,169 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git show --textconv :module4-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/index.html
+> git cat-file -s c343802b0072d460b740ad3082adc367e7980f8b
+> git check-ignore -v -z --stdin
+> git show --textconv :module4-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/index.html
+> git cat-file -s c343802b0072d460b740ad3082adc367e7980f8b
+> git show --textconv :module4-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/index.html
+> git cat-file -s c343802b0072d460b740ad3082adc367e7980f8b
+> git show --textconv :module4-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/index.html
+> git cat-file -s c343802b0072d460b740ad3082adc367e7980f8b
+> git show --textconv :module4-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/index.html
+> git cat-file -s c343802b0072d460b740ad3082adc367e7980f8b
+> git show --textconv :module4-solution/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module4-solution/script.js
+> git cat-file -s 692f1f60b89988fa25bf16ce4f4f44e74e0f15dc
+> git check-ignore -v -z --stdin
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/Itlize-orientation
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/Itlize-orientation/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git show --textconv :JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git cat-file -s 672660afc4b165f6cebb25733d74d18f560bce9c
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/css/bootstrap.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/bootstrap.css
+> git cat-file -s 42c79d6e459ece1c606314879146768dad3d2656
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/bootstrap.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/bootstrap.css
+> git cat-file -s 42c79d6e459ece1c606314879146768dad3d2656
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/css/bootstrap.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/bootstrap.css
+> git cat-file -s 42c79d6e459ece1c606314879146768dad3d2656
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git show --textconv :module3-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/index.html
+> git cat-file -s c1eab5a9040f95bdee7bf84d837f3e14c5119f04
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/.DS_Store
+> git show --textconv HEAD:module2-solution/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/.DS_Store
+> git show --textconv HEAD:module3-solution/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/.DS_Store
+> git show --textconv HEAD:.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/.DS_Store
+> git ls-tree -l HEAD -- /Users/xuanzhou/githubs/coursera-assignment/.DS_Store
+> git show --textconv :JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git cat-file -s 672660afc4b165f6cebb25733d74d18f560bce9c
+> git show --textconv :JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/JS assignment-Erica(Xuan) Zhou/lib/script.js
+> git cat-file -s 672660afc4b165f6cebb25733d74d18f560bce9c

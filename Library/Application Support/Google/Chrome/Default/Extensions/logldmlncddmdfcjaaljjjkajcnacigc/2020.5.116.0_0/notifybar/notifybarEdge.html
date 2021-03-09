@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Toolbar Notification</title>
+	<!--CSS START-->
+	<style>
+		/*CSS START*/
+
+		/* Never use wildcard CSS rules. If done so, it will break retailer site's original font icons. */
+
+		.bfslider_clearFix::after {
+			content: "" !important;
+			display: block !important;
+			clear: both !important;
+		}
+
+		.bfrl_boldface {
+			font-weight: 600 !important;
+		}
+
+		#BFRLsliderIframe {
+			-webkit-user-select: none !important;
+			-ms-user-select: none !important;
+			user-select: none !important;
+		}
+
+		#BFRLsliderIframe * {
+			-webkit-user-select: none !important;
+			-ms-user-select: none !important;
+			user-select: none !important;
+		}
+
+		#notification-body {
+			width: 500px !important;
+			background-color: #fff !important;
+			position: fixed !important;
+			border: 1px solid #ccc !important;
+			-webkit-box-shadow: 1px 1px 1px #ccc !important;
+			box-shadow: 1px 1px 1px #ccc !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+			font-family: Roboto, Arial, Helvetica, sans-serif;
+		}
+
+		#notification-banner-dragHandle {
+			position: absolute !important;
+			top: 0px !important;
+			left: 0px !important;
+			width: 16px !important;
+			height: 24px !important;
+		}
+
+		/* Container must be smaller than the image content by 1 pixel, in order for Chrome to not render a tiny 1 pixel gap under the image. */
+
+		#notification-left {
+			font-size: 15px !important;
+			height: 93px !important;
+			float: left !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+			margin: 0 !important;
+			position: relative !important;
+		}
+
+		#notification-right {
+			float: right !important;
+			width: 62% !important;
+			margin: 0 18px 0 0 !important;
+		}
+
+		#notification-right-container-notActivated {
+			margin: auto !important;
+			text-align: center !important;
+			height: 93px !important;
+			line-height: 93px !important;
+			font-size: 15px !important;
+			color: #fff !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+		}
+
+		#notification-activateCB {
+            margin: 26px !important;
+			display: inline-block !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+			cursor: pointer !important;
+			position: relative !important;
+		}
+
+		#notification-button-activateCB {
+			width: 250px !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+			background-color: #129500 !important;
+			border: 1px solid #0b7b00 !important;
+			border-bottom: 3px solid #0b7b00 !important;
+			font-family: Roboto, Arial !important;
+			height: 40px !important;
+			display: block !important;
+			line-height: 40px !important;
+			-webkit-box-sizing: border-box !important;
+			box-sizing: border-box !important;
+		}
+
+		#notification-button-activateCB:hover {
+			background-color: #34b719 !important;
+			border-bottom: 3px solid #129500 !important;
+		}
+
+		#notification-button-activateCBText {
+			color: #fff !important;
+			font-size: 15px !important;
+			font-weight: 500 !important;
+			font-family: Roboto, Arial, Helvetica, sans-serif !important;
+			opacity: 1 !important;
+		}
+
+		#notification-button-close {
+			width: 16px !important;
+			height: 16px !important;
+			cursor: pointer !important;
+		}
+
+		.bfgl_checkmark {
+			color: #129500 !important;
+			width: 52px !important;
+			height: 52px !important;
+			line-height: 93px !important;
+			vertical-align: middle !important;
+			border: none !important;
+		}
+
+		.checkmarkContainer {
+			vertical-align: middle !important;
+			line-height: 93px !important;
+			display: inline-block !important;
+			position: relative !important;
+		}
+
+		#notification-cashbackActivated {
+			height: 93px !important;
+			line-height: 93px !important;
+		}
+
+		#notification-cashbackActivated-confirm {
+			display: inline !important;
+		}
+
+		#group1 {
+			float: right !important;
+			width: 250px !important;
+			line-height: 22px !important;
+			font-family: Roboto, Arial !important;
+			color: #129500 !important;
+			padding: 27px 0 0 0 !important;
+		}
+
+		.cashbackTextHeader {
+			line-height: 20px !important;
+			font-family: Roboto, Arial !important;
+			display: inline !important;
+			color: #129500 !important;
+			font-size: 22px !important;
+			opacity: 1 !important;
+		}
+
+		.cashbackText {
+			line-height: 20px !important;
+			font-family: Roboto, Arial !important;
+			display: inline !important;
+			color: #129500 !important;
+			font-size: 16px;
+			opacity: 1 !important;
+		}
+
+		.dialog_grab {
+			cursor: move !important;
+		}
+
+		.dialog_grab.active {
+			cursor: move !important;
+		}
+
+		/* CSS END */
+	</style>
+	<!--CSS END-->
+</head>
+
+<body>
+	<!--NOTIFY BAR START-->
+	<div id="notification-body" class="bfslider_clearFix" style="display:none;">
+		<div style="position: absolute; top: 8px; right: 8px; width: 16px; height: 16px;">
+			<div id="notification-button-close" style="width: 16px; height: 16px; ">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" style="width: 16px;">
+					<path stroke="#838383" stroke-width="4" d="M10 10, L40 40, M10 40, L40 10" />
+				</svg>
+			</div>
+		</div>
+		<div id="notification-left" class="bfslider_clearFix dialog_grab">
+			<img id="notification-banner" src="{BANNERSRC}" />
+			<img id="notification-banner-dragHandle" src="{DRAG_ICON_SRC}" />
+		</div>
+		<div id="notification-right" class="bfslider_clearFix">
+			<div id="notification-right-container-notActivated">
+				<div id="notification-activateCB">
+					<div id="notification-button-activateCB">
+						<span id="notification-button-activateCBText">Activate Cashback</span>
+					</div>
+				</div>
+			</div>
+			<div id="notification-right-container-activated">
+				<div id="notification-activatedCB">
+					<div id="notification-cashbackActivated">
+						<div class="checkmarkContainer bfslider_clearFix">
+							<svg class="bfgl_checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+								<path fill="#fff" stroke="#129500" stroke-width="5" d="M14.1 27.2, L22.1 35.2, M19.0 35.0, L36.7 18.8"/>
+							</svg>
+						</div>
+						<div id="group1" class="bfslider_clearFix">
+							<span class="cashbackTextHeader bfrl_boldface" id="notification-cashbackActivated-cashbackRateText">{CASHBACK}</span><br />
+							<span class="cashbackText" id="notification-cashbackActivated-confirm">Cash Back Activated</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--NOTIFY BAR END-->
+	<div>
+		<br /><br />Cash Back Activation State
+		<br /><input type="radio" name="group1" value="notification-right-container-notActivated" onclick="toggle(this);"> notification-right-container-notActivated
+		<br /><input type="radio" name="group1" value="notification-right-container-activated" onclick="toggle(this);"> notification-right-container-activated
+
+		<!-- <script>
+			Array.prototype.contains = function(element) {
+				for (var i = 0; i < this.length; i++) {
+					if (this[i] == element) return true;
+				}
+				return false;
+			}
+
+			function toggle(elem) {
+				window.setTimeout(function() {
+					document.getElementById(elem.value).style.display = elem.checked ? "" : "none";
+				}, 1);
+			}
+
+			function toggleradio(state) {
+				var visibles = [];
+				switch (state) {
+					case 'NotifyA':
+						visibles = ['merchant-logo', 'btn-click-for', 'text-savings2', 'left-coupons', 'click-top-btn'];
+						break;
+					case 'NotifyAA':
+						visibles = ['merchant-logo', 'btn-click-for-active', 'use-code', 'text-savings2', 'left-coupons', 'all-offers'];
+						break;
+					case 'NotifyAAA':
+						visibles = ['merchant-logo', 'btn-click-for-active', 'cpn-activated', 'text-savings2', 'left-coupons', 'all-offers'];
+						break;
+					case 'NotifyMakeCashback':
+						visibles = ['merchant-logo', 'left-cashback1', 'text-cashback', 'right-cashback', 'icon-moneybag', 'click-cb-btn', 'btn-click-for-make', 'cpn-makeaccount'];
+						break;
+					case 'NotifyMakeCoupon':
+						visibles = ['merchant-logo', 'left-coupons', 'click-cb-btn2', 'btn-click-for-make', 'cpn-makeaccount', 'txtaccount', 'aMakeAccount', 'text-savings2'];
+						break;
+					case 'NotifyGoToAccount':
+						visibles = ['merchant-logo', 'left-coupons', 'click-cb-btn2', 'btn-click-for-make', 'cpn-makeaccount', 'agotomyaccount'];
+						break;
+					case 'NotifyB':
+						visibles = ['merchant-logo', 'left-cashback1', 'btn-click-for', 'right-cashback', 'icon-moneybag', 'text-cashback', 'click-cb-btn'];
+						break;
+					case 'NotifyC':
+						visibles = ['merchant-logo', 'left-cashback2', 'text-terms'];
+						break;
+				}
+				reset(visibles);
+			}
+
+			function reset(arr) {
+				var nodes = document.getElementsByTagName("input");
+				for (var i = 0; i < nodes.length; ++i) {
+					var node = nodes[i];
+					if (node.type == "checkbox" && node.onclick) {
+						if (arr) node.checked = arr.contains(node.value);
+						toggle(node);
+					}
+				}
+			}
+
+			window.onload = function() {
+				toggleradio('NotifyMakeCoupon');
+			};
+		</script> -->
+	</div>
+</body>
+
+</html>

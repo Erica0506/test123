@@ -1,0 +1,262 @@
+﻿<html>
+
+<head>
+	<meta charset="utf-8" />
+	<style>
+        #BFRLsliderIframe, #BFRLsliderDiv {display:none !important;}
+
+		#bfrl_divCouponsFound * {
+			font-family: Roboto, Arial, Helvetica, sans-serif !important;
+			-webkit-user-select: none !important;
+			-ms-user-select: none !important;
+			user-select: none !important;
+			color: #444 !important;
+		}
+
+		#bfrl_divCouponsFound button {
+			padding: 8px 15px !important;
+			border-radius: 4px !important;
+			border-style: none !important;
+			text-transform: capitalize !important;
+			line-height: normal !important;
+			text-shadow: unset !important;
+			letter-spacing: unset !important;
+			background: unset !important;
+            display: inline-block !important;
+		}
+
+		#bfrl_divCouponsFound button:hover {
+			cursor: pointer !important;
+		}
+
+		#bfrl_divCouponsFound button span {
+			color: #fff !important;
+			font-weight: 400 !important;
+			letter-spacing: normal !important;
+			border: none !important;
+			text-transform: capitalize !important;
+			background: #0000 !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+		}
+
+		#bfrl_divCouponsFound div {
+			float: initial !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_bigButton {
+			padding: 14px 0px !important;
+			width: 300px !important;
+			border-bottom: 3px solid #e45328 !important;
+			transition: none !important;
+			height: unset !important;
+			line-height: normal !important;
+			text-shadow: unset !important;
+			letter-spacing: unset !important;
+			background: unset !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_bigButton:focus {
+			outline: none !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_bigButton:hover {
+			border-bottom: 3px solid #d25224 !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_bigButton span {
+			font-size: 24px !important;
+			font-weight: 600 !important;
+			letter-spacing: normal !important;
+			border: none !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_boldface {
+			font-weight: 600 !important;
+			font-size: 100% !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_closeButtonContainer {
+			position: absolute !important;
+			top: 5px !important;
+			right: 0 !important;
+			font-size: 16px !important;
+			cursor: pointer !important;
+			z-index: 2000 !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_closeButtonContainer #bfrl_closeButton {
+			padding: 10px 12px !important;
+			cursor: pointer !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_group {
+			display: block !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			float: none !important;
+			clear: both !important;
+			content: "" !important;
+			width: 100% !important;
+		}
+
+		#bfrl_divCouponsFound #bfrl_header {
+			background: unset !important;
+			z-index: unset !important;
+			cursor: all-scroll !important;
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_headerPigLogo {
+			width: 100% !important;
+			position: relative !important;
+			padding: 20px 0 !important;
+			height: unset !important;
+			line-height: normal !important;
+			min-width: unset !important;
+			border: none !important;
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_headerPigLogo img {
+			display: inline-block !important;
+            width: 90px !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_headerNoPigLogo {
+			width: 100% !important;
+			position: relative !important;
+			padding: 32px 0 0 0 !important;
+			height: unset !important;
+			line-height: normal !important;
+			min-width: unset !important;
+			border: none !important;
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_headerNoPigLogo img {
+			display: inline-block !important;
+			position: relative !important;
+			top: 13px !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_headerNoPigLogo p {
+			font-size: 18px !important;
+			font-weight: 600 !important;
+			display: table-cell !important;
+			vertical-align: middle !important;
+			height: 56px !important;
+			line-height: 56px !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_orange {
+			color: #fa5b27 !important;
+			background: none !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_orange_bg {
+			background-color: #fa5b27 !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_orange_bg:hover {
+			background-color: #e45328 !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_textCenter {
+			text-align: center !important;
+			margin: 0 auto !important;
+			font-weight: 400 !important;
+			font-size: 14.5px !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_messageTitle {
+			font-size: 32px !important;
+			font-weight: 400 !important;
+			background-color: #fff !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_messageContent {
+			margin: 8px 20px 0px 20px !important;
+			line-height: normal !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_buttonContainer {
+			text-align: center !important;
+			margin: 4px auto !important;
+			letter-spacing: unset !important;
+			display: block !important;
+			width: 400px !important;
+			padding: 0 !important;
+		}
+
+		#bfrl_divCouponsFound .bfrl_buttonContainer :not(.bfrl_bigButton) span {
+			color: #fff !important;
+			font-weight: 200 !important;
+			font-size: 14px !important;
+			border: none !important;
+		}
+
+		#bfrl_divCouponsFound #bf_ug_cv_drag {
+			position: relative !important; 
+			top: 0px !important; 
+			left: 0px !important;
+		}
+
+		#bfrl_divCouponsFound #bf_ug_cv_drag img {
+			position: absolute !important; 
+			top: 10px !important; 
+			left: 10px !important;
+            height:20px !important; 
+            width:10px;
+			margin: 10px !important;
+			cursor: all-scroll !important;
+		}
+
+        .bfrl_btnclose {
+            padding: 10px 12px;
+        }
+	</style>
+</head>
+
+<body>
+	<div id="bf_ug_cv_drag">
+	</div>
+	<div id="bfrl_header" class="bfrl_headerPigLogo bfrl_textCenter">
+        <span id="bfrl_logo">
+        </span>
+		<div class="bfrl_closeButtonContainer">
+			<div id="bfrl_closeButton">
+				<span class="bfrl_btnclose">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                        <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                    </svg>
+                </span>
+			</div>
+		</div>
+	</div>
+	<div id="bfrl_messageContent" class="bfrl_messageContent">
+		<div class="bfrl_group bfrl_textCenter">
+			<span id="bfrl_title" class="bfrl_messageTitle"></span>
+		</div>
+		<div class="bfrl_group bfrl_textCenter" style="margin: 0 auto !important;">
+			<span id="bfrl_couponTotal" class="bfrl_boldface bfrl_orange" style="font-size: 54px !important; vertical-align: middle !important; margin-right: 15px !important;"></span>
+			<span id="bfrl_couponTotalMessage" style="font-size: 20px !important; font-weight: 400 !important; vertical-align: middle !important;"></span>
+            <span id="bfrl_cashbackRate" style="color: #199402 !important; font-size: 24px !important; font-weight:600 !important; vertical-align: middle !important; display:none; margin-bottom:20px"></span>
+		</div>
+	</div>
+	<div id="bfrl_buttonContainer" class="bfrl_buttonContainer bfrl_textCenter">
+		<button id="bfrl_couponButton" class="bfrl_boldface bfrl_orange_bg bfrl_bigButton" type="button">
+			<span>Apply Button</span>
+		</button>
+	</div>
+</body>
+
+</html>

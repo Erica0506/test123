@@ -1,0 +1,220 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --local branch.main.github-pr-owner-number
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/app.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.component.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/login.service.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login.service.spec.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.spec.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/user.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/user.spec.ts
+> git show --textconv :angular/app/src/app/shared/classes/user.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/classes/user.spec.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/employee.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/employee.ts
+> git show --textconv :angular/app/src/app/employee.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/employee.spec.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/employee.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/employee.ts
+> git show --textconv :angular/app/src/app/shared/classes/user.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/classes/user.ts
+> git show --textconv :angular/app/src/app/employee.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/employee.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/classes/user.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/classes/user.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/app.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.component.html
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/app.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.component.html
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/services/login.service.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/services/login.service.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/sample.directive.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/sample.directive.spec.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample.directive.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample.directive.spec.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.spec.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/app.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.component.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/classes/user.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/classes/user.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/login/login.component.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/duration.pipe.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/duration.pipe.spec.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/app-routing.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app-routing.module.ts
+> git show --textconv :angular/app/src/app/duration.pipe.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/duration.pipe.spec.ts
+> git show --textconv :angular/app/src/app/shared/pipes/duration/duration.pipe.spec.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/pipes/duration/duration.pipe.spec.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/pipes/duration/duration.pipe.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/pipes/duration/duration.pipe.ts
+> git show --textconv :angular/app/src/app/app.module.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/app.module.ts
+> git show --textconv :angular/app/src/app/login/login.component.html
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/login/login.component.html
+> git show --textconv :angular/app/src/app/shared/pipes/duration/duration.pipe.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/pipes/duration/duration.pipe.ts
+> git show --textconv :angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/directives/sample/sample.directive.ts
+> git show --textconv :angular/app/src/app/shared/pipes/duration/duration.pipe.ts
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/shared/pipes/duration/duration.pipe.ts

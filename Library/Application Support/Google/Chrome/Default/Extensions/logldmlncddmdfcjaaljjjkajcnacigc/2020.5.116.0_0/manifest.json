@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "grey_icon48.png",
+      "default_popup": "popup.html",
+      "default_title": "BeFrugal"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery.min.js", "js/contentscript.js", "js/autoApplyPrefs.js", "js/documentAccess.js", "js/autoApplyContent.js", "js/purify.min.js" ],
+      "matches": [ "*://*/*" ]
+   }, {
+      "js": [ "js/yahooPopupSuppress.js" ],
+      "matches": [ "*://*.yahoo.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.befrugal.com; object-src 'self';",
+   "description": "Automatically apply coupons and cash back at thousands of your favorite stores!",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuYNTwP3sLM6V7ujxA53AS2ENeRRTkPUfT2jUor/9ZSc5YOu30LX1Ed4aA3P8FZtkxrMrXqY+Rqa80OG+dbIIYPYGGdHc2wC5wAx59D7F5KwozGehlY8G2BmF+De72Oxx6Wtku5BmWGiLm0L6buhMFveLZW8iJ/GYBd4S2LtZ5+rVnzXX6CRxjD89oYrFHocDB7CV7yLyX0Qkd9cMl28kaLS1Yaiv1/wfNsvN2FHXf187V3STEIawOX63sfQ4LCq9aB11UjzXwzBRo6WdJuZ2SU2eSfNjcSoGy4157NHvmu4I6vW24laYCwJ5YKyvgVTod2YpRyFespo8jU30c3iGcQIDAQAB",
+   "manifest_version": 2,
+   "name": "BeFrugal: Automatic Coupons and Cash Back",
+   "optional_permissions": [ "management" ],
+   "permissions": [ "tabs", "*://*/*", "webRequest", "webRequestBlocking", "storage" ],
+   "short_name": "BeFrugal",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2020.5.116.0",
+   "web_accessible_resources": [ "AutoApplyResources/*", "animations/badgeIcons/*", "animations/checkmark/*", "instructionImages/*", "notifybar/images/*", "disable/*", "ratepopup/*", "fonts/*", "toast_icon.png", "search_icon.png", "banner_next.png", "banner_prev.png", "disableExtensionsPage.html", "settingsPage.html", "up-arrow.png", "chrome-arrow.png", "chrome-arrow-small.png", "skin/go.png", "icon48.png", "icon128.png", "icon_cb.png", "grey_icon48.png", "scrollbar.js", "scrollbar.css", "js/newToast.js", "js/button.js", "js/notifybar.js", "settings/settings.html", "settings/searchSites.html" ]
+}

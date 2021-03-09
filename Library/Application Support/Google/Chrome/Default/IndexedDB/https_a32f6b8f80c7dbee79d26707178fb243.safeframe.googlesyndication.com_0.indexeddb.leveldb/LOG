@@ -1,0 +1,5 @@
+2021/03/02-15:33:52.162 cea3f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_a32f6b8f80c7dbee79d26707178fb243.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/02-15:33:55.022 cea3f Level-0 table #5: started
+2021/03/02-15:33:55.037 cea3f Level-0 table #5: 439 bytes OK
+2021/03/02-15:33:55.062 cea3f Delete type=0 #3
+2021/03/02-15:33:55.064 fce33 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

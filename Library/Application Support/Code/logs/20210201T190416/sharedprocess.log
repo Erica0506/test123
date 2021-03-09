@@ -1,0 +1,51 @@
+[2021-02-01 19:04:20.407] [sharedprocess] [info] main {"machineId":"26881768205986920a7130a252583af298064642d620627470c055a000789446","windowId":2}
+[2021-02-01 19:04:20.510] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Library/Application Support/Code/User/snippets'
+[2021-02-01 19:04:41.944] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2021-02-01 19:04:42.505] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint undefined
+[2021-02-01 19:04:42.547] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.dbaeumer.vscode-eslint-2.1.14: dbaeumer.vscode-eslint
+[2021-02-01 19:04:42.547] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14
+[2021-02-01 19:04:42.548] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2021-02-01 19:04:42.561] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2021-02-01 19:04:59.573] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2021-02-01 19:04:59.752] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack undefined
+[2021-02-01 19:04:59.811] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-pack-0.12.1: vscjava.vscode-java-pack
+[2021-02-01 19:04:59.811] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-pack-0.12.1
+[2021-02-01 19:04:59.815] [sharedprocess] [info] Installation completed. vscjava.vscode-java-pack
+[2021-02-01 19:04:59.944] [sharedprocess] [info] Installing extension: visualstudioexptteam.vscodeintellicode
+[2021-02-01 19:04:59.944] [sharedprocess] [info] Installing extension: redhat.java
+[2021-02-01 19:04:59.944] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2021-02-01 19:04:59.944] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2021-02-01 19:04:59.944] [sharedprocess] [info] Installing extension: vscjava.vscode-java-test
+[2021-02-01 19:04:59.945] [sharedprocess] [info] Installing extension: vscjava.vscode-java-dependency
+[2021-02-01 19:05:00.295] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-dependency undefined
+[2021-02-01 19:05:00.359] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-dependency-0.17.0: vscjava.vscode-java-dependency
+[2021-02-01 19:05:00.359] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-dependency-0.17.0
+[2021-02-01 19:05:00.362] [sharedprocess] [info] Installation completed. vscjava.vscode-java-dependency
+[2021-02-01 19:05:00.376] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-dependency
+[2021-02-01 19:05:00.439] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-02-01 19:05:00.462] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug undefined
+[2021-02-01 19:05:00.498] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-test undefined
+[2021-02-01 19:05:00.608] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven undefined
+[2021-02-01 19:05:00.747] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-debug-0.30.0: vscjava.vscode-java-debug
+[2021-02-01 19:05:00.748] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-debug-0.30.0
+[2021-02-01 19:05:00.751] [sharedprocess] [info] Installation completed. vscjava.vscode-java-debug
+[2021-02-01 19:05:00.766] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-debug
+[2021-02-01 19:05:00.874] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-java-test-0.27.0: vscjava.vscode-java-test
+[2021-02-01 19:05:00.876] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-java-test-0.27.0
+[2021-02-01 19:05:00.881] [sharedprocess] [info] Installation completed. vscjava.vscode-java-test
+[2021-02-01 19:05:01.107] [sharedprocess] [info] Downloaded extension: visualstudioexptteam.vscodeintellicode undefined
+[2021-02-01 19:05:01.485] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.vscjava.vscode-maven-0.27.1: vscjava.vscode-maven
+[2021-02-01 19:05:01.485] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/vscjava.vscode-maven-0.27.1
+[2021-02-01 19:05:01.488] [sharedprocess] [info] Installation completed. vscjava.vscode-maven
+[2021-02-01 19:05:01.504] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-maven
+[2021-02-01 19:05:02.022] [sharedprocess] [info] Downloaded extension: redhat.java undefined
+[2021-02-01 19:05:02.213] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.visualstudioexptteam.vscodeintellicode-1.2.11: visualstudioexptteam.vscodeintellicode
+[2021-02-01 19:05:02.213] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.11
+[2021-02-01 19:05:02.215] [sharedprocess] [info] Installation completed. visualstudioexptteam.vscodeintellicode
+[2021-02-01 19:05:02.226] [sharedprocess] [info] Extensions installed successfully: visualstudioexptteam.vscodeintellicode
+[2021-02-01 19:05:02.762] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.redhat.java-0.74.0: redhat.java
+[2021-02-01 19:05:02.763] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/redhat.java-0.74.0
+[2021-02-01 19:05:02.764] [sharedprocess] [info] Installation completed. redhat.java
+[2021-02-01 19:05:02.778] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2021-02-01 19:05:02.779] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-test
+[2021-02-01 19:05:02.779] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-java-pack

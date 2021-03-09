@@ -1,0 +1,85 @@
+[Info] /Users/xuanzhou/.ssh/config: ENOENT: no such file or directory, open '/Users/xuanzhou/.ssh/config'
+[Info] Looking for git repository
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'upstream' found.
+[Info] Found GitHub remote
+[Info] Unable to resolve remote: HttpError: Not Found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] GitHubRepository> Fetching pull requests for branch failed: HttpError: Not Found
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] GithubRepository> Unable to fetch issues: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GithubRepository> Unable to fetch issues: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GithubRepository> Unable to fetch issues with query: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GithubRepository> Unable to fetch issues with query: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GithubRepository> Unable to fetch issues without milestone: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GithubRepository> Unable to fetch issues without milestone: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'upstream' found.
+[Info] Found GitHub remote
+[Info] GithubRepository> Unable to fetch issues: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] Unable to resolve remote: HttpError: Not Found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] GithubRepository> Unable to fetch issues with query: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] GitHubRepository> Fetching pull requests for branch failed: HttpError: Not Found
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] GithubRepository> Unable to fetch issues without milestone: Error: GraphQL error: Could not resolve to a Repository with the name 'Erica0506/Erica-Xuan-_Zhou_Assignment_1_Appple'.
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'upstream' found.
+[Info] Found GitHub remote
+[Info] Unable to resolve remote: HttpError: Not Found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] GitHubRepository> Fetching pull requests for branch failed: HttpError: Not Found
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'upstream' found.
+[Info] Found GitHub remote
+[Info] Unable to resolve remote: HttpError: Not Found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] GitHubRepository> Fetching pull requests for branch failed: HttpError: Not Found
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'origin' found.
+[Info] No remote with name 'upstream' found.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'origin' found.
+[Info] No remote with name 'upstream' found.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'origin' found.
+[Info] No remote with name 'upstream' found.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'origin' found.
+[Info] No remote with name 'upstream' found.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] No remote with name 'origin' found.
+[Info] No remote with name 'upstream' found.
+[Info] No GitHub remotes found
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main

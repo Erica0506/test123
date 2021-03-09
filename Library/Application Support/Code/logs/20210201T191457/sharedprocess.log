@@ -1,0 +1,14 @@
+[2021-02-01 19:15:00.782] [sharedprocess] [info] main {"machineId":"26881768205986920a7130a252583af298064642d620627470c055a000789446","windowId":2}
+[2021-02-01 19:15:40.797] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-02-01 19:56:59.762] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2021-02-01 19:57:00.052] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github undefined
+[2021-02-01 19:57:00.201] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.github.vscode-pull-request-github-0.22.0: github.vscode-pull-request-github
+[2021-02-01 19:57:00.201] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/github.vscode-pull-request-github-0.22.0
+[2021-02-01 19:57:00.204] [sharedprocess] [info] Installation completed. github.vscode-pull-request-github
+[2021-02-01 19:57:00.219] [sharedprocess] [info] Extensions installed successfully: github.vscode-pull-request-github
+[2021-02-01 20:06:58.501] [sharedprocess] [info] Installing extension: donjayamanne.githistory
+[2021-02-01 20:06:58.742] [sharedprocess] [info] Downloaded extension: donjayamanne.githistory undefined
+[2021-02-01 20:06:58.830] [sharedprocess] [info] Extracted extension to /Users/xuanzhou/.vscode/extensions/.donjayamanne.githistory-0.6.14: donjayamanne.githistory
+[2021-02-01 20:06:58.830] [sharedprocess] [info] Renamed to /Users/xuanzhou/.vscode/extensions/donjayamanne.githistory-0.6.14
+[2021-02-01 20:06:58.832] [sharedprocess] [info] Installation completed. donjayamanne.githistory
+[2021-02-01 20:06:58.845] [sharedprocess] [info] Extensions installed successfully: donjayamanne.githistory

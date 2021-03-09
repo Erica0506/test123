@@ -1,0 +1,115 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/Itlize-orientation
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/Itlize-orientation/.git/refs/remotes/origin/main', is most likely packed.
+> git config --local branch.main.github-pr-owner-number
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/master', is most likely packed.
+> git config --local branch.master.github-pr-owner-number
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git config --local branch.master.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :README.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git cat-file -s 48baeb0d030f949441966cd817dac002655fc4c8
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/gh-pages
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/README.md
+> git cat-file -s 48baeb0d030f949441966cd817dac002655fc4c8
+> git show --textconv :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :module3-solution/css/styles.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module3-solution/css/styles.css
+> git cat-file -s c74d3d4f4b4eab797d539923af51ea3003edc3b4
+> git check-ignore -v -z --stdin
+> git show --textconv :module2-solution/lib/style.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/lib/style.css
+> git cat-file -s df4974f6e53834f1bdb6faefbd37b764823dd53c
+> git show --textconv :module2-solution/lib/script.js
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/lib/script.js
+> git cat-file -s 06e67a63d8e345a279843c36f5bab45399d5ea4c
+> git show --textconv :module2-solution/lib/style.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/lib/style.css
+> git cat-file -s df4974f6e53834f1bdb6faefbd37b764823dd53c
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/lib/style.css
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/lib/style.css
+> git cat-file -s df4974f6e53834f1bdb6faefbd37b764823dd53c
+> git check-ignore -v -z --stdin
+> git show --textconv :README.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/README.md
+> git cat-file -s f0fccde287bebcb7e55e90353ae8c23ed37c84c4
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/gh-pages
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/Itlize-orientation/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git ls-files --stage -- /Users/xuanzhou/githubs/Itlize-orientation/README.md
+> git cat-file -s 4558755852e2725ef7d56f63d77948d1327b1008
+> git show --textconv :README.md
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/Itlize-orientation/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin

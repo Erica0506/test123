@@ -1,0 +1,15 @@
+2021/03/04-20:30:01.325 112d57 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/04-20:30:01.326 112d57 Recovering log #98
+2021/03/04-20:30:01.326 112d57 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_aax-us-east.amazon-adsystem.com_0.indexeddb.leveldb/000098.log 
+2021/03/04-20:30:31.311 ced33 Level-0 table #102: started
+2021/03/04-20:30:31.327 ced33 Level-0 table #102: 190 bytes OK
+2021/03/04-20:30:31.354 ced33 Delete type=0 #98
+2021/03/04-20:30:31.357 ced33 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/04-20:30:31.357 ced33 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 13 : 1
+2021/03/04-20:30:31.357 ced33 Compacting 1@1 + 1@2 files
+2021/03/04-20:30:31.367 ced33 Generated table #103@1: 8 keys, 380 bytes
+2021/03/04-20:30:31.367 ced33 Compacted 1@1 + 1@2 files => 380 bytes
+2021/03/04-20:30:31.391 ced33 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/04-20:30:31.392 ced33 Delete type=2 #102
+2021/03/04-20:30:31.392 ced33 Delete type=2 #84
+2021/03/04-20:30:31.400 ced33 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 13 : 1 .. (end); will stop at (end)

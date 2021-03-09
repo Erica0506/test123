@@ -1,0 +1,439 @@
+﻿<html>
+
+<head>
+	<meta charset="utf-8" />
+	<style>
+        #BFRLsliderIframe, #BFRLsliderDiv {display:none !important;}
+
+		#bfrl_divShowCoupons * {
+			font-family: Roboto, Arial, Helvetica, sans-serif !important;
+			-webkit-user-select: none !important;
+			-ms-user-select: none !important;
+			user-select: none !important;
+			color: #444 !important;
+		}
+
+		#bfrl_divShowCoupons button {
+			padding: 8px 15px !important;
+			border-radius: 4px !important;
+			border-style: none !important;
+			text-transform: capitalize !important;
+			text-shadow: unset !important;
+			letter-spacing: unset !important;
+			background: unset !important;
+		}
+
+		#bfrl_divShowCoupons button:hover {
+			cursor: pointer !important;
+		}
+
+		#bfrl_divShowCoupons button span {
+			color: #fff !important;
+			font-weight: 400 !important;
+			letter-spacing: normal !important;
+			border: none !important;
+			text-transform: capitalize !important;
+			background: #0000 !important;
+		}
+
+		#bfrl_divShowCoupons div {
+			float: initial !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_buttonContainer {
+			text-align: center !important;
+			margin: 4px auto !important;
+			letter-spacing: unset !important;
+			display: block !important;
+			width: 400px !important;
+			padding: 0 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_buttonContainer span {
+			color: #fff;
+			font-weight: 200 !important;
+			font-size: 14px !important;
+			letter-spacing: normal !important;
+			border: none !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_copied span {
+			display: none !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_copied::after {
+			display: block !important;
+			content: "Copied" !important;
+			font-weight: 400 !important;
+			font-size: 12px !important;
+			background-color: #FFE5C5 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_closeButtonContainer {
+			position: absolute !important;
+			top: 10px !important;
+			right: 0px !important;
+			font-size: 16px !important;
+			z-index: 2000 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_closeButtonContainer #bfrl_closeButton {
+			padding: 10px 12px !important;
+			cursor: pointer !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_orange {
+			color: #fa5b27 !important;
+			background: none !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_orange_bg {
+			background-color: #fa5b27 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_orange_bg:hover {
+			background-color: #e45328 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_orange_text {
+			color: #fa5b27 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_yellowOrange_bg {
+			background-color: #FFE5C5 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_yellowOrange_bg:hover {
+			background-color: #FFD7A6 !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_boldface {
+			font-weight: 600 !important;
+			font-size: 100% !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_smallText {
+			font-size: 80% !important;
+			letter-spacing: normal !important;
+			line-height: 1em !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_normalTextWeight {
+			font-weight: 400 !important;
+			letter-spacing: normal !important;
+			text-align: center !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_group {
+			display: block !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			float: none !important;
+			clear: both !important;
+			content: "" !important;
+			width: 100% !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_textCenter {
+			text-align: center !important;
+			margin: 0 auto !important;
+			font-weight: 400 !important;
+			font-size: 14.5px !important;
+            line-height: inherit;
+		}
+
+		#bfrl_divShowCoupons #bfrl_header {
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+            cursor:all-scroll !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_headerPigLogo {
+			width: 100% !important;
+			position: relative !important;
+			padding: 20px 0 !important;
+			height: unset !important;
+			line-height: normal !important;
+			min-width: unset !important;
+			border: none !important;
+			background: unset !important;
+			z-index: unset !important;
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_headerPigLogo img {
+			display: inline-block !important;
+			width: 90px !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_headerNoPigLogo {
+			width: 100% !important;
+			position: relative !important;
+			padding: 32px 0 0 0 !important;
+			height: unset !important;
+			line-height: normal !important;
+			min-width: unset !important;
+			border: none !important;
+			background: unset !important;
+			z-index: unset !important;
+			top: unset !important;
+			box-shadow: unset !important;
+			min-height: unset !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_headerNoPigLogo img {
+			display: inline !important;
+			position: relative !important;
+			top: 13px !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_headerNoPigLogo p {
+			font-size: 18px !important;
+			font-weight: 600 !important;
+			display: table-cell !important;
+			vertical-align: middle !important;
+			height: 56px !important;
+			line-height: 56px !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_messageTitle {
+			font-size: 32px !important;
+			font-weight: 400 !important;
+			background-color: #fff !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_messageContent {
+			margin: 20px !important;
+			line-height: normal !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_showCouponsButton {
+			padding: 14px 24px !important;
+			width: 300px !important;
+			height: 60.6px !important;
+            float: none;
+            display: inline-block;
+			line-height: normal !important;
+			letter-spacing: unset !important;
+			box-shadow: unset !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_showCouponsButton:focus {
+			outline: none !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_showCouponsButton span {
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			border: none !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList td[class*="col"],
+		#bfrl_divShowCoupons #publicCouponsList td[class*="col"] {
+			background-color: #F3F3F3 !important;
+			cursor: pointer !important;
+			padding: 0 !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+			height: 1.5em !important;
+			width: 135px !important;
+			border: none !important;
+			display: table-cell !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList td[class*="col"]:hover,
+		#bfrl_divShowCoupons #publicCouponsList td[class*="col"]:hover {
+			background-color: #FFE5C5 !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList td[class*="col"] span,
+		#bfrl_divShowCoupons #publicCouponsList td[class*="col"] span {
+			display: inline-block;
+			width: 100% !important;
+			margin: 0 auto !important;
+			text-align: center !important;
+			font-weight: 400 !important;
+			font-size: 12px !important;
+			position: relative !important;
+			top: 1px !important;
+			line-height: 27px !important;
+			height: 27px !important;
+			vertical-align: middle !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList td[class*="col"] span[title],
+		#bfrl_divShowCoupons #publicCouponsList td[class*="col"] span[title] {
+			-webkit-user-select: all !important;
+			-ms-user-select: all !important;
+			user-select: all !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList,
+		#bfrl_divShowCoupons #publicCouponsList {
+			margin: 0 auto !important;
+			text-align: center !important;
+			width: 300px;
+			table-layout: fixed !important;
+			border-spacing: 10px !important;
+			border-collapse: separate !important;
+			border: none !important;
+		}
+
+		#bfrl_divShowCoupons #couponsList tr[id*="row"],
+		#bfrl_divShowCoupons #publicCouponsList tr[id*="row"] {
+			line-height: 1.5em !important;
+			max-height: 1.5em !important;
+		}
+
+		#couponsListTooltip {
+			text-align: center !important;
+			margin: 20px auto 10px auto !important;
+			font-size: 16px !important;
+		}
+
+		#publicCouponsListTooltip {
+			text-align: center !important;
+			margin: 30px auto 0px auto !important;
+			font-size: 16px !important;
+			cursor: pointer !important;
+		}
+
+		#couponsListContainer,
+		#publicCouponsListContainer {
+			max-height: 165px !important;
+			overflow-y: auto !important;
+			overflow-x: hidden !important;
+			text-align: center !important;
+			margin: 0 auto !important;
+			width: 310px !important;
+			font-size: 16px !important;
+		}
+
+		#bfrl_divShowCoupons #bfrl_couponTotal {
+			font-size: 54px !important; 
+			vertical-align: middle !important;
+			margin-right: 15px !important;
+		}
+
+		#bfrl_divShowCoupons #bfrl_couponTotalMessage {
+			font-size: 20px !important;
+			font-weight: 400 !important;
+			vertical-align: middle !important;
+		}
+
+		#bfrl_divShowCoupons .bfrl_hide {
+			display: none !important;
+		}
+
+		#bfrl_divShowCoupons ::-webkit-scrollbar {
+			width: 4px !important;
+			background: transparent !important;
+		}
+
+		#bfrl_divShowCoupons ::-webkit-scrollbar-thumb {
+			background: #e3e3e3 !important;
+		}
+
+		#bfrl_divShowCoupons #bf_ug_cv_drag {
+			position: relative !important; 
+			top: 0px !important; 
+			left: 0px !important;
+		}
+
+		#bfrl_divShowCoupons #bf_ug_cv_drag img {
+			position: absolute !important;
+            top: 10px !important;
+            left: 10px !important;
+            height: 20px !important;
+            width: 10px !important;
+            margin: 10px !important;
+            cursor: all-scroll !important;
+		}
+        .bfrl_btnclose {
+            padding: 10px 12px;
+        }
+	</style>
+</head>
+
+<body>
+	<div id="bf_ug_cv_drag">		
+	</div>
+	<div id="bfrl_header" class="bfrl_headerPigLogo bfrl_textCenter">
+        <span id="bfrl_logo"></span>
+		<div class="bfrl_closeButtonContainer">
+			<div id="bfrl_closeButton">
+				<span class="bfrl_btnclose">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                        <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                    </svg>
+                </span>
+			</div>
+		</div>
+	</div>
+	<div id="bfrl_messageContent" class="bfrl_messageContent" style="margin: 8px 0 0 0 !important;">
+		<div class="bfrl_group bfrl_textCenter">
+			<span id="bfrl_title" class="bfrl_messageTitle"></span>
+		</div>
+		<div class="bfrl_group bfrl_textCenter" style="margin: 0 0 14px 0 !important;">
+			<span id="bfrl_couponTotal" class="bfrl_boldface bfrl_orange"></span>
+			<span id="bfrl_couponTotalMessage"></span>
+            <span id="bfrl_cashbackRate" style="color: #199402 !important; font-size: 24px !important; font-weight:600 !important; vertical-align: middle !important; display:block; margin-bottom:20px"></span>
+		</div>
+	</div>
+	<div id="bfrl_buttonContainer" class="bfrl_buttonContainer bfrl_textCenter">
+		<button id="bfrl_couponButton" class="bfrl_boldface bfrl_yellowOrange_bg bfrl_showCouponsButton" type="button">
+			<span class="bfrl_orange_text"></span>
+		</button>
+	</div>
+	<div id="couponsListTooltip" class="bfrl_hide">
+		<div class="bfrl_orange bfrl_smallText bfrl_normalTextWeight">Click on a coupon to copy.</div>
+		<div class="bfrl_orange bfrl_smallText bfrl_normalTextWeight">Hover over the coupon to see its description.</div>
+	</div>
+	<div id="couponsListContainer" class="bfrl_hide">
+		<div class="custom-scrollable" style="display:block;max-height:165px">
+			<table id="couponsList">
+				<tbody>
+					<tr id="row0">
+						<td class="col0">
+							<span></span>
+						</td>
+						<td class="col1">
+							<span></span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="publicCouponsListTooltip" class="bfrl_hide">
+		<span id="publicCouponsCount" class="bfrl_smallText bfrl_normalTextWeight"></span>
+		<span id="publicCouponsText" class="bfrl_smallText"></span>
+	</div>
+	<div id="publicCouponsListContainer" class="bfrl_hide">
+		<div class="custom-scrollable" style="display:block;max-height:165px">
+			<table id="publicCouponsList">
+				<tbody>
+					<tr id="row0">
+						<td class="col0">
+							<span></span>
+						</td>
+						<td class="col1">
+							<span></span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<span id="codeCopied" class="bfrl_hide bfrl_yellowOrange_bg bfrl_orange">
+		<span class="icon-checkmark-full-small bfrl_orange" style="display: inline !important; padding: 0 !important; position: relative !important; top: 1px !important;"></span>
+		Copied
+	</span>
+</body>
+
+</html>

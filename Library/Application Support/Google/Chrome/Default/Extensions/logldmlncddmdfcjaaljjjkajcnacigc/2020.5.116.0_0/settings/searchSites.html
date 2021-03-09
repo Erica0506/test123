@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/fonts/Roboto.css" />
+	<link rel="stylesheet" href="settings.css" />
+	<link rel="stylesheet" href="../scrollbar.css" />
+	<title>Turn Off Alerts</title>
+	<style>
+		.removeButtonStyle:hover {
+			text-decoration: underline;
+			color: #007ADD;
+		}
+	</style>
+	<script src="../scrollbar.js"></script>
+</head>
+<body>
+	<div id="hideSitesContainer">
+		<div>
+			<div id="closeSettingsButtonContainer">
+				<div id="closeSettingsButton" class="button">
+					<span class="btnDone">Done</span>
+				</div>
+			</div>
+			<div class="hideNotifyHeader">
+				<span>Turn off Cash Back Alerts on these sites:</span>
+			</div>
+			<div class="content">
+				<input id="searchSitesInputBox" type="search" placeholder="Search and click on the store to add to the list" />
+				<div id="searchSuggestions" style="display:none">
+					<ul id="suggestionsList">
+						<li class="suggestionItem" id="searchSuggestion0"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText0"></span><div id="item0"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion1"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText1"></span><div id="item1"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion2"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText2"></span><div id="item2"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion3"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText3"></span><div id="item3"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion4"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText4"></span><div id="item4"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion5"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText5"></span><div id="item5"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion6"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText6"></span><div id="item6"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion7"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText7"></span><div id="item7"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion8"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText8"></span><div id="item8"></div></div></li>
+						<li class="suggestionItem" id="searchSuggestion9"><div class="suggestionItemPadding"><span class="suggestionSpan" id="suggestionText9"></span><div id="item9"></div></div></li>
+					</ul>
+				</div>
+				<div id="searchSitesList">
+					<span id="whenEmpty">No stores have been added.</span>
+				</div>
+			</div>
+		</div>
+		<div id="bottomRow">
+			<table id="bottomRowTable">
+				<tr>
+					<td>
+						<div style="padding-top: 8px;">
+							<div id="bottomRowWrapper" style="width: 100px;">
+								<a id="buttonRemoveAll" class="anchorLinkColor">Remove All</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="searchSites.js"></script>
+</body>
+</html>

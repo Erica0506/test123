@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>&nbsp;</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/fonts/Roboto.css" />
+	<link rel="stylesheet" href="settings.css" />
+</head>
+<body style="background-color: #fff">
+	<div id="bfrl_closeButtonContainer">
+		<div id="bfrl_closeButton">
+			<span class="bfrl_btnclose" style="font-size: 20px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" style="fill: #888;width:12px;">
+                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"></path>
+                </svg>
+            </span>
+		</div>
+	</div>
+	<div id="settingsHeader" class="alignCenter">
+		<img id="settingsLogo" class="alignMiddle" src="../settings_icon.png" />
+		<span id="settingsTitle"><span id="addonName" class="inline"></span>&nbsp;Settings</span>
+	</div>
+	<div class="bfrl_greydivSection"><div class="bfrl_horizontalRule"></div></div>
+	<table id="options" cellpadding="0" cellspacing="0" border="0">
+		<tbody>
+			<tr class="tableRow bfrl_hideForEdge">
+				<td class="optionsLabel">
+					<a href="#" id="aIncompatibleAddons">
+						<span class="icon-warning2" style="text-decoration: none;"></span><span style="margin-left: 7px;">Disable Conflicting Add-Ons</span>
+					</a>
+				</td>
+			</tr>
+			<tr class="bfrl_hideForEdge">
+				<td style="padding: 15px 0;">
+					<div class="bfrl_greydivSection"><div class="bfrl_horizontalRule"></div></div>
+				</td>
+			</tr>
+			<tr class="tableRow">
+				<td class="optionsLabel">Turn off Cash Back Alerts&nbsp;<a id="sitesBlacklist" href="#">on these sites</a>.</td>
+			</tr>
+			<tr>
+				<td style="padding: 15px 0;">
+					<div class="bfrl_greydivSection"><div class="bfrl_horizontalRule"></div></div>
+				</td>
+			</tr>
+			<tr class="tableRow">
+				<td class="optionsLabel">
+					<input id="flagAllowCashbackRates" type="checkbox" style="transform: scale(1.5);" />
+					<span style="position: relative; top: -2px; left: 8px;">Display Cash Back in Search Results</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>

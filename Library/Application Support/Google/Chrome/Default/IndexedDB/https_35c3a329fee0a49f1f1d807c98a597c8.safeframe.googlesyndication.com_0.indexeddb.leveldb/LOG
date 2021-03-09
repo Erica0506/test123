@@ -1,0 +1,5 @@
+2021/02/19-10:02:01.002 22d5f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_35c3a329fee0a49f1f1d807c98a597c8.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/19-10:07:11.588 22d5f Level-0 table #5: started
+2021/02/19-10:07:11.606 22d5f Level-0 table #5: 439 bytes OK
+2021/02/19-10:07:11.637 22d5f Delete type=0 #3
+2021/02/19-10:07:11.641 22d5f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

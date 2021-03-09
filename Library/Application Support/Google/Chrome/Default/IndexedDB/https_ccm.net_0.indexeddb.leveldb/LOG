@@ -1,0 +1,15 @@
+2021/02/03-10:03:21.141 3d247 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ccm.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/03-10:03:21.142 3d247 Recovering log #37
+2021/02/03-10:03:21.142 3d247 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_ccm.net_0.indexeddb.leveldb/000037.log 
+2021/02/03-10:03:29.689 48d93 Level-0 table #41: started
+2021/02/03-10:03:29.699 48d93 Level-0 table #41: 190 bytes OK
+2021/02/03-10:03:29.721 48d93 Delete type=0 #37
+2021/02/03-10:03:29.724 48d93 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/03-10:03:29.724 48d93 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 9 : 1
+2021/02/03-10:03:29.724 48d93 Compacting 1@1 + 1@2 files
+2021/02/03-10:03:29.735 48d93 Generated table #42@1: 8 keys, 332 bytes
+2021/02/03-10:03:29.735 48d93 Compacted 1@1 + 1@2 files => 332 bytes
+2021/02/03-10:03:29.757 48d93 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/03-10:03:29.758 48d93 Delete type=2 #5
+2021/02/03-10:03:29.758 48d93 Delete type=2 #41
+2021/02/03-10:03:29.761 48d93 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 9 : 1 .. (end); will stop at (end)

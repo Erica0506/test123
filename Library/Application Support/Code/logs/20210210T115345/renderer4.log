@@ -1,0 +1,4 @@
+[2021-02-15 10:01:09.811] [renderer4] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Sita_practice/w3/.vscode'
+[2021-02-15 10:40:20.270] [renderer4] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Sita_practice/Assignment_1_Appple/.vscode'
+[2021-02-15 14:38:47.759] [renderer4] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+[2021-02-15 14:38:49.998] [renderer4] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/Users/xuanzhou/Sita_practice/w3/.vscode'

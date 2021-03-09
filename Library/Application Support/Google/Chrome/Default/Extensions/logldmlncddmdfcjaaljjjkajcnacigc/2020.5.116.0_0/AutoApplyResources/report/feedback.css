@@ -1,0 +1,359 @@
+﻿/*Global generic rules*/
+
+* {
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+
+/*Classes*/
+
+.bfrl_center {
+	text-align: center;
+}
+
+.bfrl_left {
+	text-align: left;
+}
+
+.bfrl_thinBoldface {
+	font-weight: 500;
+}
+
+.bfrl_thickBoldface {
+	font-weight: 600;
+}
+
+.header {
+	font-size: 32px;
+}
+
+.bfrl_primaryFontColor {
+	color: #002677;
+}
+
+.bfrl_background {
+	background-color: #f1f9ff;
+	padding: 25px;
+}
+
+.required {
+	border: 1px solid #002677;
+}
+
+.bfrl_inactive {
+	border: 1px solid #D6D6D6;
+}
+
+.disabled {
+    background: #F4F4F4;
+    border: 1px solid #D6D6D6;
+}
+
+.bfrl_fullWidth {
+	width: 100%;
+}
+
+.fullHeight {
+	height: 100%;
+}
+
+.bfrl_boxsizingBorder {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fieldSpacing {
+	margin-top: 15px;
+}
+
+.bfrl_closeButtonContainer {
+	position: absolute;
+	top: 10px;
+    right: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	z-index: 2000;
+}
+
+#bfrl_disableIncompatibleAdd-Ons a{
+    color: #d5502f;
+    font-family: Arial;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bfrl_disableIncompatibleAdd-Ons a:hover {
+    color: #d5502f;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+.icon-warning2 {
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+
+@keyframes bounce {
+  0%,25%,35%,50%,100% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(-3px);
+  }
+  45% {
+    transform: translateY(-1px);
+  }
+}
+.icon-warning-filled:before {
+	content: "\a050";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+   
+}
+.icon-warning-filled {
+    animation-name: bounce;
+    animation-duration: 1.3s;
+    animation-iteration-count: 8;
+}
+
+.bfrl_bigButton {
+	padding: 8px 40px;
+    width: 300px;
+    border-bottom: 3px solid #fa5b27;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 2px;
+}
+
+.bfrl_bigButton:focus {
+	outline: none;
+}
+
+.bfrl_bigButton:hover {
+    cursor:pointer;
+	border-bottom: 3px solid #e45328;
+}
+
+.bfrl_bigButton span {
+	font-size: 22px !important;
+	font-weight: 600 !important;
+    color:#FFFFFF;
+}
+
+.bfrl_orange_bg {
+	background-color: #fa5b27;
+}
+
+.bfrl_orange_bg:hover {
+	background-color: #e45328 !important;
+}
+
+/*Buttons*/
+.btnsubmit {
+	background: #f63;
+	color: #FFFFFF;
+	border: 1px solid #f63;
+	box-shadow: 0px 2px 0px 0px #e27652;
+	border-radius: 1px;
+	text-decoration: none;
+	width: 140px;
+	height: 3em;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3em;
+}
+
+.btnsubmit-disabled{
+    background: #E7E7E7;
+	color: #FFFFFF;
+	border: 1px solid #dedbdb;
+	box-shadow: 0px 2px 0px 0px #dedbdb;
+	border-radius: 1px;
+	text-decoration: none;
+	width: 140px;
+	height: 2.5em;
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5em;
+}
+
+.btnsubmit:hover {
+	background: #ff9572;
+	color: #FFFFFF;
+	border: 1px solid #ff9572;
+	box-shadow: 0px 2px 0px 0px #e28a6d;
+	border-radius: 1px;
+	text-decoration: none;
+	width: 140px;
+	height: 3em;
+	display: inline-block;
+	margin: 0;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3em;
+}
+
+.bfrl_radioButtonOption:hover {
+	cursor: pointer;
+}
+
+.bfrl_btnclose {
+	font-size: 16px;
+	color: #999999;
+    padding: 10px 12px;
+}
+
+.bfrl_btnback {
+	font-size: 24px;
+	position: absolute;
+	-webkit-transform: scaleX(-1) translate(50%);
+	-moz-transform: scaleX(-1) translate(50%);
+	-o-transform: scaleX(-1) translate(50%);
+	transform: scaleX(-1) translate(50%);
+	filter: FlipH;
+	color: #999999;
+}
+
+/*IDs*/
+
+#bfrl_commentField {
+	width: 100%;
+	height: 6.5em;
+	resize: none;
+	padding: 10px;
+	font-size: 15px;
+	color: #000;
+}
+
+#bfrl_emailField {
+	width: 100%;
+	height: 3em;
+	overflow: hidden;
+	resize: none;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#bfrl_submitContainer {
+	text-align: left;
+	padding: 20px 0;
+}
+
+#bfrl_backButton {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	z-index: 2000;
+	top: 16px;
+	left: 16px;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bfrl_closeButton {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	z-index: 2000;
+	top: 16px;
+	right: 16px;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bfrl_dialogPig {
+	position: fixed;
+	bottom: -4px;
+	right: 24px;
+}
+
+#bfrl_deeplink {
+	text-decoration: underline;
+	font-size: 19px;
+	color: #318df1;
+	cursor: pointer;
+}
+
+#bfrl_errorMessageContainer {
+	margin: 0 0 0 15px;
+	width: 280px;
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: middle;
+	color: #f00;
+}
+
+#bfrl_messageContainer {
+    height:479px
+}
+
+#bfrl_footerSpace {
+	line-height: 280px;
+	margin: auto;
+}
+
+#bfrl_continueCheckout {
+	vertical-align: middle;
+}
+
+/*Input fields and TextArea placeholder specifics*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #d4d4d4;
+	font-size: 15px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #d4d4d4;
+	opacity: 1;
+	font-size: 15px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #d4d4d4;
+	opacity: 1;
+	font-size: 15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #d4d4d4;
+	font-size: 15px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: #d4d4d4;
+	font-size: 15px;
+}
+
+/* Radio buttons */
+
+input[type="radio"] {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+    cursor: pointer;
+}

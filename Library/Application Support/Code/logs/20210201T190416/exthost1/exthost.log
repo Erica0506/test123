@@ -1,0 +1,98 @@
+[2021-02-01 19:04:19.180] [exthost] [info] extension host started
+[2021-02-01 19:04:19.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-01 19:04:19.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-01 19:04:19.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-01 19:04:19.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-01 19:04:19.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-02-01 19:04:19.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-01 19:04:19.281] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:04:19.281] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-02-01 19:04:19.336] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-02-01 19:04:19.337] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-01 19:04:19.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-02-01 19:04:19.343] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result/dist/extension.js
+[2021-02-01 19:04:19.424] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-01 19:04:19.424] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-01 19:04:19.700] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-01 19:04:19.700] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-01 19:04:19.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:04:19.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-02-01 19:04:19.761] [exthost] [info] eager extensions activated
+[2021-02-01 19:04:42.673] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-02-01 19:04:42.673] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/xuanzhou/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14/client/out/extension
+[2021-02-01 19:04:42.687] [exthost] [warning] Could not identify extension for 'vscode' require call from /Users/xuanzhou/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14/client/out/extension.js. These are the extension path mappings: 
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/configuration-editing -> vscode.configuration-editing
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/css-language-features -> vscode.css-language-features
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch -> vscode.debug-auto-launch
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-server-ready -> vscode.debug-server-ready
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet -> vscode.emmet
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/extension-editing -> vscode.extension-editing
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git -> vscode.git
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git-ui -> vscode.git-ui
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github -> vscode.github
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication -> vscode.github-authentication
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/grunt -> vscode.grunt
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/gulp -> vscode.gulp
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/html-language-features -> vscode.html-language-features
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/image-preview -> vscode.image-preview
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/jake -> vscode.jake
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/json-language-features -> vscode.json-language-features
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features -> vscode.markdown-language-features
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict -> vscode.merge-conflict
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication -> vscode.microsoft-authentication
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug -> ms-vscode.js-debug
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug-companion -> ms-vscode.js-debug-companion
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.node-debug -> ms-vscode.node-debug
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.node-debug2 -> ms-vscode.node-debug2
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.references-view -> ms-vscode.references-view
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.vscode-js-profile-table -> ms-vscode.vscode-js-profile-table
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/npm -> vscode.npm
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/php-language-features -> vscode.php-language-features
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/python -> vscode.python
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result -> vscode.search-result
+	/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features -> vscode.typescript-language-features
+
+[2021-02-01 19:04:52.672] [exthost] [info] extension host started
+[2021-02-01 19:04:52.688] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-01 19:04:52.688] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-01 19:04:52.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-01 19:04:52.697] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-01 19:04:52.699] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-02-01 19:04:52.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-01 19:04:52.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:04:52.715] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-02-01 19:04:52.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-02-01 19:04:52.729] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-01 19:04:52.731] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-02-01 19:04:52.731] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result/dist/extension.js
+[2021-02-01 19:04:52.797] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-01 19:04:52.797] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-01 19:04:52.876] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-01 19:04:52.876] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-01 19:04:52.939] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:04:52.939] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-02-01 19:04:52.944] [exthost] [info] eager extensions activated
+[2021-02-01 19:04:52.945] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-02-01 19:04:52.946] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/xuanzhou/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14/client/out/extension
+[2021-02-01 19:05:04.220] [exthost] [info] extension host started
+[2021-02-01 19:05:04.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-02-01 19:05:04.238] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-02-01 19:05:04.247] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-02-01 19:05:04.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-02-01 19:05:04.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2021-02-01 19:05:04.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-02-01 19:05:04.261] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:05:04.261] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-02-01 19:05:04.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2021-02-01 19:05:04.274] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-02-01 19:05:04.276] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2021-02-01 19:05:04.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result/dist/extension.js
+[2021-02-01 19:05:04.324] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-02-01 19:05:04.324] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-02-01 19:05:04.435] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-02-01 19:05:04.435] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-02-01 19:05:04.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-02-01 19:05:04.449] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-02-01 19:05:04.457] [exthost] [info] eager extensions activated
+[2021-02-01 19:05:04.458] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-02-01 19:05:04.458] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/xuanzhou/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14/client/out/extension

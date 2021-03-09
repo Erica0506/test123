@@ -1,0 +1,744 @@
+﻿/*
+	Size dimensions for each page. Chrome/Firefox max height for popups is 600px. Injected iframe dialogs, however, is infinite.
+	disable_page1.html : 400w x 320h
+	disable_page2.html : 400w x 615h
+	disable_page3.html : 400w x 235h
+*/
+
+/*
+
+
+                                                      
+88888888888                                           
+88                                  ,d                
+88                                  88                
+88aaaaa   ,adPPYba,   8b,dPPYba,  MM88MMM  ,adPPYba,  
+88"""""  a8"     "8a  88P'   `"8a   88     I8[    ""  
+88       8b       d8  88       88   88      `"Y8ba,   
+88       "8a,   ,a8"  88       88   88,    aa    ]8I  
+88        `"YbbdP"'   88       88   "Y888  `"YbbdP"'  
+                                                      
+                                                      
+
+
+*/
+
+@font-face {
+	font-family: 'toolbar';
+	src: url('../fonts/toolbar.eot');
+	src: url('../fonts/toolbar.eot#iefix') format('embedded-opentype'), url('../fonts/toolbar.ttf') format('truetype'), url('../fonts/toolbar.woff') format('woff'), url('../fonts/toolbar.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'toolbar' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	width: 0;
+	margin: 0;
+	padding: 0 1em 0 0;
+	display: inline-block;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-document-edit-black:before {
+	content: "\a073";
+}
+
+.icon-document-add:before {
+	content: "\a072";
+}
+
+.icon-document-edit-white:before {
+	content: "\a071";
+}
+
+.icon-trash-white:before {
+	content: "\a070";
+}
+
+.icon-paperplane:before {
+	content: "\a069";
+}
+
+.icon-envelope-black-open:before {
+	content: "\a068";
+}
+
+.icon-envelope-black:before {
+	content: "\a067";
+}
+
+.icon-moneybag:before {
+	content: "\a066";
+}
+
+.icon-pig:before {
+	content: "\a065";
+}
+
+.icon-dollar:before {
+	content: "\a064";
+}
+
+.icon-tools:before {
+	content: "\a063";
+}
+
+.icon-circle-help:before {
+	content: "\a062";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-minus:before {
+	content: "\a061";
+}
+
+.icon-circle-plus:before {
+	content: "\a060";
+	font-size: 120%;
+	position: relative;
+	top: 1px;
+}
+
+.icon-envelope-white:before {
+	content: "\a059";
+}
+
+.icon-play:before {
+	content: "\a058";
+}
+
+.icon-chevron-left2:before {
+	content: "\a057";
+}
+
+.icon-chevron-right:before {
+	content: "\a056";
+}
+
+.icon-arrow-left:before {
+	content: "\a055";
+}
+
+.icon-arrow-right:before {
+	content: "\a054";
+}
+
+.icon-arrow-up:before {
+	content: "\a053";
+}
+
+.icon-arrow-down:before {
+	content: "\a052";
+}
+
+.icon-exclamation-circle:before {
+	content: "\a051";
+}
+
+.icon-exclamation-triangle:before {
+	content: "\a050";
+}
+
+.icon-warning2:before {
+	content: "\a050";
+	font-size: 18px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-chevron-up:before {
+	content: "\a049";
+}
+
+.icon-chevron-down:before {
+	content: "\a048";
+}
+
+.icon-bars:before {
+	content: "\a047";
+}
+
+.icon-navicon:before {
+	content: "\a047";
+}
+
+.icon-reorder:before {
+	content: "\a047";
+}
+
+.icon-caret-right:before {
+	content: "\a046";
+}
+
+.icon-comments-o:before {
+	content: "\a045";
+}
+
+.icon-cutlery:before {
+	content: "\a044";
+}
+
+.icon-angle-double-left:before {
+	content: "\a043";
+}
+
+.icon-angle-double-right:before {
+	content: "\a042";
+}
+
+.icon-wordpress:before {
+	content: "\a041";
+}
+
+.icon-trash:before {
+	content: "\a040";
+}
+
+.icon-pinterest:before {
+	content: "\a039";
+}
+
+.icon-bullhorn:before {
+	content: "\a038";
+}
+
+.icon-envelope-thick:before {
+	content: "\a037";
+}
+
+.icon-bubble:before {
+	content: "\a036";
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+}
+
+.icon-bubbles-full-behind:before {
+	content: "\a035";
+}
+
+.icon-bubbles-full-front:before {
+	content: "\a034";
+}
+
+.icon-bubbles-empty-front:before {
+	content: "\a033";
+}
+
+.icon-search:before {
+	content: "\a032";
+}
+
+.icon-gift:before {
+	content: "\a031";
+}
+
+.icon-star-empty:before {
+	content: "\a030";
+}
+
+.icon-star-half:before {
+	content: "\a029";
+}
+
+.icon-star-full:before {
+	content: "\a028";
+}
+
+.icon-heart:before {
+	content: "\a027";
+}
+
+.icon-circle-notification:before {
+	content: "\a026";
+}
+
+.icon-circle-question:before {
+	content: "\a025";
+}
+
+.icon-circle-info:before {
+	content: "\a024";
+}
+
+.icon-cross:before {
+	content: "\a023";
+}
+
+.icon-checkmark-full:before {
+	content: "\a022";
+}
+
+.icon-checkmark-empty:before {
+	content: "\a021";
+}
+
+.icon-share:before {
+	content: "\a020";
+}
+
+.icon-mail2:before {
+	content: "\a019";
+}
+
+.icon-google-plus:before {
+	content: "\a018";
+}
+
+.icon-facebook:before {
+	content: "\a017";
+}
+
+.icon-instagram:before {
+	content: "\a016";
+}
+
+.icon-twitter:before {
+	content: "\a015";
+}
+
+.icon-chrome:before {
+	content: "\a014";
+}
+
+.icon-firefox:before {
+	content: "\a013";
+}
+
+.icon-IE:before {
+	content: "\a012";
+}
+
+.icon-opera:before {
+	content: "\a011";
+}
+
+.icon-safari:before {
+	content: "\a010";
+}
+
+.icon-home:before {
+	content: "\a009";
+}
+
+.icon-bubble2:before {
+	content: "\a008";
+}
+
+.icon-user:before {
+	content: "\a007";
+}
+
+.icon-warning:before {
+	content: "\a006";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-cancel:before {
+	content: "\a005";
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+}
+
+.icon-circle-play:before {
+	content: "\a004";
+}
+
+.icon-checkmark-full-small:before {
+	content: "\a003";
+}
+
+.icon-cog:before {
+	content: "\a002";
+}
+
+.icon-gear:before {
+	content: "\a002";
+}
+
+.icon-chevron-left:before {
+	content: "\a001";
+}
+
+/*
+
+                                             
+888888888888                                 
+     88                                      
+     88                                      
+     88  ,adPPYYba,   ,adPPYb,d8  ,adPPYba,  
+     88  ""     `Y8  a8"    `Y88  I8[    ""  
+     88  ,adPPPPP88  8b       88   `"Y8ba,   
+     88  88,    ,88  "8a,   ,d88  aa    ]8I  
+     88  `"8bbdP"Y8   `"YbbdP"Y8  `"YbbdP"'  
+                      aa,    ,88             
+                       "Y8bbdP"              
+
+
+*/
+
+* {
+	font-family: Roboto !important;
+}
+
+a {
+	color: #007FDD;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* 
+
+
+
+                                                                            
+  ,ad8888ba,   88                                                           
+ d8"'    `"8b  88                                                           
+d8'            88                                                           
+88             88  ,adPPYYba,  ,adPPYba,  ,adPPYba,   ,adPPYba,  ,adPPYba,  
+88             88  ""     `Y8  I8[    ""  I8[    ""  a8P_____88  I8[    ""  
+Y8,            88  ,adPPPPP88   `"Y8ba,    `"Y8ba,   8PP"""""""   `"Y8ba,   
+ Y8a.    .a8P  88  88,    ,88  aa    ]8I  aa    ]8I  "8b,   ,aa  aa    ]8I  
+  `"Y8888Y"'   88  `"8bbdP"Y8  `"YbbdP"'  `"YbbdP"'   `"Ybbd8"'  `"YbbdP"'  
+                                                                            
+                                                                            
+
+
+*/
+
+.bfrl_greydivSection {
+	height: 1px;
+}
+
+.bfrl_greenText {
+	color: #199402;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.bfrl_blackText {
+	color: #000;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.bfrl_horizontalRule {
+	height: 1px;
+	background-color: #ddd;
+	width: calc(100% * 0.875);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bfrl_cursorPointer {
+	cursor: pointer;
+}
+
+.bfrl_disable_page2_footer {
+	font-size: 13px;
+    margin: 4px;
+    width:inherit;
+}
+
+.bfrl_disable_page1_margin {
+	margin: 25px calc((100% - 80%) / 2) 25px calc((100% - 84%) / 2);
+	font-size: 13px;
+}
+
+.bfrl_disable_page2_margin {
+	margin: 20px calc((100% - 85%) / 2) 25px calc((100% - 85%) / 2);
+}
+
+.bfrl_disableButtonBlue {
+	display: inline-block;
+	color: #FFFFFF;
+	background-color: #0b7edd;
+	border-bottom: 1px solid #0A6ABA;
+	border-right: 1px solid #0A6ABA;
+	border-radius: 4px;
+	line-height: 40px;
+	text-align: left;
+	cursor: default;
+}
+
+.bfrl_disableButtonBlue:hover {
+	background-color: #0A6ABA;
+	border-bottom: 1px solid #084980;
+	border-right: 1px solid #084980;
+	cursor: pointer;
+}
+
+.bfrl_disableButtonWhite {
+	display: inline-block;
+	color: #1A73E8;
+	font-weight: 500;
+	background-color: #fff;
+	border: 1px solid #dadce0;
+	border-radius: 4px;
+	line-height: 30px;
+	text-align: left;
+	cursor: default;
+}
+
+.bfrl_disableButtonWhite:hover {
+	background-color: #f8faff;
+	border-bottom: 1px solid #d2e3fc;
+	border-right: 1px solid #d2e3fc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.bfrl_disableButtonRemove {
+	display: inline-block;
+	color: #000;
+	font-weight: 500;
+	background-color: #fff;
+	border: 1px solid #dadce0;
+	border-radius: 4px;
+	line-height: 25px;
+	text-align: left;
+	cursor: default;
+}
+
+.bfrl_disableButtonRemove:hover {
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #d2e3fc;
+	border-right: 1px solid #d2e3fc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.bfrl_disableButtonLargeText {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 55px;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 0px 30px;
+}
+
+.bfrl_disableButtonSmallText {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 32px;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 0px 18px;
+}
+
+.bfrl_disableButtonGap {
+	margin: 0px 12px 0 0;
+}
+
+.bfrl_disableListItem {
+	background-color: #f7f7f7;
+	padding: 12px calc((100% - 85%) / 2);
+}
+
+.bfrl_disabledFlag {
+	vertical-align: baseline;
+	margin-bottom: 4px;
+}
+
+.bfrl_disableListItemTitle {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.bfrl_disableListItemDescription {
+	font-size: 12px;
+}
+
+.bfrl_textStringDisabledFlag {
+	letter-spacing: -1px;
+	font-size: 11px;
+}
+
+.bfrl_textIconTweak {
+	margin: 0 5px;
+	position: relative;
+	top: 1px;
+}
+
+.bfrl_uninstall {
+	margin: 10px 0 0 0;
+	padding: 0px 9px;
+}
+
+
+/* 
+
+
+                              
+88  88888888ba,               
+88  88      `"8b              
+88  88        `8b             
+88  88         88  ,adPPYba,  
+88  88         88  I8[    ""  
+88  88         8P   `"Y8ba,   
+88  88      .a8P   aa    ]8I  
+88  88888888Y"'    `"YbbdP"'  
+                              
+                              
+
+
+*/
+
+#bfrl_aManageExtensions {
+	text-decoration: underline;
+	cursor: default;
+}
+
+#bfrl_aManageExtensions:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#bfrl_btnclose {
+	font-size: 16px;
+}
+
+#bfrl_closeButtonContainer {
+	position: fixed;
+	top: 10px;
+	right: 5px;
+}
+
+#bfrl_closeButton {
+	width: 32px;
+	height: 32px;
+	font-size: 20px;
+	color: #a8a8a8;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+#bfrl_disableLogo {
+	padding: 15px 0 10px 24px;
+}
+
+#bfrl_disableLogo img {
+	width: 140px;
+}
+
+#bfrl_disableDisclaimer {
+	line-height: 18px;
+	text-align: left;
+	font-size: 13px;
+	position: relative;
+}
+
+#bfrl_disableDisclaimer2 {
+	font-size: 12px;
+}
+
+#bfrl_disableDisclaimer3 {
+	font-size: 12px;
+}
+
+#bfrl_disableManageExtensionsLink {
+	position: relative;
+	text-align: center;
+}
+
+#bfrl_disableExtensionList {
+	height: calc(100% - 225px);
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #f7f7f7;
+}
+
+#bfrl_disableDisclaimerInfo {
+	position: relative;
+	top: 2px;
+}
+
+#bfrl_disableDisclaimerInfoText {
+	display: inline-block;
+	position: absolute;
+	z-index: 20000000;
+	background-color: #f4f4f4;
+	box-shadow: -1px 1px 5px #888 !important;
+	padding: 25px 15px 25px 15px;
+	margin: 0 auto;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 290px;
+	height: 140px;
+}
+
+#bfrl_disclaimerInfoTextWrapper {
+	padding-left: 18px;
+	padding-bottom: 10px;
+	float: left;
+	width: 260px;
+}
+
+#bfrl_disableDisclaimerCloseButtonContainer {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	z-index: 2000;
+	color: #a8a8a8;
+}
+
+#bfrl_disableDisclaimerBtnClose {
+	float: right;
+	margin: 4px 8px;
+	cursor: pointer;
+}
+
+
+
+
+/* 
+	
+
+                                                                                               
+ ad88888ba                                        88  88  88                                   
+d8"     "8b                                       88  88  88                                   
+Y8,                                               88  88  88                                   
+`Y8aaaaa,     ,adPPYba,  8b,dPPYba,   ,adPPYba,   88  88  88,dPPYba,   ,adPPYYba,  8b,dPPYba,  
+  `"""""8b,  a8"     ""  88P'   "Y8  a8"     "8a  88  88  88P'    "8a  ""     `Y8  88P'   "Y8  
+        `8b  8b          88          8b       d8  88  88  88       d8  ,adPPPPP88  88          
+Y8a     a8P  "8a,   ,aa  88          "8a,   ,a8"  88  88  88b,   ,a8"  88,    ,88  88          
+ "Y88888P"    `"Ybbd8"'  88           `"YbbdP"'   88  88  8Y"Ybbd8"'   `"8bbdP"Y8  88          
+                                                                                               
+                                                                                               
+
+*/
+.ss-content {
+	/* Firefox */
+	scrollbar-width: none;
+	/* IE10 & Edge */
+	-ms-overflow-style: none;
+}
+
+.ss-content::-webkit-scrollbar {
+	/* Webkit */
+	width: 0;
+}

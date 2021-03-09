@@ -1,0 +1,5 @@
+2021/02/27-18:32:24.814 cd53b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_bb39b3f5cb8922d3708442699ad88594.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/27-18:37:21.831 cd53b Level-0 table #5: started
+2021/02/27-18:37:21.843 cd53b Level-0 table #5: 460 bytes OK
+2021/02/27-18:37:21.866 cd53b Delete type=0 #3
+2021/02/27-18:37:21.870 cd53b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

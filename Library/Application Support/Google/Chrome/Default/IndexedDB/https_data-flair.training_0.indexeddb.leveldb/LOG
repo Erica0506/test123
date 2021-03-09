@@ -1,0 +1,5 @@
+2021/02/27-17:14:29.706 8a51f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_data-flair.training_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/27-17:14:32.073 fa903 Level-0 table #5: started
+2021/02/27-17:14:32.087 fa903 Level-0 table #5: 369 bytes OK
+2021/02/27-17:14:32.133 fa903 Delete type=0 #3
+2021/02/27-17:14:32.136 fa903 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

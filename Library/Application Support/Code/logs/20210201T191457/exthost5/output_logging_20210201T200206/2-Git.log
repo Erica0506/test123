@@ -1,0 +1,20 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment-1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment-1/.git/refs/remotes/origin/master', is most likely packed.
+> git config --local branch.master.github-pr-owner-number
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git show --textconv :README.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment-1/README.md
+> git cat-file -s 48baeb0d030f949441966cd817dac002655fc4c8
+> git check-ignore -v -z --stdin

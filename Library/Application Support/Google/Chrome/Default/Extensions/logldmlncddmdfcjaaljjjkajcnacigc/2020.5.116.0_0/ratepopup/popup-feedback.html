@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Pop-up</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+	    <!--<script>
+			function validateForm() {
+				var x = document.forms["feedback"]["txtMessage"].value;
+				if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(feedback.txtEmail.value)) {
+					if (x == null || x == "") {
+						alert("Please correct the following items:\n\nPlease enter your feedback in the message box.");
+						return false;
+					}
+					return true;
+				}
+
+				if (x == null || x == "") {
+					alert("Please correct the following items:\n\nPlease enter a valid email address, e.g. jon@yahoo.com\n\nPlease enter your feedback in the message box.");
+					return false;
+				}
+
+				alert("Please correct the following items:\n\nPlease enter a valid email address, e.g. jon@yahoo.com")
+				return false;
+			}
+		 </script>-->
+	</head>
+	<body style="overflow: hidden;">
+		<!--<br/>
+		<br/>-->
+        <div id="missingInfoBox" style="display: none;width: 572px;position: absolute;z-index: 10000;background: rgba(50, 50, 50, 0.35);">
+            <div style="padding: 25px 0px 0px 0px;margin-top: 100px;margin-right: auto;margin-left: auto;background: white;width: 500px;border: 1px solid;">
+                <div style="text-align:center;font-size:18px;color:#1976D2;font-weight:600;margin:0px 0px 5px 0px;">Oops! Please correct the following items:</div>
+                <div style="padding: 10px 10px 0px 10px;margin-left: 50px;font-size:14px;" id="missingEmail"></div>
+                <div style="padding: 10px;margin-left: 50px;font-size:14px;" id="missingFeedback"></div>
+                <div style="background:rgb(211,211,211,0.3);text-align: right;padding-bottom: 15px;margin-top:20px;">
+                    <button style="color: white;border: #1976D2 1px solid;cursor: pointer;background: #1976D2;margin-right: 50px;margin-top: 15px;width:100px;padding: 5px 0px;" id="closeMissingInfoBox">OK</button>
+                </div>
+            </div>
+        </div>
+	    <div class="container">
+	        <div class="close"><a href="#">x</a>
+	        </div>
+	        <div class="logo-wrapper"><img src="befrugal-logo.png"/>
+	        </div>
+	        <div style="padding: 20px 0 5px 0;"><img src="all-ears.png"/>
+	        </div>
+	        <p style="margin-top: 0px; font-size: 18px;">Need help? Have some feedback to share?</p>
+	        <!--<form id="feedback" onsubmit="return validateForm()">-->
+	        <form id="feedback">
+	            <table border="0" cellpadding="0" cellspacing="0">
+	                <tr>
+	                    <td style="text-align: right; width: 140px;">
+	                        <p class="table">Email:</p></td>
+	                    <td>
+	                        <p class="table"><input id="txtEmail" style="padding: 2px 4px; width: 373px;"/>
+	                        </p></td>
+	                </tr>
+	                <tr>
+	                    <td style="text-align: right;" valign="top">
+	                        <p class="table">Message:</p>
+	                        <p style="text-align: left;"><img src="logo-sunglasses-clipped.png"/>
+	                        </p>
+	                    </td>
+	                    <td><textarea id="txtMessage" name="Text1" cols="44" rows="12"></textarea></td>
+	                </tr>
+	                <tr>
+	                    <td></td>
+	                    <td>
+	                        <br/>
+	                        <a href="#" class="no-button">CANCEL</a>
+	                        <input type="submit" value="SEND" class="yes-button" id="sendFeedback"/>
+	                        <br/>
+	                        <br/>
+	                    </td>
+	                </tr>
+	            </table>
+	        </form>
+	    </div>
+        <script src="../js/rateus.js"></script>
+	</body>
+</html>

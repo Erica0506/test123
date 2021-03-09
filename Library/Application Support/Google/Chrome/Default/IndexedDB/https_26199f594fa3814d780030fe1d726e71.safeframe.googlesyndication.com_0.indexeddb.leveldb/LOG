@@ -1,0 +1,8 @@
+2021/03/09-11:44:16.491 39933 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_26199f594fa3814d780030fe1d726e71.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/09-11:44:16.492 39933 Recovering log #4
+2021/03/09-11:44:16.492 39933 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_26199f594fa3814d780030fe1d726e71.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2021/03/09-11:44:28.435 109ab7 Level-0 table #8: started
+2021/03/09-11:44:28.435 109ab7 Level-0 table #8: 0 bytes OK
+2021/03/09-11:44:28.478 109ab7 Delete type=0 #4
+2021/03/09-11:44:28.482 109ab7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/09-11:44:28.482 109ab7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

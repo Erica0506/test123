@@ -1,0 +1,15 @@
+2021/02/18-22:25:38.149 a58bf Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_5819e2d1658c17fbdf73dd8bd7ed18fe.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/18-22:25:38.150 a58bf Recovering log #4
+2021/02/18-22:25:38.150 a58bf Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_5819e2d1658c17fbdf73dd8bd7ed18fe.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2021/02/18-22:25:40.679 a58bf Level-0 table #8: started
+2021/02/18-22:25:40.690 a58bf Level-0 table #8: 190 bytes OK
+2021/02/18-22:25:40.715 a58bf Delete type=0 #4
+2021/02/18-22:25:40.719 a58bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/18-22:25:40.719 a58bf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 9 : 1
+2021/02/18-22:25:40.719 a58bf Compacting 1@1 + 1@2 files
+2021/02/18-22:25:40.730 a58bf Generated table #9@1: 8 keys, 447 bytes
+2021/02/18-22:25:40.730 a58bf Compacted 1@1 + 1@2 files => 447 bytes
+2021/02/18-22:25:40.751 a58bf compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/18-22:25:40.751 a58bf Delete type=2 #5
+2021/02/18-22:25:40.751 a58bf Delete type=2 #8
+2021/02/18-22:25:40.760 a58bf Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 9 : 1 .. (end); will stop at (end)

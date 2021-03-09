@@ -1,0 +1,73 @@
+Looking for git in: /usr/bin/git
+Using git 2.24.3 (Apple Git-128) from /usr/bin/git
+> git rev-parse --git-dir
+Open repository: /Users/xuanzhou/githubs/coursera-assignment
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse gh-pages
+> git rev-parse --symbolic-full-name gh-pages@{u}
+> git rev-list --left-right gh-pages...refs/remotes/origin/gh-pages
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/Users/xuanzhou/githubs/coursera-assignment/.git/refs/remotes/origin/gh-pages', is most likely packed.
+> git config --get commit.template
+> git config --local branch.gh-pages.github-pr-owner-number
+> git check-ignore -v -z --stdin
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git config --local branch.gh-pages.github-pr-owner-number
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git show --textconv :index.md
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/index.md
+> git cat-file -s cd23cb3931f79b2a50feb56203802e418ce0e6ba
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
+> git show --textconv :module2-solution/index.html
+> git ls-files --stage -- /Users/xuanzhou/githubs/coursera-assignment/module2-solution/index.html
+> git cat-file -s d89712ff1f30c98ef0b5ded726a371e66dcd572b
