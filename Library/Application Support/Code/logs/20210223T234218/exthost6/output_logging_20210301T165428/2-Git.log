@@ -2540,3 +2540,5 @@ Omit --global to set the identity only in this repository.
 
 fatal: no email was given and auto-detection is disabled
 > git config --get-all user.name
+> git ls-files --stage -- /Users/xuanzhou/angular/app/src/app/employee/employee.component.ts
+> git show --textconv :angular/app/src/app/employee/employee.component.ts

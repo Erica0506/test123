@@ -1,0 +1,5 @@
+2021/02/08-12:58:31.172 26cf3 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_myformsguru.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/08-12:59:26.047 4873b Level-0 table #5: started
+2021/02/08-12:59:26.064 4873b Level-0 table #5: 5448 bytes OK
+2021/02/08-12:59:26.087 4873b Delete type=0 #3
+2021/02/08-12:59:26.091 4873b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/02/16-23:38:55.443 7db47 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.javatpoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/16-23:38:58.964 9940b Level-0 table #5: started
+2021/02/16-23:38:58.985 9940b Level-0 table #5: 346 bytes OK
+2021/02/16-23:38:59.013 9940b Delete type=0 #3
+2021/02/16-23:38:59.030 9940b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

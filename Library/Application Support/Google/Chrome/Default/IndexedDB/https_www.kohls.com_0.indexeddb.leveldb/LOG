@@ -1,0 +1,15 @@
+2021/03/08-00:11:55.212 dc547 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.kohls.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/08-00:11:55.213 dc547 Recovering log #203
+2021/03/08-00:11:55.213 dc547 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.kohls.com_0.indexeddb.leveldb/000203.log 
+2021/03/08-10:00:50.313 8c46f Level-0 table #208: started
+2021/03/08-10:00:50.325 8c46f Level-0 table #208: 41179 bytes OK
+2021/03/08-10:00:50.349 8c46f Delete type=0 #203
+2021/03/08-10:00:50.354 8c46f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/08-10:00:50.354 8c46f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x01\x10\x003\x001\x009\x006\x006\x008\x002\x000\x005\x002\x009\x006\x000\x007\x005\x001\x00\x01(\x00c\x00t\x00.\x00p\x00.\x00m\x00.\x00V\x001\x00.\x003\x001\x009\x006\x006\x008\x002\x000\x005\x002\x009\x006\x000\x007\x005\x001\x00.\x001\x006\x001\x005\x001\x008\x000\x003\x008\x008\x007\x004\x003' @ 17244 : 1
+2021/03/08-10:00:50.354 8c46f Compacting 1@1 + 1@2 files
+2021/03/08-10:00:50.371 8c46f Generated table #209@1: 701 keys, 25622 bytes
+2021/03/08-10:00:50.371 8c46f Compacted 1@1 + 1@2 files => 25622 bytes
+2021/03/08-10:00:50.399 8c46f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/08-10:00:50.399 8c46f Delete type=2 #205
+2021/03/08-10:00:50.399 8c46f Delete type=2 #208
+2021/03/08-10:00:50.403 8c46f Manual compaction at level-1 from '\x00\x02\x01\x1f\x01\x10\x003\x001\x009\x006\x006\x008\x002\x000\x005\x002\x009\x006\x000\x007\x005\x001\x00\x01(\x00c\x00t\x00.\x00p\x00.\x00m\x00.\x00V\x001\x00.\x003\x001\x009\x006\x006\x008\x002\x000\x005\x002\x009\x006\x000\x007\x005\x001\x00.\x001\x006\x001\x005\x001\x008\x000\x003\x008\x008\x007\x004\x003' @ 17244 : 1 .. (end); will stop at (end)

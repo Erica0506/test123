@@ -1,0 +1,8 @@
+2021/01/28-13:34:01.799 ff43 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.guru99.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-13:34:01.800 ff43 Recovering log #19
+2021/01/28-13:34:01.800 ff43 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.guru99.com_0.indexeddb.leveldb/000019.log 
+2021/01/28-13:35:52.251 43847 Level-0 table #23: started
+2021/01/28-13:35:52.251 43847 Level-0 table #23: 0 bytes OK
+2021/01/28-13:35:52.271 43847 Delete type=0 #19
+2021/01/28-13:35:52.274 43847 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/28-13:35:52.274 43847 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

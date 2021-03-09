@@ -1,0 +1,5 @@
+2021/03/03-20:10:07.271 b812b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.lancome-usa.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-20:18:10.917 e3b97 Level-0 table #5: started
+2021/03/03-20:18:10.939 e3b97 Level-0 table #5: 69330 bytes OK
+2021/03/03-20:18:10.969 e3b97 Delete type=0 #3
+2021/03/03-20:18:10.976 e3b97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

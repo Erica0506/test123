@@ -1,0 +1,8 @@
+2021/02/23-22:19:30.865 e7d4f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_iframe.chatid.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/23-22:19:30.866 e7d4f Recovering log #29
+2021/02/23-22:19:30.866 e7d4f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_iframe.chatid.com_0.indexeddb.leveldb/000029.log 
+2021/02/23-22:23:55.755 a4e4b Level-0 table #33: started
+2021/02/23-22:23:55.756 a4e4b Level-0 table #33: 0 bytes OK
+2021/02/23-22:23:55.793 a4e4b Delete type=0 #29
+2021/02/23-22:23:55.806 a4e4b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/23-22:23:55.806 a4e4b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

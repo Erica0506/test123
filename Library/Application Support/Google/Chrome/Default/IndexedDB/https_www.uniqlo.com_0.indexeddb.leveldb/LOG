@@ -1,0 +1,8 @@
+2021/01/28-19:49:24.313 55e3b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.uniqlo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-19:49:24.313 55e3b Recovering log #4
+2021/01/28-19:49:24.313 55e3b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.uniqlo.com_0.indexeddb.leveldb/000004.log 
+2021/01/28-20:41:42.497 30a0f Level-0 table #8: started
+2021/01/28-20:41:42.503 30a0f Level-0 table #8: 0 bytes OK
+2021/01/28-20:41:42.530 30a0f Delete type=0 #4
+2021/01/28-20:41:42.534 30a0f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/28-20:41:42.534 30a0f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,8 @@
+2021/01/21-22:29:11.966 4a86f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.jiuzhang.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/21-22:29:11.966 4a86f Recovering log #10
+2021/01/21-22:29:11.966 4a86f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.jiuzhang.com_0.indexeddb.leveldb/000010.log 
+2021/01/21-22:29:22.076 2ae67 Level-0 table #14: started
+2021/01/21-22:29:22.076 2ae67 Level-0 table #14: 0 bytes OK
+2021/01/21-22:29:22.102 2ae67 Delete type=0 #10
+2021/01/21-22:29:22.106 2ae67 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/21-22:29:22.106 2ae67 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

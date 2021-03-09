@@ -1,0 +1,5 @@
+2021/03/01-00:35:25.076 e742f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.softwaretestinghelp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/01-19:46:21.769 eb377 Level-0 table #5: started
+2021/03/01-19:46:21.784 eb377 Level-0 table #5: 122723 bytes OK
+2021/03/01-19:46:21.811 eb377 Delete type=0 #3
+2021/03/01-19:46:21.815 eb377 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

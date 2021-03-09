@@ -1,0 +1,15 @@
+2021/03/03-20:10:08.233 ca4e3 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-20:10:08.234 ca4e3 Recovering log #63
+2021/03/03-20:10:08.234 ca4e3 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/000063.log 
+2021/03/03-20:10:23.224 c6f1b Level-0 table #68: started
+2021/03/03-20:10:23.236 c6f1b Level-0 table #68: 1002 bytes OK
+2021/03/03-20:10:23.267 c6f1b Delete type=0 #63
+2021/03/03-20:10:23.267 c6f1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-20:10:23.267 c6f1b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x007\x003\x005\x009\x005\x008\x004\x008' @ 700 : 1
+2021/03/03-20:10:23.267 c6f1b Compacting 1@1 + 1@2 files
+2021/03/03-20:10:23.282 c6f1b Generated table #69@1: 26 keys, 840 bytes
+2021/03/03-20:10:23.282 c6f1b Compacted 1@1 + 1@2 files => 840 bytes
+2021/03/03-20:10:23.307 c6f1b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/03-20:10:23.308 c6f1b Delete type=2 #65
+2021/03/03-20:10:23.308 c6f1b Delete type=2 #68
+2021/03/03-20:10:23.311 c6f1b Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x007\x003\x005\x009\x005\x008\x004\x008' @ 700 : 1 .. (end); will stop at (end)

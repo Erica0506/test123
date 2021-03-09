@@ -1,0 +1,5 @@
+2021/03/04-22:38:47.656 700f7 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.oracle.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/04-22:39:35.679 11361f Level-0 table #5: started
+2021/03/04-22:39:35.695 11361f Level-0 table #5: 1386 bytes OK
+2021/03/04-22:39:35.731 11361f Delete type=0 #3
+2021/03/04-22:39:35.736 11361f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

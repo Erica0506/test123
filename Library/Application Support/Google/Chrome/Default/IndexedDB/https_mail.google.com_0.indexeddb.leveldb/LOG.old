@@ -1,0 +1,15 @@
+2021/02/14-17:11:45.343 6393b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/14-17:11:45.344 6393b Recovering log #11
+2021/02/14-17:11:45.344 6393b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log 
+2021/02/19-21:22:26.579 9a41b Level-0 table #16: started
+2021/02/19-21:22:26.703 9a41b Level-0 table #16: 777907 bytes OK
+2021/02/19-21:22:26.727 9a41b Delete type=0 #11
+2021/02/19-21:22:26.731 9a41b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/19-21:22:26.731 9a41b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 6087 : 1
+2021/02/19-21:22:26.731 9a41b Compacting 1@1 + 1@2 files
+2021/02/19-21:22:26.758 9a41b Generated table #17@1: 165 keys, 158598 bytes
+2021/02/19-21:22:26.758 9a41b Compacted 1@1 + 1@2 files => 158598 bytes
+2021/02/19-21:22:26.778 9a41b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/19-21:22:26.779 9a41b Delete type=2 #16
+2021/02/19-21:22:26.779 9a41b Delete type=2 #13
+2021/02/19-21:22:26.783 9a41b Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x000\x00/' @ 6087 : 1 .. (end); will stop at (end)

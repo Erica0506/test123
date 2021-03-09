@@ -1,0 +1,5 @@
+2021/02/24-10:02:01.728 9d92b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.costco.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/24-10:02:16.061 64be7 Level-0 table #5: started
+2021/02/24-10:02:16.075 64be7 Level-0 table #5: 2418 bytes OK
+2021/02/24-10:02:16.108 64be7 Delete type=0 #3
+2021/02/24-10:02:16.114 9958f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

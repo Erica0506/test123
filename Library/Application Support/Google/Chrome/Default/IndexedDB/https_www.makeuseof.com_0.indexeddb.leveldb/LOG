@@ -1,0 +1,8 @@
+2021/02/23-14:10:23.701 b375b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.makeuseof.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/23-14:10:23.701 b375b Recovering log #4
+2021/02/23-14:10:23.701 b375b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.makeuseof.com_0.indexeddb.leveldb/000004.log 
+2021/02/23-14:10:27.271 9e507 Level-0 table #8: started
+2021/02/23-14:10:27.271 9e507 Level-0 table #8: 0 bytes OK
+2021/02/23-14:10:27.305 9e507 Delete type=0 #4
+2021/02/23-14:10:27.308 9e507 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/23-14:10:27.309 9e507 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

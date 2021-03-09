@@ -1,0 +1,15 @@
+2021/02/23-21:40:12.570 9ad03 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.dealmoon.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/23-21:40:12.570 9ad03 Recovering log #23
+2021/02/23-21:40:12.570 9ad03 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.dealmoon.com_0.indexeddb.leveldb/000023.log 
+2021/02/23-22:28:35.059 c302f Level-0 table #28: started
+2021/02/23-22:28:35.082 c302f Level-0 table #28: 3287 bytes OK
+2021/02/23-22:28:35.110 c302f Delete type=0 #23
+2021/02/23-22:28:35.114 c302f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/23-22:28:35.114 c302f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 992 : 1
+2021/02/23-22:28:35.114 c302f Compacting 1@1 + 1@2 files
+2021/02/23-22:28:35.124 c302f Generated table #29@1: 99 keys, 2168 bytes
+2021/02/23-22:28:35.124 c302f Compacted 1@1 + 1@2 files => 2168 bytes
+2021/02/23-22:28:35.148 c302f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/23-22:28:35.148 c302f Delete type=2 #28
+2021/02/23-22:28:35.148 c302f Delete type=2 #25
+2021/02/23-22:28:35.152 c302f Manual compaction at level-1 from '\x00\x02\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 992 : 1 .. (end); will stop at (end)

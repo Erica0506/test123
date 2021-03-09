@@ -1,0 +1,8 @@
+2021/03/01-20:39:54.677 d3817 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/01-20:39:54.679 d3817 Recovering log #6545
+2021/03/01-20:39:54.679 d3817 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/006545.log 
+2021/03/01-20:40:26.806 d212b Level-0 table #6550: started
+2021/03/01-20:40:26.806 d212b Level-0 table #6550: 0 bytes OK
+2021/03/01-20:40:26.838 d212b Delete type=0 #6545
+2021/03/01-20:40:26.843 d212b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/01-20:40:26.843 d212b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

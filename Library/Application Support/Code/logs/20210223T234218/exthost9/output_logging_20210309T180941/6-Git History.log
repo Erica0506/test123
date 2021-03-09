@@ -1,0 +1,3 @@
+git rev-list --full-history --count main --  (completed in 0.035s)
+git log --full-history --pretty=oneline --date-order --decorate=full --skip=0 --max-count=100 main --  (completed in 0.031s)
+git shortlog -e -s -n HEAD  (completed in 0.027s)

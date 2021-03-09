@@ -1,0 +1,15 @@
+2021/03/02-16:49:45.122 b0e7b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_plnkr.co_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/02-16:49:45.122 b0e7b Recovering log #4
+2021/03/02-16:49:45.122 b0e7b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_plnkr.co_0.indexeddb.leveldb/000004.log 
+2021/03/02-16:56:41.194 b0e7b Level-0 table #8: started
+2021/03/02-16:56:41.210 b0e7b Level-0 table #8: 21055 bytes OK
+2021/03/02-16:56:41.236 b0e7b Delete type=0 #4
+2021/03/02-16:56:41.245 b0e7b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/02-16:56:41.245 b0e7b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00p\x00l\x00u\x00n\x00k\x00e\x00r\x00.\x00h\x00i\x00s\x00t\x00o\x00r\x00y' @ 184 : 1
+2021/03/02-16:56:41.245 b0e7b Compacting 1@1 + 1@2 files
+2021/03/02-16:56:41.254 b0e7b Generated table #9@1: 55 keys, 4269 bytes
+2021/03/02-16:56:41.254 b0e7b Compacted 1@1 + 1@2 files => 4269 bytes
+2021/03/02-16:56:41.285 b0e7b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/02-16:56:41.286 b0e7b Delete type=2 #5
+2021/03/02-16:56:41.286 b0e7b Delete type=2 #8
+2021/03/02-16:56:41.290 b0e7b Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00p\x00l\x00u\x00n\x00k\x00e\x00r\x00.\x00h\x00i\x00s\x00t\x00o\x00r\x00y' @ 184 : 1 .. (end); will stop at (end)

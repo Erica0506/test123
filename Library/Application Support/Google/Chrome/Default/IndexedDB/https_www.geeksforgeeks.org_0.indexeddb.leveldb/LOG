@@ -1,0 +1,8 @@
+2021/03/05-10:31:42.260 3adbb Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.geeksforgeeks.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/05-10:31:42.260 3adbb Recovering log #150
+2021/03/05-10:31:42.260 3adbb Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.geeksforgeeks.org_0.indexeddb.leveldb/000150.log 
+2021/03/05-10:32:12.319 ea933 Level-0 table #154: started
+2021/03/05-10:32:12.319 ea933 Level-0 table #154: 0 bytes OK
+2021/03/05-10:32:12.354 ea933 Delete type=0 #150
+2021/03/05-10:32:12.358 ea933 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/05-10:32:12.358 ea933 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

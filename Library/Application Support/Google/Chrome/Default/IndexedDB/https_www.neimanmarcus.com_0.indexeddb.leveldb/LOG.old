@@ -1,0 +1,15 @@
+2021/03/03-20:29:52.685 8692f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.neimanmarcus.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-20:29:52.685 8692f Recovering log #7
+2021/03/03-20:29:52.685 8692f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.neimanmarcus.com_0.indexeddb.leveldb/000007.log 
+2021/03/03-20:30:34.545 d8607 Level-0 table #12: started
+2021/03/03-20:30:34.564 d8607 Level-0 table #12: 7231 bytes OK
+2021/03/03-20:30:34.592 d8607 Delete type=0 #7
+2021/03/03-20:30:34.599 d8607 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-20:30:34.599 d8607 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00`2\xb1\xad\x7fwB\x00\x01Q\x00n\x00m\x00-\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00n\x00e\x00i\x00m\x00a\x00n\x00m\x00a\x00r\x00c\x00u\x00s\x00.\x00c\x00o\x00m\x00/\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00_\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00B\x00/\x005\x00/\x00Y\x00/\x009\x00/\x009\x00/\x00N\x00M\x00B\x005\x00Y\x009\x009\x00_\x00m\x00h\x00.\x00j\x00p\x00g' @ 1941 : 1
+2021/03/03-20:30:34.599 d8607 Compacting 1@1 + 1@2 files
+2021/03/03-20:30:34.610 d8607 Generated table #13@1: 370 keys, 19838 bytes
+2021/03/03-20:30:34.610 d8607 Compacted 1@1 + 1@2 files => 19838 bytes
+2021/03/03-20:30:34.642 d8607 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/03-20:30:34.643 d8607 Delete type=2 #12
+2021/03/03-20:30:34.643 d8607 Delete type=2 #9
+2021/03/03-20:30:34.651 d8607 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00`2\xb1\xad\x7fwB\x00\x01Q\x00n\x00m\x00-\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00n\x00e\x00i\x00m\x00a\x00n\x00m\x00a\x00r\x00c\x00u\x00s\x00.\x00c\x00o\x00m\x00/\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00_\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00B\x00/\x005\x00/\x00Y\x00/\x009\x00/\x009\x00/\x00N\x00M\x00B\x005\x00Y\x009\x009\x00_\x00m\x00h\x00.\x00j\x00p\x00g' @ 1941 : 1 .. (end); will stop at (end)

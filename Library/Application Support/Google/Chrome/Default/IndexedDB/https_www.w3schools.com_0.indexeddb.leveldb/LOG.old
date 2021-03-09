@@ -1,0 +1,15 @@
+2021/03/07-20:16:12.489 111673 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/07-20:16:12.489 111673 Recovering log #264
+2021/03/07-20:16:12.489 111673 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.w3schools.com_0.indexeddb.leveldb/000264.log 
+2021/03/07-20:16:14.902 f1b43 Level-0 table #269: started
+2021/03/07-20:16:14.913 f1b43 Level-0 table #269: 190 bytes OK
+2021/03/07-20:16:14.973 f1b43 Delete type=0 #264
+2021/03/07-20:16:14.976 f1b43 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/07-20:16:14.976 107c1f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 15 : 1
+2021/03/07-20:16:14.976 107c1f Compacting 1@1 + 1@2 files
+2021/03/07-20:16:14.990 107c1f Generated table #270@1: 8 keys, 352 bytes
+2021/03/07-20:16:14.990 107c1f Compacted 1@1 + 1@2 files => 352 bytes
+2021/03/07-20:16:15.022 107c1f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/07-20:16:15.023 107c1f Delete type=2 #266
+2021/03/07-20:16:15.023 107c1f Delete type=2 #269
+2021/03/07-20:16:15.023 107c1f Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 15 : 1 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/02/06-23:08:38.800 5492b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.rooftopslushie.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/06-23:09:10.805 4199f Level-0 table #5: started
+2021/02/06-23:09:10.817 4199f Level-0 table #5: 839 bytes OK
+2021/02/06-23:09:10.840 4199f Delete type=0 #3
+2021/02/06-23:09:10.843 4199f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

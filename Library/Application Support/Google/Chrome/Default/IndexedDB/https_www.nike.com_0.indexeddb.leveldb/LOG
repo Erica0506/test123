@@ -1,0 +1,15 @@
+2021/03/08-00:02:10.665 107c4b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.nike.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/08-00:02:10.666 107c4b Recovering log #11
+2021/03/08-00:02:10.666 107c4b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.nike.com_0.indexeddb.leveldb/000011.log 
+2021/03/08-00:03:16.701 f0cbf Level-0 table #16: started
+2021/03/08-00:03:16.718 f0cbf Level-0 table #16: 1349 bytes OK
+2021/03/08-00:03:16.744 f0cbf Delete type=0 #11
+2021/03/08-00:03:16.748 f0cbf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/08-00:03:16.748 f0cbf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 472 : 1
+2021/03/08-00:03:16.748 f0cbf Compacting 1@1 + 1@2 files
+2021/03/08-00:03:16.757 f0cbf Generated table #17@1: 111 keys, 2682 bytes
+2021/03/08-00:03:16.757 f0cbf Compacted 1@1 + 1@2 files => 2682 bytes
+2021/03/08-00:03:16.784 f0cbf compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/08-00:03:16.784 f0cbf Delete type=2 #16
+2021/03/08-00:03:16.784 f0cbf Delete type=2 #13
+2021/03/08-00:03:16.789 f0cbf Manual compaction at level-1 from '\x00\x01\x02\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 472 : 1 .. (end); will stop at (end)

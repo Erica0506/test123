@@ -1,0 +1,15 @@
+2021/01/21-20:56:49.475 3863b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.esteelauder.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/21-20:56:49.476 3863b Recovering log #15
+2021/01/21-20:56:49.476 3863b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.esteelauder.com_0.indexeddb.leveldb/000015.log 
+2021/01/21-21:24:07.899 3dff3 Level-0 table #20: started
+2021/01/21-21:24:07.908 3dff3 Level-0 table #20: 1005 bytes OK
+2021/01/21-21:24:07.939 3dff3 Delete type=0 #15
+2021/01/21-21:24:07.943 3dff3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/21-21:24:07.943 3dff3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x004\x008\x007\x001\x009\x001\x009\x005' @ 255 : 1
+2021/01/21-21:24:07.943 3dff3 Compacting 1@1 + 1@2 files
+2021/01/21-21:24:07.951 3dff3 Generated table #21@1: 22 keys, 772 bytes
+2021/01/21-21:24:07.951 3dff3 Compacted 1@1 + 1@2 files => 772 bytes
+2021/01/21-21:24:07.971 3dff3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/21-21:24:07.972 3dff3 Delete type=2 #17
+2021/01/21-21:24:07.972 3dff3 Delete type=2 #20
+2021/01/21-21:24:07.975 3dff3 Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x004\x008\x007\x001\x009\x001\x009\x005' @ 255 : 1 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2021/01/28-20:26:14.897 24e1f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_secure-www.gap.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-20:26:14.897 24e1f Recovering log #4
+2021/01/28-20:26:14.897 24e1f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_secure-www.gap.com_0.indexeddb.leveldb/000004.log 
+2021/01/28-20:34:59.804 57153 Level-0 table #8: started
+2021/01/28-20:34:59.816 57153 Level-0 table #8: 2789 bytes OK
+2021/01/28-20:34:59.841 57153 Delete type=0 #4
+2021/01/28-20:34:59.845 57153 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/28-20:34:59.845 57153 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x01\x10\x003\x001\x004\x002\x006\x006\x007\x001\x005\x003\x002\x004\x004\x002\x003\x001\x00\x01(\x00c\x00t\x00.\x00p\x00.\x00m\x00.\x00V\x001\x00.\x003\x001\x004\x002\x006\x006\x007\x001\x005\x003\x002\x004\x004\x002\x003\x001\x00.\x001\x006\x001\x001\x008\x008\x003\x005\x008\x001\x008\x009\x000' @ 182 : 1
+2021/01/28-20:34:59.845 57153 Compacting 1@1 + 1@2 files
+2021/01/28-20:34:59.854 57153 Generated table #9@1: 39 keys, 1343 bytes
+2021/01/28-20:34:59.855 57153 Compacted 1@1 + 1@2 files => 1343 bytes
+2021/01/28-20:34:59.877 57153 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-20:34:59.878 57153 Delete type=2 #5
+2021/01/28-20:34:59.878 57153 Delete type=2 #8
+2021/01/28-20:34:59.882 57153 Manual compaction at level-1 from '\x00\x02\x01\x1f\x01\x10\x003\x001\x004\x002\x006\x006\x007\x001\x005\x003\x002\x004\x004\x002\x003\x001\x00\x01(\x00c\x00t\x00.\x00p\x00.\x00m\x00.\x00V\x001\x00.\x003\x001\x004\x002\x006\x006\x007\x001\x005\x003\x002\x004\x004\x002\x003\x001\x00.\x001\x006\x001\x001\x008\x008\x003\x005\x008\x001\x008\x009\x000' @ 182 : 1 .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/02/28-19:48:46.628 84203 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.kiehls.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/28-19:54:17.984 84293 Level-0 table #5: started
+2021/02/28-19:54:18.001 84293 Level-0 table #5: 47485 bytes OK
+2021/02/28-19:54:18.031 84293 Delete type=0 #3
+2021/02/28-19:54:18.037 84293 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

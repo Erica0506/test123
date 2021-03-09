@@ -1,0 +1,8 @@
+2021/02/12-16:32:07.260 6a1b7 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/12-16:32:07.260 6a1b7 Recovering log #25
+2021/02/12-16:32:07.260 6a1b7 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000025.log 
+2021/02/12-16:32:09.776 6a1b7 Level-0 table #29: started
+2021/02/12-16:32:09.776 6a1b7 Level-0 table #29: 0 bytes OK
+2021/02/12-16:32:09.808 6a1b7 Delete type=0 #25
+2021/02/12-16:32:09.813 6a1b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/12-16:32:09.813 6a1b7 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

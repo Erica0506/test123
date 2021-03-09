@@ -1,0 +1,5 @@
+2021/02/19-21:23:08.616 24c07 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.coach.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/22-09:48:30.636 53e73 Level-0 table #5: started
+2021/02/22-09:48:30.656 53e73 Level-0 table #5: 129511 bytes OK
+2021/02/22-09:48:30.680 53e73 Delete type=0 #3
+2021/02/22-09:48:30.684 53e73 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

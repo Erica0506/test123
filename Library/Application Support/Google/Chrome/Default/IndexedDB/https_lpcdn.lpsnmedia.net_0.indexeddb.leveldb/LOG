@@ -1,0 +1,15 @@
+2021/03/03-20:10:25.173 38947 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/03-20:10:25.174 38947 Recovering log #67
+2021/03/03-20:10:25.174 38947 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/000067.log 
+2021/03/03-20:17:41.495 e3b97 Level-0 table #72: started
+2021/03/03-20:17:41.508 e3b97 Level-0 table #72: 993 bytes OK
+2021/03/03-20:17:41.544 e3b97 Delete type=0 #67
+2021/03/03-20:17:41.553 e3b97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/03-20:17:41.553 e3b97 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x007\x003\x005\x009\x005\x008\x004\x008' @ 739 : 1
+2021/03/03-20:17:41.553 e3b97 Compacting 1@1 + 1@2 files
+2021/03/03-20:17:41.563 e3b97 Generated table #73@1: 26 keys, 839 bytes
+2021/03/03-20:17:41.563 e3b97 Compacted 1@1 + 1@2 files => 839 bytes
+2021/03/03-20:17:41.588 e3b97 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/03/03-20:17:41.589 e3b97 Delete type=2 #72
+2021/03/03-20:17:41.589 e3b97 Delete type=2 #69
+2021/03/03-20:17:41.595 e3b97 Manual compaction at level-1 from '\x00\x01\x01\x02\x01+\x00u\x00n\x00A\x00u\x00t\x00h\x00M\x00e\x00s\x00s\x00a\x00g\x00i\x00n\x00g\x00-\x00s\x00t\x00o\x00r\x00a\x00g\x00e\x00_\x00e\x00x\x00p\x00i\x00r\x00a\x00t\x00i\x00o\x00n\x00-\x007\x003\x005\x009\x005\x008\x004\x008' @ 739 : 1 .. (end); will stop at (end)

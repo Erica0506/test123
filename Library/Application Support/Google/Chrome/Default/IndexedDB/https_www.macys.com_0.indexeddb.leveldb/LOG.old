@@ -1,0 +1,5 @@
+2021/01/28-19:45:27.798 4e6e7 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.macys.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-19:48:06.710 4e203 Level-0 table #5: started
+2021/01/28-19:48:06.725 4e203 Level-0 table #5: 1796 bytes OK
+2021/01/28-19:48:06.758 4e203 Delete type=0 #3
+2021/01/28-19:48:06.758 4e203 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

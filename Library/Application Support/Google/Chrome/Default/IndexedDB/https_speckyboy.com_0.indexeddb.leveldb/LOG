@@ -1,0 +1,5 @@
+2021/02/16-23:55:47.428 9e51b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_speckyboy.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/16-23:57:46.482 9ed5b Level-0 table #5: started
+2021/02/16-23:57:46.501 9ed5b Level-0 table #5: 336 bytes OK
+2021/02/16-23:57:46.524 9ed5b Delete type=0 #3
+2021/02/16-23:57:46.527 9ed5b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

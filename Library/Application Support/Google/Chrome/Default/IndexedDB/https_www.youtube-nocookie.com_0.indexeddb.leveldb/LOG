@@ -1,0 +1,5 @@
+2021/02/15-10:30:09.779 903df Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/16-23:04:51.748 94c4f Level-0 table #5: started
+2021/02/16-23:04:51.764 94c4f Level-0 table #5: 1176 bytes OK
+2021/02/16-23:04:51.790 94c4f Delete type=0 #3
+2021/02/16-23:04:51.793 94c4f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

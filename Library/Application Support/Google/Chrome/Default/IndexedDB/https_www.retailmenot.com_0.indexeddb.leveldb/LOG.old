@@ -1,0 +1,37 @@
+2021/02/05-16:34:34.232 44f2f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.retailmenot.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-16:34:34.233 44f2f Recovering log #41
+2021/02/05-16:34:34.233 44f2f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.retailmenot.com_0.indexeddb.leveldb/000041.log 
+2021/02/05-16:34:48.733 44f2f Level-0 table #47: started
+2021/02/05-16:34:48.745 44f2f Level-0 table #47: 614 bytes OK
+2021/02/05-16:34:48.778 44f2f Delete type=0 #41
+2021/02/05-16:34:48.786 44f2f Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/05-16:34:48.787 44f2f Level-0 table #49: started
+2021/02/05-16:34:48.798 44f2f Level-0 table #49: 494 bytes OK
+2021/02/05-16:34:48.827 44f2f Delete type=0 #46
+2021/02/05-16:34:48.833 44f2f Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 211 : 0
+2021/02/05-16:34:48.833 44f2f Compacting 1@0 + 1@1 files
+2021/02/05-16:34:48.844 44f2f Generated table #50@0: 4 keys, 259 bytes
+2021/02/05-16:34:48.844 44f2f Compacted 1@0 + 1@1 files => 259 bytes
+2021/02/05-16:34:48.869 44f2f compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/05-16:34:48.869 44f2f Delete type=2 #49
+2021/02/05-16:34:48.872 44f2f Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 211 : 0 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/02/05-16:34:50.746 4055b Level-0 table #52: started
+2021/02/05-16:34:50.762 4055b Level-0 table #52: 218 bytes OK
+2021/02/05-16:34:50.785 4055b Delete type=0 #48
+2021/02/05-16:34:50.785 4055b Delete type=2 #47
+2021/02/05-16:34:50.789 4055b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 212 : 0
+2021/02/05-16:34:50.789 4055b Compacting 1@0 + 1@1 files
+2021/02/05-16:34:50.800 4055b Generated table #53@0: 2 keys, 196 bytes
+2021/02/05-16:34:50.800 4055b Compacted 1@0 + 1@1 files => 196 bytes
+2021/02/05-16:34:50.822 4055b compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/05-16:34:50.823 4055b Delete type=2 #50
+2021/02/05-16:34:50.823 4055b Delete type=2 #52
+2021/02/05-16:34:50.826 4055b Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 212 : 0 .. (end); will stop at (end)
+2021/02/05-16:34:50.826 4055b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x03' @ 205 : 0
+2021/02/05-16:34:50.826 4055b Compacting 1@1 + 1@2 files
+2021/02/05-16:34:50.845 4055b Generated table #54@1: 5 keys, 237 bytes
+2021/02/05-16:34:50.845 4055b Compacted 1@1 + 1@2 files => 237 bytes
+2021/02/05-16:34:50.873 4055b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/05-16:34:50.874 4055b Delete type=2 #44
+2021/02/05-16:34:50.874 4055b Delete type=2 #53
+2021/02/05-16:34:50.876 4055b Manual compaction at level-1 from '\x00\x00\x00\x00\x03' @ 205 : 0 .. (end); will stop at (end)

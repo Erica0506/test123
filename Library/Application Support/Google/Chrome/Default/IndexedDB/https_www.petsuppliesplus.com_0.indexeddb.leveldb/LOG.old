@@ -1,0 +1,26 @@
+2021/01/28-13:56:46.272 4246f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.petsuppliesplus.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-13:56:46.272 4246f Recovering log #150
+2021/01/28-13:56:46.272 4246f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.petsuppliesplus.com_0.indexeddb.leveldb/000150.log 
+2021/01/28-13:56:46.940 3ac43 Level-0 table #156: started
+2021/01/28-13:56:46.951 3ac43 Level-0 table #156: 553 bytes OK
+2021/01/28-13:56:46.973 3ac43 Delete type=0 #150
+2021/01/28-13:56:46.976 3ac43 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/01/28-13:56:48.941 3ac43 Level-0 table #158: started
+2021/01/28-13:56:48.949 3ac43 Level-0 table #158: 212 bytes OK
+2021/01/28-13:56:48.975 3ac43 Delete type=0 #155
+2021/01/28-13:56:48.979 3ac43 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 478 : 0
+2021/01/28-13:56:48.979 3ac43 Compacting 1@0 + 1@1 files
+2021/01/28-13:56:48.987 3ac43 Generated table #159@0: 2 keys, 196 bytes
+2021/01/28-13:56:48.987 3ac43 Compacted 1@0 + 1@1 files => 196 bytes
+2021/01/28-13:56:49.007 3ac43 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/28-13:56:49.008 3ac43 Delete type=2 #158
+2021/01/28-13:56:49.008 3ac43 Delete type=2 #156
+2021/01/28-13:56:49.011 3ac43 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 478 : 0 .. (end); will stop at (end)
+2021/01/28-13:56:49.011 4246f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x03' @ 477 : 0
+2021/01/28-13:56:49.011 4246f Compacting 1@1 + 1@2 files
+2021/01/28-13:56:49.020 4246f Generated table #160@1: 5 keys, 237 bytes
+2021/01/28-13:56:49.020 4246f Compacted 1@1 + 1@2 files => 237 bytes
+2021/01/28-13:56:49.046 4246f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/01/28-13:56:49.046 4246f Delete type=2 #159
+2021/01/28-13:56:49.046 4246f Delete type=2 #153
+2021/01/28-13:56:49.049 4246f Manual compaction at level-1 from '\x00\x00\x00\x00\x03' @ 477 : 0 .. (end); will stop at (end)

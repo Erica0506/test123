@@ -1,0 +1,8 @@
+2021/01/21-20:54:06.190 2ff4b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.bloomingdales.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/21-20:54:06.190 2ff4b Recovering log #64
+2021/01/21-20:54:06.190 2ff4b Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.bloomingdales.com_0.indexeddb.leveldb/000064.log 
+2021/01/21-20:54:38.193 3583b Level-0 table #68: started
+2021/01/21-20:54:38.193 3583b Level-0 table #68: 0 bytes OK
+2021/01/21-20:54:38.222 3583b Delete type=0 #64
+2021/01/21-20:54:38.226 3583b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/01/21-20:54:38.227 3583b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

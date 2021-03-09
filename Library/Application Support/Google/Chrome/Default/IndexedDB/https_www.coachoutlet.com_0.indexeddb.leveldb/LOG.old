@@ -1,0 +1,25 @@
+2021/02/05-16:03:12.505 3fd9f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.coachoutlet.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/05-16:24:14.894 41313 Level-0 table #5: started
+2021/02/05-16:24:14.947 41313 Level-0 table #5: 706823 bytes OK
+2021/02/05-16:24:15.006 41313 Delete type=0 #3
+2021/02/05-16:33:12.056 44f2f Level-0 table #7: started
+2021/02/05-16:33:12.101 44f2f Level-0 table #7: 701755 bytes OK
+2021/02/05-16:33:12.145 44f2f Delete type=0 #4
+2021/02/05-16:33:12.191 49bb3 Compacting 1@1 + 1@2 files
+2021/02/05-16:33:12.226 49bb3 Generated table #8@1: 537 keys, 54545 bytes
+2021/02/05-16:33:12.227 49bb3 Compacted 1@1 + 1@2 files => 54545 bytes
+2021/02/05-16:33:12.261 49bb3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/05-16:33:12.265 49bb3 Delete type=2 #7
+2021/02/05-16:33:12.265 49bb3 Delete type=2 #5
+2021/02/05-16:35:01.906 4055b Level-0 table #10: started
+2021/02/05-16:35:01.926 4055b Level-0 table #10: 14460 bytes OK
+2021/02/05-16:35:01.946 4055b Delete type=0 #6
+2021/02/05-16:35:01.950 4055b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/05-16:35:01.950 4055b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01 \x03\x00\x00\x96\xcfAwwB\x00\x01\x85\x01\x00j\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00c\x00o\x00a\x00c\x00h\x00o\x00u\x00t\x00l\x00e\x00t\x00.\x00c\x00o\x00m\x00/\x00o\x00n\x00/\x00d\x00e\x00m\x00a\x00n\x00d\x00w\x00a\x00r\x00e\x00.\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00S\x00i\x00t\x00e\x00s\x00-\x00C\x00o\x00a\x00c\x00h\x00_\x00E\x00O\x00S\x00-\x00S\x00i\x00t\x00e\x00/\x00-\x00/\x00e\x00n\x00_\x00U\x00S\x00/\x00v\x001\x006\x001\x002\x005\x002\x002\x008\x000\x001\x009\x005\x006\x00/\x00j\x00s\x00/\x00m\x00o\x00d\x00u\x00l\x00e\x00s\x00/\x00o\x00r\x00d\x00e\x00r\x00c\x00o\x00n\x00f\x00i\x00r\x00m\x00a\x00t\x00i\x00o\x00n\x00.\x00j\x00s' @ 32391 : 1
+2021/02/05-16:35:01.950 4055b Compacting 1@1 + 1@2 files
+2021/02/05-16:35:01.964 4055b Generated table #11@1: 508 keys, 52086 bytes
+2021/02/05-16:35:01.964 4055b Compacted 1@1 + 1@2 files => 52086 bytes
+2021/02/05-16:35:01.985 4055b compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/05-16:35:01.986 4055b Delete type=2 #10
+2021/02/05-16:35:01.986 4055b Delete type=2 #8
+2021/02/05-16:35:01.990 4055b Manual compaction at level-1 from '\x00\x03\x01 \x03\x00\x00\x96\xcfAwwB\x00\x01\x85\x01\x00j\x00s\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00c\x00o\x00a\x00c\x00h\x00o\x00u\x00t\x00l\x00e\x00t\x00.\x00c\x00o\x00m\x00/\x00o\x00n\x00/\x00d\x00e\x00m\x00a\x00n\x00d\x00w\x00a\x00r\x00e\x00.\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00S\x00i\x00t\x00e\x00s\x00-\x00C\x00o\x00a\x00c\x00h\x00_\x00E\x00O\x00S\x00-\x00S\x00i\x00t\x00e\x00/\x00-\x00/\x00e\x00n\x00_\x00U\x00S\x00/\x00v\x001\x006\x001\x002\x005\x002\x002\x008\x000\x001\x009\x005\x006\x00/\x00j\x00s\x00/\x00m\x00o\x00d\x00u\x00l\x00e\x00s\x00/\x00o\x00r\x00d\x00e\x00r\x00c\x00o\x00n\x00f\x00i\x00r\x00m\x00a\x00t\x00i\x00o\x00n\x00.\x00j\x00s' @ 32391 : 1 .. (end); will stop at (end)

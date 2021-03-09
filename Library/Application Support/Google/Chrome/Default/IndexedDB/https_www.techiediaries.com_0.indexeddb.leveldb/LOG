@@ -1,0 +1,8 @@
+2021/02/25-15:43:05.870 ca26f Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.techiediaries.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/25-15:43:05.870 ca26f Recovering log #4
+2021/02/25-15:43:05.870 ca26f Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.techiediaries.com_0.indexeddb.leveldb/000004.log 
+2021/02/25-15:43:12.779 de44f Level-0 table #8: started
+2021/02/25-15:43:12.779 de44f Level-0 table #8: 0 bytes OK
+2021/02/25-15:43:12.817 de44f Delete type=0 #4
+2021/02/25-15:43:12.820 de44f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/25-15:43:12.820 de44f Manual compaction at level-1 from (begin) .. (end); will stop at (end)

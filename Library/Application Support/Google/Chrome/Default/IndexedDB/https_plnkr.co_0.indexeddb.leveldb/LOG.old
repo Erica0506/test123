@@ -1,0 +1,5 @@
+2021/03/02-16:44:31.178 fe04b Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_plnkr.co_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/02-16:49:26.211 fe04b Level-0 table #5: started
+2021/03/02-16:49:26.231 fe04b Level-0 table #5: 12321 bytes OK
+2021/03/02-16:49:26.255 fe04b Delete type=0 #3
+2021/03/02-16:49:26.258 fe04b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

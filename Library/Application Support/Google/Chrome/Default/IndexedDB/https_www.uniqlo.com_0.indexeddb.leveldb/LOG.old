@@ -1,0 +1,5 @@
+2021/01/28-19:44:50.720 516af Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.uniqlo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/28-19:49:24.129 5f60f Level-0 table #5: started
+2021/01/28-19:49:24.152 5f60f Level-0 table #5: 1004 bytes OK
+2021/01/28-19:49:24.182 5f60f Delete type=0 #3
+2021/01/28-19:49:24.183 5f60f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

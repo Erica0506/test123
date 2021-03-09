@@ -1,0 +1,5 @@
+2021/03/05-15:14:03.828 a0493 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.javapedia.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/05-15:14:09.875 c3fd3 Level-0 table #5: started
+2021/03/05-15:14:09.893 c3fd3 Level-0 table #5: 1030 bytes OK
+2021/03/05-15:14:09.921 c3fd3 Delete type=0 #3
+2021/03/05-15:14:09.925 c3fd3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

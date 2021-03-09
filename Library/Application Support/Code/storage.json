@@ -3,6 +3,7 @@
     "openedPathsList": {
         "workspaces3": [
             "file:///Users/xuanzhou/angular/UserApp",
+            "file:///Users/xuanzhou/angular",
             "file:///Users/xuanzhou/angular/test",
             "file:///Users/xuanzhou/angular/app",
             "file:///Users/xuanzhou/Downloads/todo",
@@ -75,6 +76,7 @@
             null,
             null,
             null,
+            null,
             "~/Sita_practice/workspace (Workspace)",
             null,
             null,
@@ -111,14 +113,13 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "submenuitem.24",
+                        "id": "submenuitem.25",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -134,6 +135,16 @@
                                     },
                                     "enabled": true,
                                     "label": "~/angular/UserApp"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/Users/xuanzhou/angular",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/angular"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -214,16 +225,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Sita_practice/w3"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/Users/xuanzhou/Sita_practice/Assignment_1_Appple",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Sita_practice/Assignment_1_Appple"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -556,7 +557,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.15",
+                        "id": "submenuitem.16",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -597,8 +598,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -634,7 +634,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.21",
+                        "id": "submenuitem.22",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -726,6 +726,10 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.actions.view.problems",
+                        "label": "&&Problems"
+                    },
+                    {
                         "id": "workbench.action.output.toggleOutput",
                         "label": "&&Output"
                     },
@@ -736,10 +740,6 @@
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
                         "label": "&&Terminal"
-                    },
-                    {
-                        "id": "workbench.actions.view.problems",
-                        "label": "&&Problems"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -789,7 +789,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.27",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -838,7 +838,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1045,7 +1045,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.22",
+                        "id": "submenuitem.23",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1157,6 +1157,10 @@
                     {
                         "id": "workbench.action.showWelcomePage",
                         "label": "&&Welcome"
+                    },
+                    {
+                        "id": "workbench.action.showGettingStarted",
+                        "label": "Getting Started"
                     },
                     {
                         "id": "workbench.action.showInteractivePlayground",
@@ -1469,10 +1473,6 @@
                 "label": "Shift+Cmd+E",
                 "userSettingsLabel": "shift+cmd+e"
             },
-            "workbench.view.search": {
-                "label": "Shift+Cmd+F",
-                "userSettingsLabel": "shift+cmd+f"
-            },
             "workbench.view.scm": {
                 "label": "Ctrl+Shift+G",
                 "userSettingsLabel": "ctrl+shift+g"
@@ -1485,6 +1485,10 @@
                 "label": "Shift+Cmd+X",
                 "userSettingsLabel": "shift+cmd+x"
             },
+            "workbench.actions.view.problems": {
+                "label": "Shift+Cmd+M",
+                "userSettingsLabel": "shift+cmd+m"
+            },
             "workbench.action.output.toggleOutput": {
                 "label": "Shift+Cmd+U",
                 "userSettingsLabel": "shift+cmd+u"
@@ -1496,10 +1500,6 @@
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
                 "userSettingsLabel": "ctrl+`"
-            },
-            "workbench.actions.view.problems": {
-                "label": "Shift+Cmd+M",
-                "userSettingsLabel": "shift+cmd+m"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
@@ -1712,40 +1712,16 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///Users/xuanzhou/angular/UserApp",
-            "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/09ba6b1060cd79711f216ab78cdba464",
+            "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/1615333022176",
             "uiState": {
                 "mode": 1,
-                "x": 328,
-                "y": 141,
-                "width": 1187,
-                "height": 768
+                "x": 462,
+                "y": 36,
+                "width": 1218,
+                "height": 933
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///Users/xuanzhou/angular/app",
-                "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/36a0472ac4cc52905ba887b3da4b735a",
-                "uiState": {
-                    "mode": 1,
-                    "x": 506,
-                    "y": 36,
-                    "width": 1218,
-                    "height": 933
-                }
-            },
-            {
-                "folder": "file:///Users/xuanzhou/angular/UserApp",
-                "backupPath": "/Users/xuanzhou/Library/Application Support/Code/Backups/09ba6b1060cd79711f216ab78cdba464",
-                "uiState": {
-                    "mode": 1,
-                    "x": 328,
-                    "y": 141,
-                    "width": 1187,
-                    "height": 768
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "pickerWorkingDir": "/Users/xuanzhou/angular"
 }

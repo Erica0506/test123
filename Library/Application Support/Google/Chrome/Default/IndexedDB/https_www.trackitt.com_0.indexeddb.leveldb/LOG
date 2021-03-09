@@ -1,0 +1,5 @@
+2021/03/04-18:22:08.249 ca4c3 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_www.trackitt.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/04-18:22:22.194 afc13 Level-0 table #5: started
+2021/03/04-18:22:22.209 afc13 Level-0 table #5: 342 bytes OK
+2021/03/04-18:22:22.235 afc13 Delete type=0 #3
+2021/03/04-18:22:22.242 afc13 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

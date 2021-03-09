@@ -1,0 +1,8 @@
+2021/03/09-14:37:31.462 d1e47 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_jasonwatmore.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/09-14:37:31.463 d1e47 Recovering log #4
+2021/03/09-14:37:31.464 d1e47 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_jasonwatmore.com_0.indexeddb.leveldb/000004.log 
+2021/03/09-14:38:16.596 d1e47 Level-0 table #8: started
+2021/03/09-14:38:16.596 d1e47 Level-0 table #8: 0 bytes OK
+2021/03/09-14:38:16.626 d1e47 Delete type=0 #4
+2021/03/09-14:38:16.630 d1e47 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/09-14:38:16.630 d1e47 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

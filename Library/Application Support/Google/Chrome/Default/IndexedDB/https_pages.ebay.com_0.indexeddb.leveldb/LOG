@@ -1,0 +1,8 @@
+2021/02/01-10:28:18.869 4d817 Reusing MANIFEST /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/01-10:28:18.869 4d817 Recovering log #4
+2021/02/01-10:28:18.870 4d817 Reusing old log /Users/xuanzhou/Library/Application Support/Google/Chrome/Default/IndexedDB/https_pages.ebay.com_0.indexeddb.leveldb/000004.log 
+2021/02/01-10:29:03.984 57c1b Level-0 table #8: started
+2021/02/01-10:29:03.984 57c1b Level-0 table #8: 0 bytes OK
+2021/02/01-10:29:04.018 57c1b Delete type=0 #4
+2021/02/01-10:29:04.022 57c1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/01-10:29:04.023 57c1b Manual compaction at level-1 from (begin) .. (end); will stop at (end)
